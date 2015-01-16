@@ -3,7 +3,7 @@
 <!--                                                         -->
 <!-- Copyright (c) 2001-2013 Xilinx Inc, All rights reserved -->
 
-<Project Version="7" Minor="1" Path="D:/GIT/Zybo/VGA/source/vivado/hw/zybo_bsd/zybo_bsd.xpr">
+<Project Version="7" Minor="1" Path="D:/GIT/Zybo/zybo_base_system/source/vivado/hw/zybo_bsd/zybo_bsd.xpr">
   <DefaultLaunch Dir="$PRUNDIR"/>
   <Configuration>
     <Option Name="Id" Val="23c0bb6b3537479d829a55b996665e05"/>
@@ -22,34 +22,36 @@
           <Attr Name="UsedIn" Val="implementation"/>
           <Attr Name="UsedIn" Val="simulation"/>
         </FileInfo>
-        <CompFileExtendedInfo CompFileName="system.bd" FileRelPathName="ip/system_BTNs_4Bits_0/system_BTNs_4Bits_0.xci"/>
-        <CompFileExtendedInfo CompFileName="system.bd" FileRelPathName="ip/system_SWs_4Bits_2/system_SWs_4Bits_2.xci"/>
-        <CompFileExtendedInfo CompFileName="system.bd" FileRelPathName="ip/system_LEDs_4Bits_1/system_LEDs_4Bits_1.xci"/>
-        <CompFileExtendedInfo CompFileName="system.bd" FileRelPathName="ip/system_axi_dispctrl_0_0/system_axi_dispctrl_0_0.xci"/>
-        <CompFileExtendedInfo CompFileName="system.bd" FileRelPathName="ip/system_hdmi_tx_0_0/system_hdmi_tx_0_0.xci"/>
-        <CompFileExtendedInfo CompFileName="system.bd" FileRelPathName="ip/system_axi_vdma_0_0/system_axi_vdma_0_0.xci"/>
-        <CompFileExtendedInfo CompFileName="system.bd" FileRelPathName="ip/system_ground_0/system_ground_0.xci"/>
-        <CompFileExtendedInfo CompFileName="system.bd" FileRelPathName="ip/system_axi_mem_intercon_0/system_axi_mem_intercon_0.xci"/>
-        <CompFileExtendedInfo CompFileName="system.bd" FileRelPathName="ip/system_axi_dispctrl_1_1/system_axi_dispctrl_1_1.xci"/>
+        <CompFileExtendedInfo CompFileName="system.bd" FileRelPathName="ip/system_m03_regslice_0/system_m03_regslice_0.xci"/>
+        <CompFileExtendedInfo CompFileName="system.bd" FileRelPathName="hw_handoff/system.hwh"/>
+        <CompFileExtendedInfo CompFileName="system.bd" FileRelPathName="system_ooc.xdc"/>
+        <CompFileExtendedInfo CompFileName="system.bd" FileRelPathName="hdl/system.v"/>
+        <CompFileExtendedInfo CompFileName="system.bd" FileRelPathName="ip/system_auto_pc_0/system_auto_pc_0.xci"/>
+        <CompFileExtendedInfo CompFileName="system.bd" FileRelPathName="ip/system_m07_regslice_0/system_m07_regslice_0.xci"/>
+        <CompFileExtendedInfo CompFileName="system.bd" FileRelPathName="ip/system_m06_regslice_0/system_m06_regslice_0.xci"/>
+        <CompFileExtendedInfo CompFileName="system.bd" FileRelPathName="ip/system_m05_regslice_0/system_m05_regslice_0.xci"/>
+        <CompFileExtendedInfo CompFileName="system.bd" FileRelPathName="ip/system_m04_regslice_0/system_m04_regslice_0.xci"/>
+        <CompFileExtendedInfo CompFileName="system.bd" FileRelPathName="ip/system_m02_regslice_0/system_m02_regslice_0.xci"/>
+        <CompFileExtendedInfo CompFileName="system.bd" FileRelPathName="ip/system_m01_regslice_0/system_m01_regslice_0.xci"/>
+        <CompFileExtendedInfo CompFileName="system.bd" FileRelPathName="ip/system_m00_regslice_0/system_m00_regslice_0.xci"/>
+        <CompFileExtendedInfo CompFileName="system.bd" FileRelPathName="ip/system_vdd_1/system_vdd_1.xci"/>
         <CompFileExtendedInfo CompFileName="system.bd" FileRelPathName="ip/system_axi_vdma_1_1/system_axi_vdma_1_1.xci"/>
         <CompFileExtendedInfo CompFileName="system.bd" FileRelPathName="ip/system_axi_protocol_converter_0_0/system_axi_protocol_converter_0_0.xci"/>
-        <CompFileExtendedInfo CompFileName="system.bd" FileRelPathName="ip/system_axi_i2s_adi_1_0/system_axi_i2s_adi_1_0.xci"/>
-        <CompFileExtendedInfo CompFileName="system.bd" FileRelPathName="ip/system_auto_pc_7/system_auto_pc_7.xci"/>
-        <CompFileExtendedInfo CompFileName="system.bd" FileRelPathName="ip/system_m07_regslice_23/system_m07_regslice_23.xci"/>
-        <CompFileExtendedInfo CompFileName="system.bd" FileRelPathName="ip/system_m06_regslice_22/system_m06_regslice_22.xci"/>
-        <CompFileExtendedInfo CompFileName="system.bd" FileRelPathName="ip/system_m05_regslice_21/system_m05_regslice_21.xci"/>
-        <CompFileExtendedInfo CompFileName="system.bd" FileRelPathName="ip/system_m04_regslice_20/system_m04_regslice_20.xci"/>
-        <CompFileExtendedInfo CompFileName="system.bd" FileRelPathName="ip/system_xbar_3/system_xbar_3.xci"/>
-        <CompFileExtendedInfo CompFileName="system.bd" FileRelPathName="ip/system_vdd_1/system_vdd_1.xci"/>
-        <CompFileExtendedInfo CompFileName="system.bd" FileRelPathName="ip/system_m03_regslice_19/system_m03_regslice_19.xci"/>
-        <CompFileExtendedInfo CompFileName="system.bd" FileRelPathName="ip/system_processing_system7_0_axi_periph_2/system_processing_system7_0_axi_periph_2.xci"/>
-        <CompFileExtendedInfo CompFileName="system.bd" FileRelPathName="system_ooc.xdc"/>
-        <CompFileExtendedInfo CompFileName="system.bd" FileRelPathName="ip/system_m02_regslice_18/system_m02_regslice_18.xci"/>
-        <CompFileExtendedInfo CompFileName="system.bd" FileRelPathName="ip/system_m01_regslice_17/system_m01_regslice_17.xci"/>
-        <CompFileExtendedInfo CompFileName="system.bd" FileRelPathName="ip/system_m00_regslice_16/system_m00_regslice_16.xci"/>
+        <CompFileExtendedInfo CompFileName="system.bd" FileRelPathName="ip/system_xbar_1/system_xbar_1.xci"/>
+        <CompFileExtendedInfo CompFileName="system.bd" FileRelPathName="ip/system_xbar_0/system_xbar_0.xci"/>
         <CompFileExtendedInfo CompFileName="system.bd" FileRelPathName="ip/system_xlconstant_0_2/system_xlconstant_0_2.xci"/>
-        <CompFileExtendedInfo CompFileName="system.bd" FileRelPathName="ip/system_xbar_2/system_xbar_2.xci"/>
+        <CompFileExtendedInfo CompFileName="system.bd" FileRelPathName="ip/system_processing_system7_0_axi_periph_2/system_processing_system7_0_axi_periph_2.xci"/>
         <CompFileExtendedInfo CompFileName="system.bd" FileRelPathName="ip/system_processing_system7_0_0/system_processing_system7_0_0.xci"/>
+        <CompFileExtendedInfo CompFileName="system.bd" FileRelPathName="ip/system_hdmi_tx_0_0/system_hdmi_tx_0_0.xci"/>
+        <CompFileExtendedInfo CompFileName="system.bd" FileRelPathName="ip/system_ground_0/system_ground_0.xci"/>
+        <CompFileExtendedInfo CompFileName="system.bd" FileRelPathName="ip/system_axi_vdma_0_0/system_axi_vdma_0_0.xci"/>
+        <CompFileExtendedInfo CompFileName="system.bd" FileRelPathName="ip/system_axi_mem_intercon_0/system_axi_mem_intercon_0.xci"/>
+        <CompFileExtendedInfo CompFileName="system.bd" FileRelPathName="ip/system_axi_i2s_adi_1_0/system_axi_i2s_adi_1_0.xci"/>
+        <CompFileExtendedInfo CompFileName="system.bd" FileRelPathName="ip/system_axi_dispctrl_1_1/system_axi_dispctrl_1_1.xci"/>
+        <CompFileExtendedInfo CompFileName="system.bd" FileRelPathName="ip/system_axi_dispctrl_0_0/system_axi_dispctrl_0_0.xci"/>
+        <CompFileExtendedInfo CompFileName="system.bd" FileRelPathName="ip/system_LEDs_4Bits_1/system_LEDs_4Bits_1.xci"/>
+        <CompFileExtendedInfo CompFileName="system.bd" FileRelPathName="ip/system_BTNs_4Bits_0/system_BTNs_4Bits_0.xci"/>
+        <CompFileExtendedInfo CompFileName="system.bd" FileRelPathName="ip/system_SWs_4Bits_2/system_SWs_4Bits_2.xci"/>
       </File>
       <File Path="$PSRCDIR/sources_1/bd/system/hdl/system_wrapper.v">
         <FileInfo>
@@ -61,6 +63,18 @@
       <File Path="$PDATADIR/sources_1/ports.xml">
         <FileInfo SFType="PortsDb"/>
       </File>
+      <File Path="$PSRCDIR/sources_1/bd/system/ip/system_vdd_1/system_vdd_1.upgrade_log"/>
+      <File Path="$PSRCDIR/sources_1/bd/system/ip/system_processing_system7_0_axi_periph_2/system_processing_system7_0_axi_periph_2.upgrade_log"/>
+      <File Path="$PSRCDIR/sources_1/bd/system/ip/system_SWs_4Bits_2/system_SWs_4Bits_2.upgrade_log"/>
+      <File Path="$PSRCDIR/sources_1/bd/system/ip/system_BTNs_4Bits_0/system_BTNs_4Bits_0.upgrade_log"/>
+      <File Path="$PSRCDIR/sources_1/bd/system/ip/system_axi_vdma_0_0/system_axi_vdma_0_0.upgrade_log"/>
+      <File Path="$PSRCDIR/sources_1/bd/system/ip/system_LEDs_4Bits_1/system_LEDs_4Bits_1.upgrade_log"/>
+      <File Path="$PSRCDIR/sources_1/bd/system/ip/system_axi_protocol_converter_0_0/system_axi_protocol_converter_0_0.upgrade_log"/>
+      <File Path="$PSRCDIR/sources_1/bd/system/ip/system_xlconstant_0_2/system_xlconstant_0_2.upgrade_log"/>
+      <File Path="$PSRCDIR/sources_1/bd/system/ip/system_axi_mem_intercon_0/system_axi_mem_intercon_0.upgrade_log"/>
+      <File Path="$PSRCDIR/sources_1/bd/system/ip/system_processing_system7_0_0/system_processing_system7_0_0.upgrade_log"/>
+      <File Path="$PSRCDIR/sources_1/bd/system/ip/system_axi_vdma_1_1/system_axi_vdma_1_1.upgrade_log"/>
+      <File Path="$PSRCDIR/sources_1/bd/system/ip/system_ground_0/system_ground_0.upgrade_log"/>
       <Config>
         <Option Name="DesignMode" Val="RTL"/>
         <Option Name="TopModule" Val="system_wrapper"/>
@@ -106,7 +120,7 @@
       </Strategy>
       <GeneratedRun Dir="$PRUNDIR" File="gen_run.xml"/>
     </Run>
-    <Run Id="impl_1" Type="Ft2:EntireDesign" Part="xc7z010clg400-1" ConstrsSet="constrs_1" Description="Vivado Implementation Defaults" State="current" SynthRun="synth_1">
+    <Run Id="impl_1" Type="Ft2:EntireDesign" Part="xc7z010clg400-1" ConstrsSet="constrs_1" Description="Vivado Implementation Defaults" State="current" Dir="$PRUNDIR/impl_1" SynthRun="synth_1">
       <Strategy Version="1" Minor="2">
         <StratHandle Name="Vivado Implementation Defaults" Flow="Vivado Implementation 2013"/>
         <Step Id="init_design"/>
@@ -118,6 +132,7 @@
         <Step Id="route_design"/>
         <Step Id="write_bitstream"/>
       </Strategy>
+      <GeneratedRun Dir="$PRUNDIR" File="gen_run.xml"/>
     </Run>
   </Runs>
 </Project>
