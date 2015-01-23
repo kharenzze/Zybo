@@ -118,7 +118,7 @@
           </spirit:wire>
         </spirit:port>
         <spirit:port>
-          <spirit:name>AC_PBLRC</spirit:name>
+          <spirit:name>AC_RECLRC</spirit:name>
           <spirit:wire>
             <spirit:direction>out</spirit:direction>
             <spirit:vector>
@@ -128,7 +128,7 @@
           </spirit:wire>
         </spirit:port>
         <spirit:port>
-          <spirit:name>AC_RECLRC</spirit:name>
+          <spirit:name>AC_PBLRC</spirit:name>
           <spirit:wire>
             <spirit:direction>out</spirit:direction>
             <spirit:vector>
@@ -850,8 +850,8 @@
       <spirit:adHocConnection>
         <spirit:name>axi_i2s_adi_1_LRCLK_O</spirit:name>
         <spirit:internalPortReference spirit:componentRef="axi_i2s_adi_1" spirit:portRef="LRCLK_O"/>
-        <spirit:externalPortReference spirit:portRef="AC_RECLRC"/>
         <spirit:externalPortReference spirit:portRef="AC_PBLRC"/>
+        <spirit:externalPortReference spirit:portRef="AC_RECLRC"/>
       </spirit:adHocConnection>
       <spirit:adHocConnection>
         <spirit:name>axi_i2s_adi_1_MUTEN_O</spirit:name>
