@@ -390,6 +390,7 @@ int DisplayChangeFrame(DisplayCtrl *dispPtr, u32 frameIndex)
 {
 	int Status;
 
+	//xil_printf("%d %d\r\n", frameIndex,dispPtr->curFrame );
 	dispPtr->curFrame = frameIndex;
 	/*
 	 * If currently running, then the DMA needs to be told to start reading from the desired frame

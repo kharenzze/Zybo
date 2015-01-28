@@ -385,3 +385,168 @@ Cannot write to target
 12:23:53 ERROR : Unexpected error while parsing XMD response ?: com.google.gson.JsonSyntaxException: com.google.gson.stream.MalformedJsonException: invalid number or unquoted string near 
 09:48:18 INFO  : Processing command line option -hwspec D:/GIT/Zybo/VGA/source/vivado/hw/zybo_bsd/zybo_bsd.sdk/system_wrapper.hdf.
 09:48:18 INFO  : Checking for hwspec changes in the project system_wrapper_hw_platform_0.
+10:06:53 INFO  : Processing command line option -hwspec D:/GIT/Zybo/VGA/source/vivado/hw/zybo_bsd/zybo_bsd.sdk/system_wrapper.hdf.
+10:06:54 INFO  : Checking for hwspec changes in the project system_wrapper_hw_platform_0.
+10:24:14 INFO  : FPGA configured successfully with bitstream "D:/GIT/Zybo/VGA/source/vivado/hw/zybo_bsd/zybo_bsd.sdk/system_wrapper_hw_platform_0/system_wrapper.bit"
+10:25:34 INFO  : ps7_init is completed.
+10:25:34 INFO  : ps7_post_config is completed.
+10:25:34 INFO  : Processor reset is completed for ps7_cortexa9_0
+10:48:54 INFO  : FPGA configured successfully with bitstream "D:/GIT/Zybo/VGA/source/vivado/hw/zybo_bsd/zybo_bsd.sdk/system_wrapper_hw_platform_0/system_wrapper.bit"
+10:49:23 INFO  : ps7_init is completed.
+10:49:23 INFO  : ps7_post_config is completed.
+10:49:24 INFO  : Processor reset is completed for ps7_cortexa9_0
+10:50:14 INFO  : FPGA configured successfully with bitstream "D:/GIT/Zybo/VGA/source/vivado/hw/zybo_bsd/zybo_bsd.sdk/system_wrapper_hw_platform_0/system_wrapper.bit"
+10:50:21 INFO  : ps7_init is completed.
+10:50:21 INFO  : ps7_post_config is completed.
+10:50:22 INFO  : Processor reset is completed for ps7_cortexa9_0
+11:55:31 ERROR : Unable to disconnect from existing targets
+java.lang.NullPointerException
+11:55:31 ERROR : Unexpected error while parsing XMD response ?: com.google.gson.JsonSyntaxException: com.google.gson.stream.MalformedJsonException: invalid number or unquoted string near 
+13:39:20 INFO  : Processing command line option -hwspec D:/GIT/Zybo/VGA/source/vivado/hw/zybo_bsd/zybo_bsd.sdk/system_wrapper.hdf.
+13:39:22 INFO  : Checking for hwspec changes in the project system_wrapper_hw_platform_0.
+13:41:04 INFO  : FPGA configured successfully with bitstream "D:/GIT/Zybo/VGA/source/vivado/hw/zybo_bsd/zybo_bsd.sdk/system_wrapper_hw_platform_0/system_wrapper.bit"
+13:42:29 INFO  : ps7_init is completed.
+13:42:29 INFO  : ps7_post_config is completed.
+13:42:29 INFO  : Processor reset is completed for ps7_cortexa9_0
+13:46:41 INFO  : Processor reset is completed for ps7_cortexa9_0
+15:44:10 INFO  : Processor reset is completed for ps7_cortexa9_0
+15:50:24 INFO  : Processor reset is completed for ps7_cortexa9_0
+16:27:35 INFO  : Processor reset is completed for ps7_cortexa9_0
+16:28:35 INFO  : ps7_cortexa9_0 Processor is in use. Please stop existing Run or Debug sessions before launching.
+16:28:39 INFO  : Processor reset is completed for ps7_cortexa9_0
+16:44:25 INFO  : Processor reset is completed for ps7_cortexa9_0
+16:47:40 INFO  : ps7_cortexa9_0 Processor is in use. Please stop existing Run or Debug sessions before launching.
+16:47:42 INFO  : Processor reset is completed for ps7_cortexa9_0
+16:55:43 INFO  : ps7_cortexa9_0 Processor is in use. Please stop existing Run or Debug sessions before launching.
+16:55:45 INFO  : Processor reset is completed for ps7_cortexa9_0
+16:56:16 INFO  : ps7_cortexa9_0 Processor is in use. Please stop existing Run or Debug sessions before launching.
+16:56:18 INFO  : Processor reset is completed for ps7_cortexa9_0
+16:56:44 INFO  : ps7_cortexa9_0 Processor is in use. Please stop existing Run or Debug sessions before launching.
+16:56:46 INFO  : Processor reset is completed for ps7_cortexa9_0
+16:57:44 INFO  : ps7_cortexa9_0 Processor is in use. Please stop existing Run or Debug sessions before launching.
+16:57:46 INFO  : Processor reset is completed for ps7_cortexa9_0
+16:58:03 INFO  : ps7_cortexa9_0 Processor is in use. Please stop existing Run or Debug sessions before launching.
+16:58:05 INFO  : Processor reset is completed for ps7_cortexa9_0
+16:59:27 INFO  : ps7_cortexa9_0 Processor is in use. Please stop existing Run or Debug sessions before launching.
+16:59:31 INFO  : Processor reset is completed for ps7_cortexa9_0
+18:13:47 INFO  : FPGA configured successfully with bitstream "D:/GIT/Zybo/VGA/source/vivado/hw/zybo_bsd/zybo_bsd.sdk/system_wrapper_hw_platform_0/system_wrapper.bit"
+18:14:07 INFO  : ps7_init is completed.
+18:14:07 INFO  : ps7_post_config is completed.
+18:14:07 INFO  : Processor reset is completed for ps7_cortexa9_0
+18:23:37 INFO  : ps7_cortexa9_0 Processor is in use. Please stop existing Run or Debug sessions before launching.
+18:24:06 INFO  : Processor reset is completed for ps7_cortexa9_0
+18:26:07 INFO  : ps7_cortexa9_0 Processor is in use. Please stop existing Run or Debug sessions before launching.
+18:26:09 INFO  : Processor reset is completed for ps7_cortexa9_0
+18:26:55 INFO  : ps7_cortexa9_0 Processor is in use. Please stop existing Run or Debug sessions before launching.
+18:26:57 INFO  : Processor reset is completed for ps7_cortexa9_0
+18:27:15 INFO  : ps7_cortexa9_0 Processor is in use. Please stop existing Run or Debug sessions before launching.
+18:27:16 INFO  : Processor reset is completed for ps7_cortexa9_0
+18:28:20 INFO  : ps7_cortexa9_0 Processor is in use. Please stop existing Run or Debug sessions before launching.
+18:28:23 INFO  : Processor reset is completed for ps7_cortexa9_0
+18:29:25 INFO  : ps7_cortexa9_0 Processor is in use. Please stop existing Run or Debug sessions before launching.
+18:29:27 INFO  : Processor reset is completed for ps7_cortexa9_0
+18:30:30 INFO  : ps7_cortexa9_0 Processor is in use. Please stop existing Run or Debug sessions before launching.
+18:30:31 INFO  : Processor reset is completed for ps7_cortexa9_0
+18:33:24 INFO  : ps7_cortexa9_0 Processor is in use. Please stop existing Run or Debug sessions before launching.
+18:33:25 INFO  : Processor reset is completed for ps7_cortexa9_0
+18:43:14 INFO  : ps7_cortexa9_0 Processor is in use. Please stop existing Run or Debug sessions before launching.
+18:43:16 INFO  : Processor reset is completed for ps7_cortexa9_0
+18:46:33 INFO  : ps7_cortexa9_0 Processor is in use. Please stop existing Run or Debug sessions before launching.
+18:46:41 INFO  : Processor reset is completed for ps7_cortexa9_0
+19:04:59 INFO  : ps7_cortexa9_0 Processor is in use. Please stop existing Run or Debug sessions before launching.
+19:05:04 INFO  : Processor reset is completed for ps7_cortexa9_0
+19:15:07 INFO  : ps7_cortexa9_0 Processor is in use. Please stop existing Run or Debug sessions before launching.
+19:15:09 INFO  : Processor reset is completed for ps7_cortexa9_0
+19:22:10 INFO  : ps7_cortexa9_0 Processor is in use. Please stop existing Run or Debug sessions before launching.
+19:22:12 INFO  : Processor reset is completed for ps7_cortexa9_0
+19:22:29 INFO  : ps7_cortexa9_0 Processor is in use. Please stop existing Run or Debug sessions before launching.
+19:22:31 INFO  : Processor reset is completed for ps7_cortexa9_0
+19:22:49 INFO  : ps7_cortexa9_0 Processor is in use. Please stop existing Run or Debug sessions before launching.
+19:22:50 INFO  : Processor reset is completed for ps7_cortexa9_0
+19:31:09 INFO  : ps7_cortexa9_0 Processor is in use. Please stop existing Run or Debug sessions before launching.
+19:31:10 INFO  : Processor reset is completed for ps7_cortexa9_0
+19:31:51 INFO  : ps7_cortexa9_0 Processor is in use. Please stop existing Run or Debug sessions before launching.
+19:31:52 INFO  : Processor reset is completed for ps7_cortexa9_0
+19:35:57 INFO  : ps7_cortexa9_0 Processor is in use. Please stop existing Run or Debug sessions before launching.
+19:35:59 INFO  : Processor reset is completed for ps7_cortexa9_0
+19:36:16 INFO  : ps7_cortexa9_0 Processor is in use. Please stop existing Run or Debug sessions before launching.
+19:36:17 INFO  : Processor reset is completed for ps7_cortexa9_0
+19:38:58 INFO  : ps7_cortexa9_0 Processor is in use. Please stop existing Run or Debug sessions before launching.
+19:39:01 INFO  : Processor reset is completed for ps7_cortexa9_0
+19:47:30 INFO  : ps7_cortexa9_0 Processor is in use. Please stop existing Run or Debug sessions before launching.
+19:47:32 INFO  : Processor reset is completed for ps7_cortexa9_0
+19:48:06 INFO  : ps7_cortexa9_0 Processor is in use. Please stop existing Run or Debug sessions before launching.
+19:48:07 INFO  : Processor reset is completed for ps7_cortexa9_0
+19:48:23 INFO  : ps7_cortexa9_0 Processor is in use. Please stop existing Run or Debug sessions before launching.
+19:48:24 INFO  : Processor reset is completed for ps7_cortexa9_0
+19:48:49 INFO  : ps7_cortexa9_0 Processor is in use. Please stop existing Run or Debug sessions before launching.
+19:48:51 INFO  : Processor reset is completed for ps7_cortexa9_0
+19:49:11 INFO  : ps7_cortexa9_0 Processor is in use. Please stop existing Run or Debug sessions before launching.
+19:49:12 INFO  : Processor reset is completed for ps7_cortexa9_0
+19:52:48 INFO  : ps7_cortexa9_0 Processor is in use. Please stop existing Run or Debug sessions before launching.
+19:52:50 INFO  : Processor reset is completed for ps7_cortexa9_0
+19:54:16 INFO  : ps7_cortexa9_0 Processor is in use. Please stop existing Run or Debug sessions before launching.
+19:54:18 INFO  : Processor reset is completed for ps7_cortexa9_0
+19:54:36 INFO  : ps7_cortexa9_0 Processor is in use. Please stop existing Run or Debug sessions before launching.
+19:54:37 INFO  : Processor reset is completed for ps7_cortexa9_0
+19:56:05 INFO  : ps7_cortexa9_0 Processor is in use. Please stop existing Run or Debug sessions before launching.
+19:56:07 INFO  : Processor reset is completed for ps7_cortexa9_0
+19:56:59 INFO  : ps7_cortexa9_0 Processor is in use. Please stop existing Run or Debug sessions before launching.
+19:57:01 INFO  : Processor reset is completed for ps7_cortexa9_0
+19:58:57 INFO  : ps7_cortexa9_0 Processor is in use. Please stop existing Run or Debug sessions before launching.
+19:58:59 INFO  : Processor reset is completed for ps7_cortexa9_0
+20:01:14 INFO  : ps7_cortexa9_0 Processor is in use. Please stop existing Run or Debug sessions before launching.
+20:01:16 INFO  : Processor reset is completed for ps7_cortexa9_0
+20:04:46 INFO  : ps7_cortexa9_0 Processor is in use. Please stop existing Run or Debug sessions before launching.
+20:04:48 INFO  : Processor reset is completed for ps7_cortexa9_0
+20:06:11 INFO  : ps7_cortexa9_0 Processor is in use. Please stop existing Run or Debug sessions before launching.
+20:06:12 INFO  : Processor reset is completed for ps7_cortexa9_0
+20:09:19 INFO  : ps7_cortexa9_0 Processor is in use. Please stop existing Run or Debug sessions before launching.
+20:09:24 INFO  : Processor reset is completed for ps7_cortexa9_0
+20:11:16 INFO  : ps7_cortexa9_0 Processor is in use. Please stop existing Run or Debug sessions before launching.
+20:11:18 INFO  : Processor reset is completed for ps7_cortexa9_0
+20:17:58 INFO  : ps7_cortexa9_0 Processor is in use. Please stop existing Run or Debug sessions before launching.
+20:18:00 INFO  : Processor reset is completed for ps7_cortexa9_0
+20:19:55 INFO  : ps7_cortexa9_0 Processor is in use. Please stop existing Run or Debug sessions before launching.
+20:19:57 INFO  : Processor reset is completed for ps7_cortexa9_0
+20:26:09 INFO  : ps7_cortexa9_0 Processor is in use. Please stop existing Run or Debug sessions before launching.
+20:26:10 INFO  : Processor reset is completed for ps7_cortexa9_0
+20:28:40 INFO  : ps7_cortexa9_0 Processor is in use. Please stop existing Run or Debug sessions before launching.
+20:28:42 INFO  : Processor reset is completed for ps7_cortexa9_0
+20:29:44 INFO  : ps7_cortexa9_0 Processor is in use. Please stop existing Run or Debug sessions before launching.
+20:29:45 INFO  : Processor reset is completed for ps7_cortexa9_0
+20:30:14 INFO  : ps7_cortexa9_0 Processor is in use. Please stop existing Run or Debug sessions before launching.
+20:30:16 INFO  : Processor reset is completed for ps7_cortexa9_0
+20:30:39 INFO  : ps7_cortexa9_0 Processor is in use. Please stop existing Run or Debug sessions before launching.
+20:30:40 INFO  : Processor reset is completed for ps7_cortexa9_0
+20:34:30 INFO  : ps7_cortexa9_0 Processor is in use. Please stop existing Run or Debug sessions before launching.
+20:34:32 INFO  : Processor reset is completed for ps7_cortexa9_0
+20:34:58 INFO  : ps7_cortexa9_0 Processor is in use. Please stop existing Run or Debug sessions before launching.
+20:35:00 INFO  : Processor reset is completed for ps7_cortexa9_0
+20:35:47 INFO  : ps7_cortexa9_0 Processor is in use. Please stop existing Run or Debug sessions before launching.
+20:35:48 INFO  : Processor reset is completed for ps7_cortexa9_0
+20:36:04 INFO  : ps7_cortexa9_0 Processor is in use. Please stop existing Run or Debug sessions before launching.
+20:36:06 INFO  : Processor reset is completed for ps7_cortexa9_0
+20:36:19 INFO  : ps7_cortexa9_0 Processor is in use. Please stop existing Run or Debug sessions before launching.
+20:36:20 INFO  : Processor reset is completed for ps7_cortexa9_0
+20:38:40 INFO  : ps7_cortexa9_0 Processor is in use. Please stop existing Run or Debug sessions before launching.
+20:38:41 INFO  : Processor reset is completed for ps7_cortexa9_0
+20:44:34 INFO  : ps7_cortexa9_0 Processor is in use. Please stop existing Run or Debug sessions before launching.
+20:44:39 INFO  : ps7_cortexa9_0 Processor is in use. Please stop existing Run or Debug sessions before launching.
+20:44:41 INFO  : Processor reset is completed for ps7_cortexa9_0
+20:46:54 INFO  : ps7_cortexa9_0 Processor is in use. Please stop existing Run or Debug sessions before launching.
+20:46:56 INFO  : Processor reset is completed for ps7_cortexa9_0
+20:47:49 INFO  : ps7_cortexa9_0 Processor is in use. Please stop existing Run or Debug sessions before launching.
+20:47:50 INFO  : Processor reset is completed for ps7_cortexa9_0
+20:48:45 INFO  : ps7_cortexa9_0 Processor is in use. Please stop existing Run or Debug sessions before launching.
+20:48:46 INFO  : Processor reset is completed for ps7_cortexa9_0
+20:49:21 INFO  : ps7_cortexa9_0 Processor is in use. Please stop existing Run or Debug sessions before launching.
+20:49:22 INFO  : Processor reset is completed for ps7_cortexa9_0
+20:50:35 INFO  : ps7_cortexa9_0 Processor is in use. Please stop existing Run or Debug sessions before launching.
+20:50:36 INFO  : Processor reset is completed for ps7_cortexa9_0
+20:50:54 INFO  : ps7_cortexa9_0 Processor is in use. Please stop existing Run or Debug sessions before launching.
+20:50:55 INFO  : Processor reset is completed for ps7_cortexa9_0
+20:51:10 INFO  : ps7_cortexa9_0 Processor is in use. Please stop existing Run or Debug sessions before launching.
+20:51:12 INFO  : Processor reset is completed for ps7_cortexa9_0
+20:51:59 INFO  : ps7_cortexa9_0 Processor is in use. Please stop existing Run or Debug sessions before launching.
+20:52:02 INFO  : Processor reset is completed for ps7_cortexa9_0

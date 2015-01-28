@@ -27,6 +27,7 @@
 #include "timer_ps.h"
 #include "xparameters.h"
 #include "xuartps.h"
+#include "time.h"
 
 /* ------------------------------------------------------------ */
 /*				Global Variables								*/
@@ -86,7 +87,7 @@ int main(void)
 	xil_printf("OK\n\r");
 	TimerInitialize(SCU_TIMER_ID);
 	xil_printf("OK\n\r");
-	AudioInitialize(SCU_TIMER_ID, AUDIO_IIC_ID, AUDIO_CTRL_BASEADDR);
+	//AudioInitialize(SCU_TIMER_ID, AUDIO_IIC_ID, AUDIO_CTRL_BASEADDR);
 
 
 	xil_printf("OK\n\r");
@@ -112,7 +113,8 @@ int main(void)
 		switch (userInput)
 		{
 		case '1':
-			AudioRunDemo(AUDIO_CTRL_BASEADDR, UART_BASEADDR, SW_BASEADDR, BTN_BASEADDR);
+			//AudioRunDemo(AUDIO_CTRL_BASEADDR, UART_BASEADDR, SW_BASEADDR, BTN_BASEADDR);
+			xil_printf("\n\rInvalid Selection");
 			break;
 		case '2':
 			DisplayDemoRun(&vgaCtrl, UART_BASEADDR);

@@ -153,7 +153,7 @@ int AudioInitialize(u16 timerID,  u16 iicID, u32 i2sAddr)
 	xil_printf("7\n\r");
 
 	xil_printf("%x\n\r",  + I2S_CLK_CTRL_REG);
-	//Xil_Out32(i2sAddr + I2S_CLK_CTRL_REG, i2sClkDiv); //Write clock div register
+	Xil_Out32(i2sAddr + I2S_CLK_CTRL_REG, i2sClkDiv); //Write clock div register
 	xil_printf("8\n\r");
 
 	recordingValid = 0;

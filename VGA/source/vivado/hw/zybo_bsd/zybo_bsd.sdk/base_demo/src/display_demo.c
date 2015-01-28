@@ -23,6 +23,17 @@
 /************************************************************************/
 
 /* ------------------------------------------------------------ */
+/*							DEFINES								*/
+/* ------------------------------------------------------------ */
+#define RED 0x00FF0000
+#define GREEN 0x0000FF00
+#define BLUE 0x000000FF
+#define BLACK 0x00000000
+#define WHITE 0x00FFFFFF
+#define true 1
+#define false 0
+
+/* ------------------------------------------------------------ */
 /*				Include File Definitions						*/
 /* ------------------------------------------------------------ */
 
@@ -38,8 +49,44 @@
 #include "display_ctrl.h"
 
 /* ------------------------------------------------------------ */
-/*				Procedure Definitions							*/
+/*							 Structs							*/
 /* ------------------------------------------------------------ */
+
+typedef struct Rectangulo{
+	int x;
+	int y;
+	u32 color;
+	u32 ancho;
+	u32 alto;
+}Rectangulo;
+
+Rectangulo crearRectangulo(int x, int y, u32 color, u32 ancho, u32 alto){
+	Rectangulo r;
+	r.x=x;
+	r.y=y;
+	r.color=color;
+	r.ancho=ancho;
+	r.alto=alto;
+	return r;
+}
+
+/* ------------------------------------------------------------ */
+/*							 Headers							*/
+/* ------------------------------------------------------------ */
+
+u32 dir(u32 x, u32 y, u32 stride);
+void Cuadrado(u32 *frame, u32 width, u32 height, u32 stride, DisplayCtrl *control);
+void pintarFondo(u32 *frame, u32 color, u32 width, u32 height, u32 stride);
+void pintarRectangulo(u32 *frame, Rectangulo *r, u32 width, u32 height, u32 stride);
+void FondoBlanco(u32 *frame, u32 width, u32 height, u32 stride);
+int nextFrame(DisplayCtrl *dispPtr, u32 **frame);
+int usleep(unsigned int useconds);
+
+/* ------------------------------------------------------------ */
+/*						Procedure Definitions					*/
+/* ------------------------------------------------------------ */
+
+
 
 int DisplayDemoInitialize(DisplayCtrl *dispPtr, u16 vdmaId, u16 timerId, u32 dispCtrlAddr, int fHdmi, u32 *framePtr[DISPLAY_NUM_FRAMES])
 {
@@ -68,8 +115,8 @@ int DisplayDemoInitialize(DisplayCtrl *dispPtr, u16 vdmaId, u16 timerId, u32 dis
 
 void DisplayDemoPrintMenu(DisplayCtrl *dispPtr)
 {
-	xil_printf("\x1B[H"); //Set cursor to top left of terminal
-	xil_printf("\x1B[2J"); //Clear terminal
+	//xil_printf("\x1B[H"); //Set cursor to top left of terminal
+	//xil_printf("\x1B[2J"); //Clear terminal
 	xil_printf("**************************************************\n\r");
 	xil_printf("*           ZYBO Display User Demo               *\n\r");
 	xil_printf("**************************************************\n\r");
@@ -85,6 +132,8 @@ void DisplayDemoPrintMenu(DisplayCtrl *dispPtr)
 	xil_printf("4 - Print Color Bar Test Pattern to current Frame\n\r");
 	xil_printf("5 - Invert Current Frame colors\n\r");
 	xil_printf("6 - Invert Current Frame colors seamlessly*\n\r");
+	xil_printf("7 - Pantalla en blanco\n\r");
+	xil_printf("8 - Cuadrado moviendose\n\r");
 	xil_printf("q - Quit\n\r");
 	xil_printf("\n\r");
 	xil_printf("*Note that option 6 causes the current frame index to be \n\r");
@@ -151,6 +200,13 @@ int DisplayDemoRun(DisplayCtrl *dispPtr, u32 uartAddr)
 			}
 			DisplayDemoInvertFrame(dispPtr->framePtr[dispPtr->curFrame], dispPtr->framePtr[nextFrame], dispPtr->vMode.width, dispPtr->vMode.height, dispPtr->stride);
 			DisplayChangeFrame(dispPtr, nextFrame);
+			break;
+		case '7':
+			FondoBlanco(dispPtr->framePtr[dispPtr->curFrame], dispPtr->vMode.width, dispPtr->vMode.height, dispPtr->stride);
+			xil_printf("%d",&(dispPtr->curFrame));
+			break;
+		case '8':
+			Cuadrado(dispPtr->framePtr[dispPtr->curFrame], dispPtr->vMode.width, dispPtr->vMode.height, dispPtr->stride, dispPtr);
 			break;
 		case 'q':
 			break;
@@ -429,3 +485,99 @@ void DisplayDemoPrintTest(u32 *frame, u32 width, u32 height, u32 stride, int pat
 		xil_printf("Error: invalid pattern passed to DisplayDemoPrintTest");
 	}
 }
+
+void Cuadrado(u32 *frame, u32 width, u32 height, u32 stride, DisplayCtrl *control){
+	Rectangulo r=crearRectangulo(10,10,RED,10,10);
+	int dir_x=true, dir_y=true, indice_frame=0;
+	while(true){
+		//apunta a al siguente frame
+		indice_frame=nextFrame(control,&frame);
+		pintarFondo(frame, BLACK, width,height,stride);
+		//movimiento
+		if(dir_x)
+			r.x+=2;
+		else
+			r.x-=2;
+		if(dir_y)
+			r.y+=2;
+		else
+			r.y-=2;
+		//control de direccion
+		if (r.x<0){
+			r.x=0;
+			dir_x=true;
+		}else if(r.x>width){
+			r.x=width;
+			dir_x=false;
+		}
+		if (r.y<0){
+			r.y=0;
+			dir_y=true;
+		}else if(r.y>height){
+			r.y=height;
+			dir_y=false;
+		}
+
+		//pintar el cuadrado
+		pintarRectangulo(frame,&r,width,height,stride);
+		//flush
+		Xil_DCacheFlushRange((unsigned int) frame, DISPLAYDEMO_MAX_FRAME * 4);
+		DisplayChangeFrame(control,indice_frame);
+		xil_printf("%d \n\r",frame);
+		//TimerDelay(17000);
+	}
+
+}
+
+void FondoBlanco(u32 *frame, u32 width, u32 height, u32 stride){
+	pintarFondo(frame, WHITE, width,height,stride);
+	Xil_DCacheFlushRange((unsigned int) frame, DISPLAYDEMO_MAX_FRAME * 4);
+}
+
+void pintarRectangulo(u32 *frame, Rectangulo *r, u32 width, u32 height, u32 stride){
+	u32 x,y,pixel;
+	if (r->x > width || r->y > height)
+		return;
+	for (y=r->y; y< r->alto+r->y;y++){
+		pixel=dir(r->x,y,stride);
+		for (x=0; x< r->ancho;x++){
+			frame[pixel]=r->color;
+			pixel++;
+		}
+	}
+}
+
+/**
+ * Pinta toda la pantalla de un color dado
+ */
+void pintarFondo(u32 *frame, u32 color, u32 width, u32 height, u32 stride){
+	u32 x,y,pixel_dir;
+	for (y=0; y<height; y++){
+		pixel_dir=dir(0,y,stride);
+		for (x=0; x<width;x++){
+			frame[pixel_dir]=color;
+			pixel_dir++;
+		}
+	}
+}
+
+/**
+ * Dadas las coordenadas de un pixel, devuelve la dirección del registro
+ * en el que se encuentra
+ */
+u32 dir(u32 x, u32 y, u32 stride){
+	u32 wStride = stride/4, direccion;
+	direccion= x+y*wStride;
+	return direccion;
+}
+
+int nextFrame(DisplayCtrl *dispPtr, u32 **frame){
+	int nextFrame = dispPtr->curFrame + 1;
+	if (nextFrame >= DISPLAY_NUM_FRAMES)
+	{
+		nextFrame = 0;
+	}
+	*frame=dispPtr->framePtr[nextFrame];
+	return nextFrame;
+}
+
