@@ -4231,3 +4231,419 @@ arm-xilinx-eabi-size base_demo.elf  |tee "base_demo.elf.size"
   97132	   2528	51714704	51814364	3169fdc	base_demo.elf
 'Finished building: base_demo.elf.size'
 ' '
+18:17:41 **** Build of project PONG_bsp ****
+make -k all 
+"Running Make include in ps7_cortexa9_0/libsrc/axi_dispctrl_v1_00_a/src"
+make -C ps7_cortexa9_0/libsrc/axi_dispctrl_v1_00_a/src -s include  "SHELL=CMD" "COMPILER=arm-xilinx-eabi-gcc" "ARCHIVER=arm-xilinx-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-g"
+"Running Make include in ps7_cortexa9_0/libsrc/axi_i2s_adi_v1_00_a/src"
+make -C ps7_cortexa9_0/libsrc/axi_i2s_adi_v1_00_a/src -s include  "SHELL=CMD" "COMPILER=arm-xilinx-eabi-gcc" "ARCHIVER=arm-xilinx-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-g"
+"Running Make include in ps7_cortexa9_0/libsrc/axivdma_v5_0/src"
+make -C ps7_cortexa9_0/libsrc/axivdma_v5_0/src -s include  "SHELL=CMD" "COMPILER=arm-xilinx-eabi-gcc" "ARCHIVER=arm-xilinx-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-g"
+"Running Make include in ps7_cortexa9_0/libsrc/common_v1_00_a/src"
+make -C ps7_cortexa9_0/libsrc/common_v1_00_a/src -s include  "SHELL=CMD" "COMPILER=arm-xilinx-eabi-gcc" "ARCHIVER=arm-xilinx-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-g"
+"Running Make include in ps7_cortexa9_0/libsrc/cpu_cortexa9_v2_0/src"
+make -C ps7_cortexa9_0/libsrc/cpu_cortexa9_v2_0/src -s include  "SHELL=CMD" "COMPILER=arm-xilinx-eabi-gcc" "ARCHIVER=arm-xilinx-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-g"
+"Running Make include in ps7_cortexa9_0/libsrc/devcfg_v3_1/src"
+make -C ps7_cortexa9_0/libsrc/devcfg_v3_1/src -s include  "SHELL=CMD" "COMPILER=arm-xilinx-eabi-gcc" "ARCHIVER=arm-xilinx-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-g"
+"Running Make include in ps7_cortexa9_0/libsrc/dmaps_v2_0/src"
+make -C ps7_cortexa9_0/libsrc/dmaps_v2_0/src -s include  "SHELL=CMD" "COMPILER=arm-xilinx-eabi-gcc" "ARCHIVER=arm-xilinx-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-g"
+"Running Make include in ps7_cortexa9_0/libsrc/emacps_v2_0/src"
+make -C ps7_cortexa9_0/libsrc/emacps_v2_0/src -s include  "SHELL=CMD" "COMPILER=arm-xilinx-eabi-gcc" "ARCHIVER=arm-xilinx-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-g"
+"Running Make include in ps7_cortexa9_0/libsrc/gpio_v4_0/src"
+make -C ps7_cortexa9_0/libsrc/gpio_v4_0/src -s include  "SHELL=CMD" "COMPILER=arm-xilinx-eabi-gcc" "ARCHIVER=arm-xilinx-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-g"
+"Running Make include in ps7_cortexa9_0/libsrc/iicps_v2_1/src"
+make -C ps7_cortexa9_0/libsrc/iicps_v2_1/src -s include  "SHELL=CMD" "COMPILER=arm-xilinx-eabi-gcc" "ARCHIVER=arm-xilinx-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-g"
+"Running Make include in ps7_cortexa9_0/libsrc/qspips_v3_0/src"
+make -C ps7_cortexa9_0/libsrc/qspips_v3_0/src -s include  "SHELL=CMD" "COMPILER=arm-xilinx-eabi-gcc" "ARCHIVER=arm-xilinx-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-g"
+"Running Make include in ps7_cortexa9_0/libsrc/scugic_v2_1/src"
+make -C ps7_cortexa9_0/libsrc/scugic_v2_1/src -s include  "SHELL=CMD" "COMPILER=arm-xilinx-eabi-gcc" "ARCHIVER=arm-xilinx-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-g"
+"Running Make include in ps7_cortexa9_0/libsrc/scutimer_v2_0/src"
+make -C ps7_cortexa9_0/libsrc/scutimer_v2_0/src -s include  "SHELL=CMD" "COMPILER=arm-xilinx-eabi-gcc" "ARCHIVER=arm-xilinx-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-g"
+"Running Make include in ps7_cortexa9_0/libsrc/scuwdt_v2_0/src"
+make -C ps7_cortexa9_0/libsrc/scuwdt_v2_0/src -s include  "SHELL=CMD" "COMPILER=arm-xilinx-eabi-gcc" "ARCHIVER=arm-xilinx-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-g"
+"Running Make include in ps7_cortexa9_0/libsrc/sdps_v2_1/src"
+make -C ps7_cortexa9_0/libsrc/sdps_v2_1/src -s include  "SHELL=CMD" "COMPILER=arm-xilinx-eabi-gcc" "ARCHIVER=arm-xilinx-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-g"
+"Running Make include in ps7_cortexa9_0/libsrc/standalone_v4_1/src"
+make -C ps7_cortexa9_0/libsrc/standalone_v4_1/src -s include  "SHELL=CMD" "COMPILER=arm-xilinx-eabi-gcc" "ARCHIVER=arm-xilinx-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-g"
+"Running Make include in ps7_cortexa9_0/libsrc/uartps_v2_1/src"
+make -C ps7_cortexa9_0/libsrc/uartps_v2_1/src -s include  "SHELL=CMD" "COMPILER=arm-xilinx-eabi-gcc" "ARCHIVER=arm-xilinx-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-g"
+"Running Make include in ps7_cortexa9_0/libsrc/usbps_v2_1/src"
+make -C ps7_cortexa9_0/libsrc/usbps_v2_1/src -s include  "SHELL=CMD" "COMPILER=arm-xilinx-eabi-gcc" "ARCHIVER=arm-xilinx-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-g"
+"Running Make include in ps7_cortexa9_0/libsrc/xadcps_v2_0/src"
+make -C ps7_cortexa9_0/libsrc/xadcps_v2_0/src -s include  "SHELL=CMD" "COMPILER=arm-xilinx-eabi-gcc" "ARCHIVER=arm-xilinx-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-g"
+"Running Make libs in ps7_cortexa9_0/libsrc/axi_dispctrl_v1_00_a/src"
+make -C ps7_cortexa9_0/libsrc/axi_dispctrl_v1_00_a/src -s libs  "SHELL=CMD" "COMPILER=arm-xilinx-eabi-gcc" "ARCHIVER=arm-xilinx-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-g"
+"Compiling axi_dispctrl..."
+In file included from axi_dispctrl.h:7:0,
+                 from axi_dispctrl.c:4:
+../../../include/xbasic_types.h:124:2: warning: #warning The xbasics_type.h file is deprecated and users should use xil_types.h and xil_assert. [-Wcpp]
+ #warning  The xbasics_type.h file is deprecated and users should use xil_types.h and xil_assert.
+  ^
+../../../include/xbasic_types.h:125:2: warning: #warning Please refer the Standalone BSP UG647 for further details [-Wcpp]
+ #warning  Please refer the Standalone BSP UG647 for further details
+  ^
+In file included from axi_dispctrl.h:7:0,
+                 from axi_dispctrl_selftest.c:3:
+../../../include/xbasic_types.h:124:2: warning: #warning The xbasics_type.h file is deprecated and users should use xil_types.h and xil_assert. [-Wcpp]
+ #warning  The xbasics_type.h file is deprecated and users should use xil_types.h and xil_assert.
+  ^
+../../../include/xbasic_types.h:125:2: warning: #warning Please refer the Standalone BSP UG647 for further details [-Wcpp]
+ #warning  Please refer the Standalone BSP UG647 for further details
+  ^
+arm-xilinx-eabi-ar: creating ../../../lib/libxil.a
+"Running Make libs in ps7_cortexa9_0/libsrc/axi_i2s_adi_v1_00_a/src"
+make -C ps7_cortexa9_0/libsrc/axi_i2s_adi_v1_00_a/src -s libs  "SHELL=CMD" "COMPILER=arm-xilinx-eabi-gcc" "ARCHIVER=arm-xilinx-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-g"
+"Compiling axi_i2s_adi..."
+In file included from axi_i2s_adi.h:7:0,
+                 from axi_i2s_adi.c:4:
+../../../include/xbasic_types.h:124:2: warning: #warning The xbasics_type.h file is deprecated and users should use xil_types.h and xil_assert. [-Wcpp]
+ #warning  The xbasics_type.h file is deprecated and users should use xil_types.h and xil_assert.
+  ^
+../../../include/xbasic_types.h:125:2: warning: #warning Please refer the Standalone BSP UG647 for further details [-Wcpp]
+ #warning  Please refer the Standalone BSP UG647 for further details
+  ^
+In file included from axi_i2s_adi.h:7:0,
+                 from axi_i2s_adi_selftest.c:3:
+../../../include/xbasic_types.h:124:2: warning: #warning The xbasics_type.h file is deprecated and users should use xil_types.h and xil_assert. [-Wcpp]
+ #warning  The xbasics_type.h file is deprecated and users should use xil_types.h and xil_assert.
+  ^
+../../../include/xbasic_types.h:125:2: warning: #warning Please refer the Standalone BSP UG647 for further details [-Wcpp]
+ #warning  Please refer the Standalone BSP UG647 for further details
+  ^
+"Running Make libs in ps7_cortexa9_0/libsrc/axivdma_v5_0/src"
+make -C ps7_cortexa9_0/libsrc/axivdma_v5_0/src -s libs  "SHELL=CMD" "COMPILER=arm-xilinx-eabi-gcc" "ARCHIVER=arm-xilinx-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-g"
+"Compiling axivdma"
+"Running Make libs in ps7_cortexa9_0/libsrc/common_v1_00_a/src"
+make -C ps7_cortexa9_0/libsrc/common_v1_00_a/src -s libs  "SHELL=CMD" "COMPILER=arm-xilinx-eabi-gcc" "ARCHIVER=arm-xilinx-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-g"
+"Compiling common"
+"Running Make libs in ps7_cortexa9_0/libsrc/cpu_cortexa9_v2_0/src"
+make -C ps7_cortexa9_0/libsrc/cpu_cortexa9_v2_0/src -s libs  "SHELL=CMD" "COMPILER=arm-xilinx-eabi-gcc" "ARCHIVER=arm-xilinx-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-g"
+"Compiling cpu_cortexa9"
+"Running Make libs in ps7_cortexa9_0/libsrc/devcfg_v3_1/src"
+make -C ps7_cortexa9_0/libsrc/devcfg_v3_1/src -s libs  "SHELL=CMD" "COMPILER=arm-xilinx-eabi-gcc" "ARCHIVER=arm-xilinx-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-g"
+"Compiling devcfg"
+"Running Make libs in ps7_cortexa9_0/libsrc/dmaps_v2_0/src"
+make -C ps7_cortexa9_0/libsrc/dmaps_v2_0/src -s libs  "SHELL=CMD" "COMPILER=arm-xilinx-eabi-gcc" "ARCHIVER=arm-xilinx-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-g"
+"Compiling dmaps"
+"Running Make libs in ps7_cortexa9_0/libsrc/emacps_v2_0/src"
+make -C ps7_cortexa9_0/libsrc/emacps_v2_0/src -s libs  "SHELL=CMD" "COMPILER=arm-xilinx-eabi-gcc" "ARCHIVER=arm-xilinx-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-g"
+"Compiling emacps"
+"Running Make libs in ps7_cortexa9_0/libsrc/gpio_v4_0/src"
+make -C ps7_cortexa9_0/libsrc/gpio_v4_0/src -s libs  "SHELL=CMD" "COMPILER=arm-xilinx-eabi-gcc" "ARCHIVER=arm-xilinx-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-g"
+"Compiling gpio"
+"Running Make libs in ps7_cortexa9_0/libsrc/iicps_v2_1/src"
+make -C ps7_cortexa9_0/libsrc/iicps_v2_1/src -s libs  "SHELL=CMD" "COMPILER=arm-xilinx-eabi-gcc" "ARCHIVER=arm-xilinx-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-g"
+"Compiling iicps"
+"Running Make libs in ps7_cortexa9_0/libsrc/qspips_v3_0/src"
+make -C ps7_cortexa9_0/libsrc/qspips_v3_0/src -s libs  "SHELL=CMD" "COMPILER=arm-xilinx-eabi-gcc" "ARCHIVER=arm-xilinx-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-g"
+"Compiling qspips"
+"Running Make libs in ps7_cortexa9_0/libsrc/scugic_v2_1/src"
+make -C ps7_cortexa9_0/libsrc/scugic_v2_1/src -s libs  "SHELL=CMD" "COMPILER=arm-xilinx-eabi-gcc" "ARCHIVER=arm-xilinx-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-g"
+"Compiling scugic"
+"Running Make libs in ps7_cortexa9_0/libsrc/scutimer_v2_0/src"
+make -C ps7_cortexa9_0/libsrc/scutimer_v2_0/src -s libs  "SHELL=CMD" "COMPILER=arm-xilinx-eabi-gcc" "ARCHIVER=arm-xilinx-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-g"
+"Compiling scutimer"
+"Running Make libs in ps7_cortexa9_0/libsrc/scuwdt_v2_0/src"
+make -C ps7_cortexa9_0/libsrc/scuwdt_v2_0/src -s libs  "SHELL=CMD" "COMPILER=arm-xilinx-eabi-gcc" "ARCHIVER=arm-xilinx-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-g"
+"Compiling scuwdt"
+"Running Make libs in ps7_cortexa9_0/libsrc/sdps_v2_1/src"
+make -C ps7_cortexa9_0/libsrc/sdps_v2_1/src -s libs  "SHELL=CMD" "COMPILER=arm-xilinx-eabi-gcc" "ARCHIVER=arm-xilinx-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-g"
+"Compiling sdps"
+"Running Make libs in ps7_cortexa9_0/libsrc/standalone_v4_1/src"
+make -C ps7_cortexa9_0/libsrc/standalone_v4_1/src -s libs  "SHELL=CMD" "COMPILER=arm-xilinx-eabi-gcc" "ARCHIVER=arm-xilinx-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-g"
+"Compiling standalone"
+"Running Make libs in ps7_cortexa9_0/libsrc/uartps_v2_1/src"
+make -C ps7_cortexa9_0/libsrc/uartps_v2_1/src -s libs  "SHELL=CMD" "COMPILER=arm-xilinx-eabi-gcc" "ARCHIVER=arm-xilinx-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-g"
+"Compiling uartps"
+"Running Make libs in ps7_cortexa9_0/libsrc/usbps_v2_1/src"
+make -C ps7_cortexa9_0/libsrc/usbps_v2_1/src -s libs  "SHELL=CMD" "COMPILER=arm-xilinx-eabi-gcc" "ARCHIVER=arm-xilinx-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-g"
+"Compiling usbps"
+"Running Make libs in ps7_cortexa9_0/libsrc/xadcps_v2_0/src"
+make -C ps7_cortexa9_0/libsrc/xadcps_v2_0/src -s libs  "SHELL=CMD" "COMPILER=arm-xilinx-eabi-gcc" "ARCHIVER=arm-xilinx-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-g"
+"Compiling xadcps"
+'Finished building libraries'
+
+**** Build of configuration Debug for project PONG ****
+
+Nothing to build for project PONG
+18:20:12 **** Auto Build of configuration Debug for project PONG ****
+make all 
+'Building file: ../src/display_ctrl.c'
+'Invoking: ARM gcc compiler'
+arm-xilinx-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -I../../PONG_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/display_ctrl.d" -MT"src/display_ctrl.d" -o "src/display_ctrl.o" "../src/display_ctrl.c"
+'Finished building: ../src/display_ctrl.c'
+' '
+'Building file: ../src/main.c'
+'Invoking: ARM gcc compiler'
+arm-xilinx-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -I../../PONG_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/main.d" -MT"src/main.d" -o "src/main.o" "../src/main.c"
+../src/main.c:25:26: fatal error: display_demo.h: No such file or directory
+ #include "display_demo.h"
+                          ^
+compilation terminated.
+make: *** [src/main.o] Error 1
+18:21:43 **** Auto Build of configuration Debug for project PONG ****
+make all 
+'Building file: ../src/main.c'
+'Invoking: ARM gcc compiler'
+arm-xilinx-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -I../../PONG_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/main.d" -MT"src/main.d" -o "src/main.o" "../src/main.c"
+../src/main.c:36:1: error: unknown type name 'DisplayCtrl'
+ DisplayCtrl hdmiCtrl;
+ ^
+../src/main.c:37:1: error: unknown type name 'DisplayCtrl'
+ DisplayCtrl vgaCtrl;
+ ^
+../src/main.c:42:12: error: 'DISPLAY_NUM_FRAMES' undeclared here (not in a function)
+ u32 vgaBuf[DISPLAY_NUM_FRAMES][DISPLAYDEMO_MAX_FRAME];
+            ^
+../src/main.c:42:32: error: 'DISPLAYDEMO_MAX_FRAME' undeclared here (not in a function)
+ u32 vgaBuf[DISPLAY_NUM_FRAMES][DISPLAYDEMO_MAX_FRAME];
+                                ^
+../src/main.c: In function 'main':
+../src/main.c:78:2: warning: implicit declaration of function 'DisplayDemoInitialize' [-Wimplicit-function-declaration]
+  DisplayDemoInitialize(&vgaCtrl, VGA_VDMA_ID, SCU_TIMER_ID, VGA_BASEADDR, DISPLAY_NOT_HDMI, vgaPtr);
+  ^
+../src/main.c:78:75: error: 'DISPLAY_NOT_HDMI' undeclared (first use in this function)
+  DisplayDemoInitialize(&vgaCtrl, VGA_VDMA_ID, SCU_TIMER_ID, VGA_BASEADDR, DISPLAY_NOT_HDMI, vgaPtr);
+                                                                           ^
+../src/main.c:78:75: note: each undeclared identifier is reported only once for each function it appears in
+../src/main.c:79:78: error: 'DISPLAY_HDMI' undeclared (first use in this function)
+  DisplayDemoInitialize(&hdmiCtrl, HDMI_VDMA_ID, SCU_TIMER_ID, HDMI_BASEADDR, DISPLAY_HDMI, hdmiPtr);
+                                                                              ^
+../src/main.c:80:2: warning: implicit declaration of function 'AudioInitialize' [-Wimplicit-function-declaration]
+  AudioInitialize(SCU_TIMER_ID, AUDIO_IIC_ID, AUDIO_CTRL_BASEADDR);
+  ^
+../src/main.c:104:4: warning: implicit declaration of function 'AudioRunDemo' [-Wimplicit-function-declaration]
+    AudioRunDemo(AUDIO_CTRL_BASEADDR, UART_BASEADDR, SW_BASEADDR, BTN_BASEADDR);
+    ^
+../src/main.c:107:4: warning: implicit declaration of function 'DisplayDemoRun' [-Wimplicit-function-declaration]
+    DisplayDemoRun(&vgaCtrl, UART_BASEADDR);
+    ^
+../src/main.c:68:7: warning: unused variable 'hdmiPtr' [-Wunused-variable]
+  u32 *hdmiPtr[DISPLAY_NUM_FRAMES];
+       ^
+../src/main.c:67:7: warning: unused variable 'vgaPtr' [-Wunused-variable]
+  u32 *vgaPtr[DISPLAY_NUM_FRAMES];
+       ^
+make: *** [src/main.o] Error 1
+18:22:50 **** Auto Build of configuration Debug for project PONG ****
+make all 
+'Building file: ../src/main.c'
+'Invoking: ARM gcc compiler'
+arm-xilinx-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -I../../PONG_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/main.d" -MT"src/main.d" -o "src/main.o" "../src/main.c"
+../src/main.c:43:32: error: 'DISPLAYDEMO_MAX_FRAME' undeclared here (not in a function)
+ u32 vgaBuf[DISPLAY_NUM_FRAMES][DISPLAYDEMO_MAX_FRAME];
+                                ^
+../src/main.c: In function 'main':
+../src/main.c:79:2: warning: implicit declaration of function 'DisplayDemoInitialize' [-Wimplicit-function-declaration]
+  DisplayDemoInitialize(&vgaCtrl, VGA_VDMA_ID, SCU_TIMER_ID, VGA_BASEADDR, DISPLAY_NOT_HDMI, vgaPtr);
+  ^
+../src/main.c:81:2: warning: implicit declaration of function 'AudioInitialize' [-Wimplicit-function-declaration]
+  AudioInitialize(SCU_TIMER_ID, AUDIO_IIC_ID, AUDIO_CTRL_BASEADDR);
+  ^
+../src/main.c:105:4: warning: implicit declaration of function 'AudioRunDemo' [-Wimplicit-function-declaration]
+    AudioRunDemo(AUDIO_CTRL_BASEADDR, UART_BASEADDR, SW_BASEADDR, BTN_BASEADDR);
+    ^
+../src/main.c:108:4: warning: implicit declaration of function 'DisplayDemoRun' [-Wimplicit-function-declaration]
+    DisplayDemoRun(&vgaCtrl, UART_BASEADDR);
+    ^
+make: *** [src/main.o] Error 1
+18:35:32 **** Auto Build of configuration Debug for project base_demo ****
+make all 
+make: No se hace nada para `all'.
+18:35:54 **** Auto Build of configuration Debug for project base_demo ****
+make all 
+'Building file: ../src/main.c'
+'Invoking: ARM gcc compiler'
+arm-xilinx-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -I../../base_demo_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/main.d" -MT"src/main.d" -o "src/main.o" "../src/main.c"
+'Finished building: ../src/main.c'
+' '
+'Building target: base_demo.elf'
+'Invoking: ARM gcc linker'
+arm-xilinx-eabi-gcc -Wl,-T -Wl,../src/lscript.ld -L../../base_demo_bsp/ps7_cortexa9_0/lib -o "base_demo.elf"  ./src/audio_demo.o ./src/display_ctrl.o ./src/display_demo.o ./src/main.o ./src/platform.o ./src/timer_ps.o   -Wl,--start-group,-lxil,-lgcc,-lc,--end-group
+'Finished building target: base_demo.elf'
+' '
+'Invoking: ARM Print Size'
+arm-xilinx-eabi-size base_demo.elf  |tee "base_demo.elf.size"
+   text	   data	    bss	    dec	    hex	filename
+  97132	   2528	51714704	51814364	3169fdc	base_demo.elf
+'Finished building: base_demo.elf.size'
+' '
+18:36:35 **** Auto Build of configuration Debug for project base_demo ****
+make all 
+'Building file: ../src/main.c'
+'Invoking: ARM gcc compiler'
+arm-xilinx-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -I../../base_demo_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/main.d" -MT"src/main.d" -o "src/main.o" "../src/main.c"
+../src/main.c:41:32: error: 'DISPLAYDEMO_MAX_FRAME' undeclared here (not in a function)
+ u32 vgaBuf[DISPLAY_NUM_FRAMES][DISPLAYDEMO_MAX_FRAME];
+                                ^
+../src/main.c: In function 'main':
+../src/main.c:80:2: warning: implicit declaration of function 'DisplayDemoInitialize' [-Wimplicit-function-declaration]
+  DisplayDemoInitialize(&vgaCtrl, VGA_VDMA_ID, SCU_TIMER_ID, VGA_BASEADDR, DISPLAY_NOT_HDMI, vgaPtr);
+  ^
+../src/main.c:116:4: warning: implicit declaration of function 'DisplayDemoRun' [-Wimplicit-function-declaration]
+    DisplayDemoRun(&vgaCtrl, UART_BASEADDR);
+    ^
+make: *** [src/main.o] Error 1
+18:37:16 **** Auto Build of configuration Debug for project base_demo ****
+make all 
+'Building file: ../src/main.c'
+'Invoking: ARM gcc compiler'
+arm-xilinx-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -I../../base_demo_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/main.d" -MT"src/main.d" -o "src/main.o" "../src/main.c"
+'Finished building: ../src/main.c'
+' '
+'Building target: base_demo.elf'
+'Invoking: ARM gcc linker'
+arm-xilinx-eabi-gcc -Wl,-T -Wl,../src/lscript.ld -L../../base_demo_bsp/ps7_cortexa9_0/lib -o "base_demo.elf"  ./src/audio_demo.o ./src/display_ctrl.o ./src/display_demo.o ./src/main.o ./src/platform.o ./src/timer_ps.o   -Wl,--start-group,-lxil,-lgcc,-lc,--end-group
+'Finished building target: base_demo.elf'
+' '
+'Invoking: ARM Print Size'
+arm-xilinx-eabi-size base_demo.elf  |tee "base_demo.elf.size"
+   text	   data	    bss	    dec	    hex	filename
+  97132	   2528	51714704	51814364	3169fdc	base_demo.elf
+'Finished building: base_demo.elf.size'
+' '
+18:37:18 **** Auto Build of configuration Debug for project PONG ****
+make all 
+'Building file: ../src/main.c'
+'Invoking: ARM gcc compiler'
+arm-xilinx-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -I../../PONG_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/main.d" -MT"src/main.d" -o "src/main.o" "../src/main.c"
+../src/main.c:25:26: fatal error: display_demo.h: No such file or directory
+ #include "display_demo.h"
+                          ^
+compilation terminated.
+make: *** [src/main.o] Error 1
+18:37:56 **** Auto Build of configuration Debug for project base_demo ****
+make all 
+make: No se hace nada para `all'.
+18:39:55 **** Auto Build of configuration Debug for project PONG ****
+make all 
+'Building file: ../src/main.c'
+'Invoking: ARM gcc compiler'
+arm-xilinx-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -I../../PONG_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/main.d" -MT"src/main.d" -o "src/main.o" "../src/main.c"
+../src/main.c:25:26: fatal error: display_demo.h: No such file or directory
+ #include "display_demo.h"
+                          ^
+compilation terminated.
+make: *** [src/main.o] Error 1
+19:02:15 **** Auto Build of configuration Debug for project PONG ****
+make all 
+'Building file: ../src/main.c'
+'Invoking: ARM gcc compiler'
+arm-xilinx-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -I../../PONG_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/main.d" -MT"src/main.d" -o "src/main.o" "../src/main.c"
+../src/main.c:25:26: fatal error: display_demo.h: No such file or directory
+ #include "display_demo.h"
+                          ^
+compilation terminated.
+make: *** [src/main.o] Error 1
+19:02:41 **** Clean-only build of configuration Debug for project PONG ****
+make clean 
+rm -rf  ./src/display_ctrl.o ./src/main.o ./src/timer_ps.o  ./src/display_ctrl.d ./src/main.d ./src/timer_ps.d  PONG.elf.size  PONG.elf
+' '
+19:02:42 **** Auto Build of configuration Debug for project PONG ****
+make all 
+'Building file: ../src/display_ctrl.c'
+'Invoking: ARM gcc compiler'
+arm-xilinx-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -I../../PONG_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/display_ctrl.d" -MT"src/display_ctrl.d" -o "src/display_ctrl.o" "../src/display_ctrl.c"
+'Finished building: ../src/display_ctrl.c'
+' '
+'Building file: ../src/main.c'
+'Invoking: ARM gcc compiler'
+arm-xilinx-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -I../../PONG_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/main.d" -MT"src/main.d" -o "src/main.o" "../src/main.c"
+../src/main.c:25:26: fatal error: display_demo.h: No such file or directory
+ #include "display_demo.h"
+                          ^
+compilation terminated.
+make: *** [src/main.o] Error 1
+19:03:03 **** Auto Build of configuration Debug for project PONG ****
+make all 
+'Building file: ../src/main.c'
+'Invoking: ARM gcc compiler'
+arm-xilinx-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -I../../PONG_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/main.d" -MT"src/main.d" -o "src/main.o" "../src/main.c"
+../src/main.c:25:26: fatal error: display_demo.h: No such file or directory
+ #include "display_demo.h"
+                          ^
+compilation terminated.
+make: *** [src/main.o] Error 1
+19:03:20 **** Clean-only build of configuration Debug for project PONG ****
+make clean 
+rm -rf  ./src/display_ctrl.o ./src/main.o ./src/pong.o ./src/timer_ps.o  ./src/display_ctrl.d ./src/main.d ./src/pong.d ./src/timer_ps.d  PONG.elf.size  PONG.elf
+' '
+19:03:20 **** Auto Build of configuration Debug for project PONG ****
+make all 
+'Building file: ../src/display_ctrl.c'
+'Invoking: ARM gcc compiler'
+arm-xilinx-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -I../../PONG_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/display_ctrl.d" -MT"src/display_ctrl.d" -o "src/display_ctrl.o" "../src/display_ctrl.c"
+'Finished building: ../src/display_ctrl.c'
+' '
+'Building file: ../src/main.c'
+'Invoking: ARM gcc compiler'
+arm-xilinx-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -I../../PONG_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/main.d" -MT"src/main.d" -o "src/main.o" "../src/main.c"
+../src/main.c:25:26: fatal error: display_demo.h: No such file or directory
+ #include "display_demo.h"
+                          ^
+compilation terminated.
+make: *** [src/main.o] Error 1
+19:03:33 **** Auto Build of configuration Debug for project PONG ****
+make all 
+'Building file: ../src/main.c'
+'Invoking: ARM gcc compiler'
+arm-xilinx-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -I../../PONG_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/main.d" -MT"src/main.d" -o "src/main.o" "../src/main.c"
+../src/main.c:25:26: fatal error: display_demo.h: No such file or directory
+ #include "display_demo.h"
+                          ^
+compilation terminated.
+make: *** [src/main.o] Error 1
+19:08:51 **** Auto Build of configuration Debug for project PONG ****
+make all 
+'Building file: ../src/main.c'
+'Invoking: ARM gcc compiler'
+arm-xilinx-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -I../../PONG_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/main.d" -MT"src/main.d" -o "src/main.o" "../src/main.c"
+../src/main.c:23:26: fatal error: display_demo.h: No such file or directory
+ #include "display_demo.h"
+                          ^
+compilation terminated.
+make: *** [src/main.o] Error 1
+19:12:10 **** Auto Build of configuration Debug for project PONG ****
+make all 
+'Building file: ../src/main.c'
+'Invoking: ARM gcc compiler'
+arm-xilinx-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -I../../PONG_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/main.d" -MT"src/main.d" -o "src/main.o" "../src/main.c"
+../src/main.c:35:1: error: unknown type name 'DisplayCtrl'
+ DisplayCtrl hdmiCtrl;
+ ^
+../src/main.c:36:1: error: unknown type name 'DisplayCtrl'
+ DisplayCtrl vgaCtrl;
+ ^
+../src/main.c:41:12: error: 'DISPLAY_NUM_FRAMES' undeclared here (not in a function)
+ u32 vgaBuf[DISPLAY_NUM_FRAMES][DISPLAYDEMO_MAX_FRAME];
+            ^
+../src/main.c:41:32: error: 'DISPLAYDEMO_MAX_FRAME' undeclared here (not in a function)
+ u32 vgaBuf[DISPLAY_NUM_FRAMES][DISPLAYDEMO_MAX_FRAME];
+                                ^
+../src/main.c: In function 'main':
+../src/main.c:77:2: warning: implicit declaration of function 'DisplayDemoInitialize' [-Wimplicit-function-declaration]
+  DisplayDemoInitialize(&vgaCtrl, VGA_VDMA_ID, SCU_TIMER_ID, VGA_BASEADDR, DISPLAY_NOT_HDMI, vgaPtr);
+  ^
+../src/main.c:77:75: error: 'DISPLAY_NOT_HDMI' undeclared (first use in this function)
+  DisplayDemoInitialize(&vgaCtrl, VGA_VDMA_ID, SCU_TIMER_ID, VGA_BASEADDR, DISPLAY_NOT_HDMI, vgaPtr);
+                                                                           ^
+../src/main.c:77:75: note: each undeclared identifier is reported only once for each function it appears in
+../src/main.c:78:78: error: 'DISPLAY_HDMI' undeclared (first use in this function)
+  DisplayDemoInitialize(&hdmiCtrl, HDMI_VDMA_ID, SCU_TIMER_ID, HDMI_BASEADDR, DISPLAY_HDMI, hdmiPtr);
+                                                                              ^
+../src/main.c:79:2: warning: implicit declaration of function 'AudioInitialize' [-Wimplicit-function-declaration]
+  AudioInitialize(SCU_TIMER_ID, AUDIO_IIC_ID, AUDIO_CTRL_BASEADDR);
+  ^
+../src/main.c:103:4: warning: implicit declaration of function 'AudioRunDemo' [-Wimplicit-function-declaration]
+    AudioRunDemo(AUDIO_CTRL_BASEADDR, UART_BASEADDR, SW_BASEADDR, BTN_BASEADDR);
+    ^
+../src/main.c:106:4: warning: implicit declaration of function 'DisplayDemoRun' [-Wimplicit-function-declaration]
+    DisplayDemoRun(&vgaCtrl, UART_BASEADDR);
+    ^
+../src/main.c:67:7: warning: unused variable 'hdmiPtr' [-Wunused-variable]
+  u32 *hdmiPtr[DISPLAY_NUM_FRAMES];
+       ^
+../src/main.c:66:7: warning: unused variable 'vgaPtr' [-Wunused-variable]
+  u32 *vgaPtr[DISPLAY_NUM_FRAMES];
+       ^
+make: *** [src/main.o] Error 1

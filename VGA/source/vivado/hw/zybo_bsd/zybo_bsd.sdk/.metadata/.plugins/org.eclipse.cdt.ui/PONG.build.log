@@ -1,0 +1,47 @@
+19:12:10 **** Auto Build of configuration Debug for project PONG ****
+make all 
+'Building file: ../src/main.c'
+'Invoking: ARM gcc compiler'
+arm-xilinx-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -I../../PONG_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/main.d" -MT"src/main.d" -o "src/main.o" "../src/main.c"
+../src/main.c:35:1: error: unknown type name 'DisplayCtrl'
+ DisplayCtrl hdmiCtrl;
+ ^
+../src/main.c:36:1: error: unknown type name 'DisplayCtrl'
+ DisplayCtrl vgaCtrl;
+ ^
+../src/main.c:41:12: error: 'DISPLAY_NUM_FRAMES' undeclared here (not in a function)
+ u32 vgaBuf[DISPLAY_NUM_FRAMES][DISPLAYDEMO_MAX_FRAME];
+            ^
+../src/main.c:41:32: error: 'DISPLAYDEMO_MAX_FRAME' undeclared here (not in a function)
+ u32 vgaBuf[DISPLAY_NUM_FRAMES][DISPLAYDEMO_MAX_FRAME];
+                                ^
+../src/main.c: In function 'main':
+../src/main.c:77:2: warning: implicit declaration of function 'DisplayDemoInitialize' [-Wimplicit-function-declaration]
+  DisplayDemoInitialize(&vgaCtrl, VGA_VDMA_ID, SCU_TIMER_ID, VGA_BASEADDR, DISPLAY_NOT_HDMI, vgaPtr);
+  ^
+../src/main.c:77:75: error: 'DISPLAY_NOT_HDMI' undeclared (first use in this function)
+  DisplayDemoInitialize(&vgaCtrl, VGA_VDMA_ID, SCU_TIMER_ID, VGA_BASEADDR, DISPLAY_NOT_HDMI, vgaPtr);
+                                                                           ^
+../src/main.c:77:75: note: each undeclared identifier is reported only once for each function it appears in
+../src/main.c:78:78: error: 'DISPLAY_HDMI' undeclared (first use in this function)
+  DisplayDemoInitialize(&hdmiCtrl, HDMI_VDMA_ID, SCU_TIMER_ID, HDMI_BASEADDR, DISPLAY_HDMI, hdmiPtr);
+                                                                              ^
+../src/main.c:79:2: warning: implicit declaration of function 'AudioInitialize' [-Wimplicit-function-declaration]
+  AudioInitialize(SCU_TIMER_ID, AUDIO_IIC_ID, AUDIO_CTRL_BASEADDR);
+  ^
+../src/main.c:103:4: warning: implicit declaration of function 'AudioRunDemo' [-Wimplicit-function-declaration]
+    AudioRunDemo(AUDIO_CTRL_BASEADDR, UART_BASEADDR, SW_BASEADDR, BTN_BASEADDR);
+    ^
+../src/main.c:106:4: warning: implicit declaration of function 'DisplayDemoRun' [-Wimplicit-function-declaration]
+    DisplayDemoRun(&vgaCtrl, UART_BASEADDR);
+    ^
+../src/main.c:67:7: warning: unused variable 'hdmiPtr' [-Wunused-variable]
+  u32 *hdmiPtr[DISPLAY_NUM_FRAMES];
+       ^
+../src/main.c:66:7: warning: unused variable 'vgaPtr' [-Wunused-variable]
+  u32 *vgaPtr[DISPLAY_NUM_FRAMES];
+       ^
+make: *** [src/main.o] Error 1
+
+19:12:10 Build Finished (took 266ms)
+
