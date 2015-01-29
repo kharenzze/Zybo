@@ -4,8 +4,8 @@
 		<item value="true" key="WizardFileSystemResourceImportPage1.STORE_OVERWRITE_EXISTING_RESOURCES_ID"/>
 		<item value="false" key="WizardFileSystemResourceImportPage1.STORE_CREATE_CONTAINER_STRUCTURE_ID"/>
 		<list key="WizardFileSystemResourceImportPage1.STORE_SOURCE_NAMES_ID">
-			<item value="D:\GIT\Zybo\VGA\source\vivado\SDK\fsbl"/>
 			<item value="D:\GIT\Zybo\VGA\source\vivado\SDK\base_demo"/>
+			<item value="D:\GIT\Zybo\VGA\source\vivado\SDK\fsbl"/>
 		</list>
 	</section>
 	<section name="WorkbenchPreferenceDialogSettings">

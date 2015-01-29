@@ -38,8 +38,8 @@ DisplayCtrl vgaCtrl;
 /*
  * Framebuffers for each display device
  */
-u32 vgaBuf[DISPLAY_NUM_FRAMES][DISPLAYDEMO_MAX_FRAME];
-u32 hdmiBuf[DISPLAY_NUM_FRAMES][DISPLAYDEMO_MAX_FRAME];
+u32 vgaBuf[DISPLAY_NUM_FRAMES][DISPLAY_MAX_FRAME];
+u32 hdmiBuf[DISPLAY_NUM_FRAMES][DISPLAY_MAX_FRAME];
 
 /*
  * XPAR redefines
@@ -56,6 +56,7 @@ u32 hdmiBuf[DISPLAY_NUM_FRAMES][DISPLAYDEMO_MAX_FRAME];
 #define BTN_BASEADDR XPAR_BTNS_4BITS_BASEADDR
 
 void MainDemoPrintMenu();
+char readUART();
 
 /* ------------------------------------------------------------ */
 /*				Procedure Definitions							*/
@@ -63,6 +64,7 @@ void MainDemoPrintMenu();
 
 int main(void)
 {
+	//INICIALIZACION DE LAS VARIABLES
 	u32 *vgaPtr[DISPLAY_NUM_FRAMES];
 	u32 *hdmiPtr[DISPLAY_NUM_FRAMES];
 	int i;
@@ -74,9 +76,8 @@ int main(void)
 		hdmiPtr[i] = hdmiBuf[i];
 	}
 
-	DisplayDemoInitialize(&vgaCtrl, VGA_VDMA_ID, SCU_TIMER_ID, VGA_BASEADDR, DISPLAY_NOT_HDMI, vgaPtr);
-	DisplayDemoInitialize(&hdmiCtrl, HDMI_VDMA_ID, SCU_TIMER_ID, HDMI_BASEADDR, DISPLAY_HDMI, hdmiPtr);
-	AudioInitialize(SCU_TIMER_ID, AUDIO_IIC_ID, AUDIO_CTRL_BASEADDR);
+	PongDisplayInitialize(&vgaCtrl, VGA_VDMA_ID, SCU_TIMER_ID, VGA_BASEADDR, DISPLAY_NOT_HDMI, vgaPtr);
+	PongDisplayInitialize(&hdmiCtrl, HDMI_VDMA_ID, SCU_TIMER_ID, HDMI_BASEADDR, DISPLAY_HDMI, hdmiPtr);
 	TimerInitialize(SCU_TIMER_ID);
 
 	/* Flush UART FIFO */
@@ -89,13 +90,8 @@ int main(void)
 	{
 		MainDemoPrintMenu();
 
-		/* Wait for data on UART */
-		while (!XUartPs_IsReceiveData(UART_BASEADDR))
-		{}
-
-		/* Store the first character in the UART recieve FIFO and echo it */
-		userInput = XUartPs_ReadReg(UART_BASEADDR, XUARTPS_FIFO_OFFSET);
-		xil_printf("%c", userInput);
+		//lee una entrada de UART, y la muestra por el terminal.
+		userInput=readUART();
 
 		switch (userInput)
 		{
@@ -119,20 +115,32 @@ int main(void)
 	return 0;
 }
 
-void MainDemoPrintMenu()
+void Menu()
 {
 	xil_printf("\x1B[H"); //Set cursor to top left of terminal
 	xil_printf("\x1B[2J"); //Clear terminal
 	xil_printf("**************************************************\n\r");
 	xil_printf("**************************************************\n\r");
-	xil_printf("*         ZYBO Base System User Demo             *\n\r");
+	xil_printf("*       		 Bienvenido a PONG!!!		     *\n\r");
 	xil_printf("**************************************************\n\r");
 	xil_printf("**************************************************\n\r");
 	xil_printf("\n\r");
-	xil_printf("1 - Audio Demo\n\r");
-	xil_printf("2 - VGA output demo\n\r");
-	xil_printf("3 - HDMI output demo\n\r");
+	xil_printf("1 - Cambiar resolución");
+	xil_printf("2 - VGA\n\r");
+	xil_printf("3 - HDMI\n\r");
 	xil_printf("q - Quit\n\r");
 	xil_printf("\n\r");
 	xil_printf("Select a demo to run:");
+}
+
+char readUART(){
+	char userInput;
+	/* Wait for data on UART */
+	while (!XUartPs_IsReceiveData(UART_BASEADDR))
+	{}
+
+	/* Store the first character in the UART recieve FIFO and echo it */
+	userInput = XUartPs_ReadReg(UART_BASEADDR, XUARTPS_FIFO_OFFSET);
+	xil_printf("%c", userInput);
+	return userInput;
 }

@@ -4647,3 +4647,990 @@ arm-xilinx-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -I../../PONG_bsp/ps7_cor
   u32 *vgaPtr[DISPLAY_NUM_FRAMES];
        ^
 make: *** [src/main.o] Error 1
+19:14:33 **** Auto Build of configuration Debug for project PONG ****
+make all 
+'Building file: ../src/main.c'
+'Invoking: ARM gcc compiler'
+arm-xilinx-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -I../../PONG_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/main.d" -MT"src/main.d" -o "src/main.o" "../src/main.c"
+../src/main.c:35:1: error: unknown type name 'DisplayCtrl'
+ DisplayCtrl hdmiCtrl;
+ ^
+../src/main.c:36:1: error: unknown type name 'DisplayCtrl'
+ DisplayCtrl vgaCtrl;
+ ^
+../src/main.c:41:12: error: 'DISPLAY_NUM_FRAMES' undeclared here (not in a function)
+ u32 vgaBuf[DISPLAY_NUM_FRAMES][DISPLAYDEMO_MAX_FRAME];
+            ^
+../src/main.c:41:32: error: 'DISPLAYDEMO_MAX_FRAME' undeclared here (not in a function)
+ u32 vgaBuf[DISPLAY_NUM_FRAMES][DISPLAYDEMO_MAX_FRAME];
+                                ^
+../src/main.c: In function 'main':
+../src/main.c:77:2: warning: implicit declaration of function 'DisplayDemoInitialize' [-Wimplicit-function-declaration]
+  DisplayDemoInitialize(&vgaCtrl, VGA_VDMA_ID, SCU_TIMER_ID, VGA_BASEADDR, DISPLAY_NOT_HDMI, vgaPtr);
+  ^
+../src/main.c:77:75: error: 'DISPLAY_NOT_HDMI' undeclared (first use in this function)
+  DisplayDemoInitialize(&vgaCtrl, VGA_VDMA_ID, SCU_TIMER_ID, VGA_BASEADDR, DISPLAY_NOT_HDMI, vgaPtr);
+                                                                           ^
+../src/main.c:77:75: note: each undeclared identifier is reported only once for each function it appears in
+../src/main.c:78:78: error: 'DISPLAY_HDMI' undeclared (first use in this function)
+  DisplayDemoInitialize(&hdmiCtrl, HDMI_VDMA_ID, SCU_TIMER_ID, HDMI_BASEADDR, DISPLAY_HDMI, hdmiPtr);
+                                                                              ^
+../src/main.c:79:2: warning: implicit declaration of function 'AudioInitialize' [-Wimplicit-function-declaration]
+  AudioInitialize(SCU_TIMER_ID, AUDIO_IIC_ID, AUDIO_CTRL_BASEADDR);
+  ^
+../src/main.c:103:4: warning: implicit declaration of function 'AudioRunDemo' [-Wimplicit-function-declaration]
+    AudioRunDemo(AUDIO_CTRL_BASEADDR, UART_BASEADDR, SW_BASEADDR, BTN_BASEADDR);
+    ^
+../src/main.c:106:4: warning: implicit declaration of function 'DisplayDemoRun' [-Wimplicit-function-declaration]
+    DisplayDemoRun(&vgaCtrl, UART_BASEADDR);
+    ^
+../src/main.c:67:7: warning: unused variable 'hdmiPtr' [-Wunused-variable]
+  u32 *hdmiPtr[DISPLAY_NUM_FRAMES];
+       ^
+../src/main.c:66:7: warning: unused variable 'vgaPtr' [-Wunused-variable]
+  u32 *vgaPtr[DISPLAY_NUM_FRAMES];
+       ^
+make: *** [src/main.o] Error 1
+19:16:37 **** Auto Build of configuration Debug for project PONG ****
+make all 
+'Building file: ../src/main.c'
+'Invoking: ARM gcc compiler'
+arm-xilinx-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -I../../PONG_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/main.d" -MT"src/main.d" -o "src/main.o" "../src/main.c"
+../src/main.c:41:32: error: 'DISPLAYDEMO_MAX_FRAME' undeclared here (not in a function)
+ u32 vgaBuf[DISPLAY_NUM_FRAMES][DISPLAYDEMO_MAX_FRAME];
+                                ^
+../src/main.c: In function 'main':
+../src/main.c:77:2: warning: implicit declaration of function 'DisplayDemoInitialize' [-Wimplicit-function-declaration]
+  DisplayDemoInitialize(&vgaCtrl, VGA_VDMA_ID, SCU_TIMER_ID, VGA_BASEADDR, DISPLAY_NOT_HDMI, vgaPtr);
+  ^
+../src/main.c:79:2: warning: implicit declaration of function 'AudioInitialize' [-Wimplicit-function-declaration]
+  AudioInitialize(SCU_TIMER_ID, AUDIO_IIC_ID, AUDIO_CTRL_BASEADDR);
+  ^
+../src/main.c:103:4: warning: implicit declaration of function 'AudioRunDemo' [-Wimplicit-function-declaration]
+    AudioRunDemo(AUDIO_CTRL_BASEADDR, UART_BASEADDR, SW_BASEADDR, BTN_BASEADDR);
+    ^
+../src/main.c:106:4: warning: implicit declaration of function 'DisplayDemoRun' [-Wimplicit-function-declaration]
+    DisplayDemoRun(&vgaCtrl, UART_BASEADDR);
+    ^
+make: *** [src/main.o] Error 1
+19:16:56 **** Auto Build of configuration Debug for project PONG ****
+make all 
+'Building file: ../src/main.c'
+'Invoking: ARM gcc compiler'
+arm-xilinx-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -I../../PONG_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/main.d" -MT"src/main.d" -o "src/main.o" "../src/main.c"
+../src/main.c: In function 'main':
+../src/main.c:77:2: warning: implicit declaration of function 'DisplayDemoInitialize' [-Wimplicit-function-declaration]
+  DisplayDemoInitialize(&vgaCtrl, VGA_VDMA_ID, SCU_TIMER_ID, VGA_BASEADDR, DISPLAY_NOT_HDMI, vgaPtr);
+  ^
+../src/main.c:79:2: warning: implicit declaration of function 'AudioInitialize' [-Wimplicit-function-declaration]
+  AudioInitialize(SCU_TIMER_ID, AUDIO_IIC_ID, AUDIO_CTRL_BASEADDR);
+  ^
+../src/main.c:103:4: warning: implicit declaration of function 'AudioRunDemo' [-Wimplicit-function-declaration]
+    AudioRunDemo(AUDIO_CTRL_BASEADDR, UART_BASEADDR, SW_BASEADDR, BTN_BASEADDR);
+    ^
+../src/main.c:106:4: warning: implicit declaration of function 'DisplayDemoRun' [-Wimplicit-function-declaration]
+    DisplayDemoRun(&vgaCtrl, UART_BASEADDR);
+    ^
+'Finished building: ../src/main.c'
+' '
+'Building file: ../src/pong.c'
+'Invoking: ARM gcc compiler'
+arm-xilinx-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -I../../PONG_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/pong.d" -MT"src/pong.d" -o "src/pong.o" "../src/pong.c"
+'Finished building: ../src/pong.c'
+' '
+'Building file: ../src/timer_ps.c'
+'Invoking: ARM gcc compiler'
+arm-xilinx-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -I../../PONG_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/timer_ps.d" -MT"src/timer_ps.d" -o "src/timer_ps.o" "../src/timer_ps.c"
+'Finished building: ../src/timer_ps.c'
+' '
+'Building target: PONG.elf'
+'Invoking: ARM gcc linker'
+arm-xilinx-eabi-gcc -Wl,-T -Wl,../src/lscript.ld -L../../PONG_bsp/ps7_cortexa9_0/lib -o "PONG.elf"  ./src/display_ctrl.o ./src/main.o ./src/pong.o ./src/timer_ps.o   -Wl,--start-group,-lxil,-lgcc,-lc,--end-group
+./src/main.o: In function `main':
+D:\GIT\Zybo\VGA\source\vivado\hw\zybo_bsd\zybo_bsd.sdk\PONG\Debug/../src/main.c:77: undefined reference to `DisplayDemoInitialize'
+D:\GIT\Zybo\VGA\source\vivado\hw\zybo_bsd\zybo_bsd.sdk\PONG\Debug/../src/main.c:78: undefined reference to `DisplayDemoInitialize'
+D:\GIT\Zybo\VGA\source\vivado\hw\zybo_bsd\zybo_bsd.sdk\PONG\Debug/../src/main.c:79: undefined reference to `AudioInitialize'
+D:\GIT\Zybo\VGA\source\vivado\hw\zybo_bsd\zybo_bsd.sdk\PONG\Debug/../src/main.c:103: undefined reference to `AudioRunDemo'
+D:\GIT\Zybo\VGA\source\vivado\hw\zybo_bsd\zybo_bsd.sdk\PONG\Debug/../src/main.c:106: undefined reference to `DisplayDemoRun'
+D:\GIT\Zybo\VGA\source\vivado\hw\zybo_bsd\zybo_bsd.sdk\PONG\Debug/../src/main.c:109: undefined reference to `DisplayDemoRun'
+collect2.exe: error: ld returned 1 exit status
+make: *** [PONG.elf] Error 1
+19:17:33 **** Auto Build of configuration Debug for project PONG ****
+make all 
+'Building file: ../src/main.c'
+'Invoking: ARM gcc compiler'
+arm-xilinx-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -I../../PONG_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/main.d" -MT"src/main.d" -o "src/main.o" "../src/main.c"
+../src/main.c: In function 'main':
+../src/main.c:78:2: warning: implicit declaration of function 'DisplayDemoInitialize' [-Wimplicit-function-declaration]
+  DisplayDemoInitialize(&vgaCtrl, VGA_VDMA_ID, SCU_TIMER_ID, VGA_BASEADDR, DISPLAY_NOT_HDMI, vgaPtr);
+  ^
+../src/main.c:103:4: warning: implicit declaration of function 'AudioRunDemo' [-Wimplicit-function-declaration]
+    AudioRunDemo(AUDIO_CTRL_BASEADDR, UART_BASEADDR, SW_BASEADDR, BTN_BASEADDR);
+    ^
+../src/main.c:106:4: warning: implicit declaration of function 'DisplayDemoRun' [-Wimplicit-function-declaration]
+    DisplayDemoRun(&vgaCtrl, UART_BASEADDR);
+    ^
+'Finished building: ../src/main.c'
+' '
+'Building target: PONG.elf'
+'Invoking: ARM gcc linker'
+arm-xilinx-eabi-gcc -Wl,-T -Wl,../src/lscript.ld -L../../PONG_bsp/ps7_cortexa9_0/lib -o "PONG.elf"  ./src/display_ctrl.o ./src/main.o ./src/pong.o ./src/timer_ps.o   -Wl,--start-group,-lxil,-lgcc,-lc,--end-group
+./src/main.o: In function `main':
+D:\GIT\Zybo\VGA\source\vivado\hw\zybo_bsd\zybo_bsd.sdk\PONG\Debug/../src/main.c:78: undefined reference to `DisplayDemoInitialize'
+D:\GIT\Zybo\VGA\source\vivado\hw\zybo_bsd\zybo_bsd.sdk\PONG\Debug/../src/main.c:79: undefined reference to `DisplayDemoInitialize'
+D:\GIT\Zybo\VGA\source\vivado\hw\zybo_bsd\zybo_bsd.sdk\PONG\Debug/../src/main.c:103: undefined reference to `AudioRunDemo'
+D:\GIT\Zybo\VGA\source\vivado\hw\zybo_bsd\zybo_bsd.sdk\PONG\Debug/../src/main.c:106: undefined reference to `DisplayDemoRun'
+D:\GIT\Zybo\VGA\source\vivado\hw\zybo_bsd\zybo_bsd.sdk\PONG\Debug/../src/main.c:109: undefined reference to `DisplayDemoRun'
+collect2.exe: error: ld returned 1 exit status
+make: *** [PONG.elf] Error 1
+19:20:41 **** Auto Build of configuration Debug for project PONG ****
+make all 
+'Building file: ../src/pong.c'
+'Invoking: ARM gcc compiler'
+arm-xilinx-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -I../../PONG_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/pong.d" -MT"src/pong.d" -o "src/pong.o" "../src/pong.c"
+../src/pong.c:8:23: error: unknown type name 'DisplayCtrl'
+ int DisplayInitialize(DisplayCtrl *dispPtr, u16 vdmaId, u16 timerId, u32 dispCtrlAddr, int fHdmi, u32 *framePtr[DISPLAY_NUM_FRAMES])
+                       ^
+../src/pong.c:8:45: error: unknown type name 'u16'
+ int DisplayInitialize(DisplayCtrl *dispPtr, u16 vdmaId, u16 timerId, u32 dispCtrlAddr, int fHdmi, u32 *framePtr[DISPLAY_NUM_FRAMES])
+                                             ^
+../src/pong.c:8:57: error: unknown type name 'u16'
+ int DisplayInitialize(DisplayCtrl *dispPtr, u16 vdmaId, u16 timerId, u32 dispCtrlAddr, int fHdmi, u32 *framePtr[DISPLAY_NUM_FRAMES])
+                                                         ^
+../src/pong.c:8:70: error: unknown type name 'u32'
+ int DisplayInitialize(DisplayCtrl *dispPtr, u16 vdmaId, u16 timerId, u32 dispCtrlAddr, int fHdmi, u32 *framePtr[DISPLAY_NUM_FRAMES])
+                                                                      ^
+../src/pong.c:8:99: error: unknown type name 'u32'
+ int DisplayInitialize(DisplayCtrl *dispPtr, u16 vdmaId, u16 timerId, u32 dispCtrlAddr, int fHdmi, u32 *framePtr[DISPLAY_NUM_FRAMES])
+                                                                                                   ^
+make: *** [src/pong.o] Error 1
+19:21:25 **** Auto Build of configuration Debug for project PONG ****
+make all 
+'Building file: ../src/pong.c'
+'Invoking: ARM gcc compiler'
+arm-xilinx-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -I../../PONG_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/pong.d" -MT"src/pong.d" -o "src/pong.o" "../src/pong.c"
+../src/pong.c:25:5: error: conflicting types for 'DisplayInitialize'
+ int DisplayInitialize(DisplayCtrl *dispPtr, u16 vdmaId, u16 timerId, u32 dispCtrlAddr, int fHdmi, u32 *framePtr[DISPLAY_NUM_FRAMES])
+     ^
+In file included from ../src/pong.h:15:0,
+                 from ../src/pong.c:13:
+../src/display_ctrl.h:286:5: note: previous declaration of 'DisplayInitialize' was here
+ int DisplayInitialize(DisplayCtrl *dispPtr, u16 vdmaId, u32 dispCtrlAddr, int fHdmi, u32 *framePtr[DISPLAY_NUM_FRAMES], u32 stride);
+     ^
+../src/pong.c: In function 'DisplayInitialize':
+../src/pong.c:31:77: error: 'DISPLAYDEMO_STRIDE' undeclared (first use in this function)
+  Status = DisplayInitialize(dispPtr, vdmaId, dispCtrlAddr, fHdmi, framePtr, DISPLAYDEMO_STRIDE);
+                                                                             ^
+../src/pong.c:31:77: note: each undeclared identifier is reported only once for each function it appears in
+../src/pong.c:31:2: warning: passing argument 5 of 'DisplayInitialize' makes integer from pointer without a cast [enabled by default]
+  Status = DisplayInitialize(dispPtr, vdmaId, dispCtrlAddr, fHdmi, framePtr, DISPLAYDEMO_STRIDE);
+  ^
+../src/pong.c:25:5: note: expected 'int' but argument is of type 'u32 **'
+ int DisplayInitialize(DisplayCtrl *dispPtr, u16 vdmaId, u16 timerId, u32 dispCtrlAddr, int fHdmi, u32 *framePtr[DISPLAY_NUM_FRAMES])
+     ^
+../src/pong.c:45:2: warning: implicit declaration of function 'DisplayDemoPrintTest' [-Wimplicit-function-declaration]
+  DisplayDemoPrintTest(dispPtr->framePtr[dispPtr->curFrame], dispPtr->vMode.width, dispPtr->vMode.height, dispPtr->stride, DISPLAYDEMO_PATTERN_1);
+  ^
+../src/pong.c:45:123: error: 'DISPLAYDEMO_PATTERN_1' undeclared (first use in this function)
+  DisplayDemoPrintTest(dispPtr->framePtr[dispPtr->curFrame], dispPtr->vMode.width, dispPtr->vMode.height, dispPtr->stride, DISPLAYDEMO_PATTERN_1);
+                                                                                                                           ^
+make: *** [src/pong.o] Error 1
+19:23:06 **** Auto Build of configuration Debug for project PONG ****
+make all 
+'Building file: ../src/pong.c'
+'Invoking: ARM gcc compiler'
+arm-xilinx-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -I../../PONG_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/pong.d" -MT"src/pong.d" -o "src/pong.o" "../src/pong.c"
+../src/pong.c: In function 'PongDisplayInitialize':
+../src/pong.c:31:77: error: 'DISPLAYDEMO_STRIDE' undeclared (first use in this function)
+  Status = DisplayInitialize(dispPtr, vdmaId, dispCtrlAddr, fHdmi, framePtr, DISPLAYDEMO_STRIDE);
+                                                                             ^
+../src/pong.c:31:77: note: each undeclared identifier is reported only once for each function it appears in
+../src/pong.c:45:2: warning: implicit declaration of function 'DisplayDemoPrintTest' [-Wimplicit-function-declaration]
+  DisplayDemoPrintTest(dispPtr->framePtr[dispPtr->curFrame], dispPtr->vMode.width, dispPtr->vMode.height, dispPtr->stride, DISPLAYDEMO_PATTERN_1);
+  ^
+../src/pong.c:45:123: error: 'DISPLAYDEMO_PATTERN_1' undeclared (first use in this function)
+  DisplayDemoPrintTest(dispPtr->framePtr[dispPtr->curFrame], dispPtr->vMode.width, dispPtr->vMode.height, dispPtr->stride, DISPLAYDEMO_PATTERN_1);
+                                                                                                                           ^
+make: *** [src/pong.o] Error 1
+19:23:51 **** Auto Build of configuration Debug for project PONG ****
+make all 
+'Building file: ../src/pong.c'
+'Invoking: ARM gcc compiler'
+arm-xilinx-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -I../../PONG_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/pong.d" -MT"src/pong.d" -o "src/pong.o" "../src/pong.c"
+../src/pong.c: In function 'PongDisplayInitialize':
+../src/pong.c:45:2: warning: implicit declaration of function 'DisplayDemoPrintTest' [-Wimplicit-function-declaration]
+  DisplayDemoPrintTest(dispPtr->framePtr[dispPtr->curFrame], dispPtr->vMode.width, dispPtr->vMode.height, dispPtr->stride, DISPLAYDEMO_PATTERN_1);
+  ^
+../src/pong.c:45:123: error: 'DISPLAYDEMO_PATTERN_1' undeclared (first use in this function)
+  DisplayDemoPrintTest(dispPtr->framePtr[dispPtr->curFrame], dispPtr->vMode.width, dispPtr->vMode.height, dispPtr->stride, DISPLAYDEMO_PATTERN_1);
+                                                                                                                           ^
+../src/pong.c:45:123: note: each undeclared identifier is reported only once for each function it appears in
+make: *** [src/pong.o] Error 1
+19:23:58 **** Auto Build of configuration Debug for project PONG ****
+make all 
+'Building file: ../src/pong.c'
+'Invoking: ARM gcc compiler'
+arm-xilinx-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -I../../PONG_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/pong.d" -MT"src/pong.d" -o "src/pong.o" "../src/pong.c"
+../src/pong.c: In function 'PongDisplayInitialize':
+../src/pong.c:45:2: warning: implicit declaration of function 'DisplayDemoPrintTest' [-Wimplicit-function-declaration]
+  DisplayDemoPrintTest(dispPtr->framePtr[dispPtr->curFrame], dispPtr->vMode.width, dispPtr->vMode.height, dispPtr->stride, DISPLAY_PATTERN_1);
+  ^
+../src/pong.c:45:123: error: 'DISPLAY_PATTERN_1' undeclared (first use in this function)
+  DisplayDemoPrintTest(dispPtr->framePtr[dispPtr->curFrame], dispPtr->vMode.width, dispPtr->vMode.height, dispPtr->stride, DISPLAY_PATTERN_1);
+                                                                                                                           ^
+../src/pong.c:45:123: note: each undeclared identifier is reported only once for each function it appears in
+make: *** [src/pong.o] Error 1
+19:25:18 **** Auto Build of configuration Debug for project PONG ****
+make all 
+'Building file: ../src/pong.c'
+'Invoking: ARM gcc compiler'
+arm-xilinx-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -I../../PONG_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/pong.d" -MT"src/pong.d" -o "src/pong.o" "../src/pong.c"
+'Finished building: ../src/pong.c'
+' '
+'Building target: PONG.elf'
+'Invoking: ARM gcc linker'
+arm-xilinx-eabi-gcc -Wl,-T -Wl,../src/lscript.ld -L../../PONG_bsp/ps7_cortexa9_0/lib -o "PONG.elf"  ./src/display_ctrl.o ./src/main.o ./src/pong.o ./src/timer_ps.o   -Wl,--start-group,-lxil,-lgcc,-lc,--end-group
+./src/pong.o: In function `crearRectangulo':
+D:\GIT\Zybo\VGA\source\vivado\hw\zybo_bsd\zybo_bsd.sdk\PONG\Debug/../src/pong.h:43: multiple definition of `crearRectangulo'
+./src/main.o:D:\GIT\Zybo\VGA\source\vivado\hw\zybo_bsd\zybo_bsd.sdk\PONG\Debug/../src/pong.h:43: first defined here
+./src/main.o: In function `main':
+main.c:(.text+0x140): undefined reference to `DisplayDemoInitialize'
+main.c:(.text+0x16c): undefined reference to `DisplayDemoInitialize'
+main.c:(.text+0x248): undefined reference to `AudioRunDemo'
+main.c:(.text+0x260): undefined reference to `DisplayDemoRun'
+main.c:(.text+0x278): undefined reference to `DisplayDemoRun'
+collect2.exe: error: ld returned 1 exit status
+make: *** [PONG.elf] Error 1
+19:30:24 **** Auto Build of configuration Debug for project PONG ****
+make all 
+'Building file: ../src/main.c'
+'Invoking: ARM gcc compiler'
+arm-xilinx-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -I../../PONG_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/main.d" -MT"src/main.d" -o "src/main.o" "../src/main.c"
+../src/main.c: In function 'main':
+../src/main.c:78:2: warning: implicit declaration of function 'DisplayDemoInitialize' [-Wimplicit-function-declaration]
+  DisplayDemoInitialize(&vgaCtrl, VGA_VDMA_ID, SCU_TIMER_ID, VGA_BASEADDR, DISPLAY_NOT_HDMI, vgaPtr);
+  ^
+../src/main.c:97:4: warning: implicit declaration of function 'AudioRunDemo' [-Wimplicit-function-declaration]
+    AudioRunDemo(AUDIO_CTRL_BASEADDR, UART_BASEADDR, SW_BASEADDR, BTN_BASEADDR);
+    ^
+../src/main.c:100:4: warning: implicit declaration of function 'DisplayDemoRun' [-Wimplicit-function-declaration]
+    DisplayDemoRun(&vgaCtrl, UART_BASEADDR);
+    ^
+'Finished building: ../src/main.c'
+' '
+'Building target: PONG.elf'
+'Invoking: ARM gcc linker'
+arm-xilinx-eabi-gcc -Wl,-T -Wl,../src/lscript.ld -L../../PONG_bsp/ps7_cortexa9_0/lib -o "PONG.elf"  ./src/display_ctrl.o ./src/main.o ./src/pong.o ./src/timer_ps.o   -Wl,--start-group,-lxil,-lgcc,-lc,--end-group
+./src/pong.o: In function `crearRectangulo':
+D:\GIT\Zybo\VGA\source\vivado\hw\zybo_bsd\zybo_bsd.sdk\PONG\Debug/../src/pong.h:43: multiple definition of `crearRectangulo'
+./src/main.o:D:\GIT\Zybo\VGA\source\vivado\hw\zybo_bsd\zybo_bsd.sdk\PONG\Debug/../src/pong.h:43: first defined here
+./src/main.o: In function `main':
+main.c:(.text+0x140): undefined reference to `DisplayDemoInitialize'
+main.c:(.text+0x16c): undefined reference to `DisplayDemoInitialize'
+main.c:(.text+0x200): undefined reference to `AudioRunDemo'
+main.c:(.text+0x218): undefined reference to `DisplayDemoRun'
+main.c:(.text+0x230): undefined reference to `DisplayDemoRun'
+collect2.exe: error: ld returned 1 exit status
+make: *** [PONG.elf] Error 1
+19:31:40 **** Auto Build of configuration Debug for project PONG ****
+make all 
+'Building file: ../src/main.c'
+'Invoking: ARM gcc compiler'
+arm-xilinx-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -I../../PONG_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/main.d" -MT"src/main.d" -o "src/main.o" "../src/main.c"
+../src/main.c: In function 'main':
+../src/main.c:78:2: warning: implicit declaration of function 'PongDisplayInitialize' [-Wimplicit-function-declaration]
+  PongDisplayInitialize(&vgaCtrl, VGA_VDMA_ID, SCU_TIMER_ID, VGA_BASEADDR, DISPLAY_NOT_HDMI, vgaPtr);
+  ^
+../src/main.c:93:3: warning: implicit declaration of function 'readUART' [-Wimplicit-function-declaration]
+   readUART();
+   ^
+../src/main.c:98:4: warning: implicit declaration of function 'AudioRunDemo' [-Wimplicit-function-declaration]
+    AudioRunDemo(AUDIO_CTRL_BASEADDR, UART_BASEADDR, SW_BASEADDR, BTN_BASEADDR);
+    ^
+../src/main.c:101:4: warning: implicit declaration of function 'DisplayDemoRun' [-Wimplicit-function-declaration]
+    DisplayDemoRun(&vgaCtrl, UART_BASEADDR);
+    ^
+../src/main.c: At top level:
+../src/main.c:135:6: error: conflicting types for 'readUART'
+ char readUART(){
+      ^
+../src/main.c:93:3: note: previous implicit declaration of 'readUART' was here
+   readUART();
+   ^
+make: *** [src/main.o] Error 1
+19:32:47 **** Auto Build of configuration Debug for project PONG ****
+make all 
+'Building file: ../src/main.c'
+'Invoking: ARM gcc compiler'
+arm-xilinx-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -I../../PONG_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/main.d" -MT"src/main.d" -o "src/main.o" "../src/main.c"
+In file included from ../src/main.c:26:0:
+../../PONG_bsp/ps7_cortexa9_0/include/xuartps.h: In function 'PongDisplayInitialize':
+../../PONG_bsp/ps7_cortexa9_0/include/xuartps.h:280:3: error: storage class specified for parameter 'XUartPs_Config'
+ } XUartPs_Config;
+   ^
+../../PONG_bsp/ps7_cortexa9_0/include/xuartps.h:289:3: error: storage class specified for parameter 'XUartPsBuffer'
+ } XUartPsBuffer;
+   ^
+../../PONG_bsp/ps7_cortexa9_0/include/xuartps.h:299:3: error: storage class specified for parameter 'XUartPsFormat'
+ } XUartPsFormat;
+   ^
+../../PONG_bsp/ps7_cortexa9_0/include/xuartps.h:317:16: error: storage class specified for parameter 'XUartPs_Handler'
+ typedef void (*XUartPs_Handler) (void *CallBackRef, u32 Event,
+                ^
+../../PONG_bsp/ps7_cortexa9_0/include/xuartps.h:326:2: error: expected specifier-qualifier-list before 'XUartPs_Config'
+  XUartPs_Config Config; /* Configuration data structure */
+  ^
+../../PONG_bsp/ps7_cortexa9_0/include/xuartps.h:336:3: error: storage class specified for parameter 'XUartPs'
+ } XUartPs;
+   ^
+../../PONG_bsp/ps7_cortexa9_0/include/xuartps.h:446:1: error: expected declaration specifiers before 'XUartPs_Config'
+ XUartPs_Config *XUartPs_LookupConfig(u16 DeviceId);
+ ^
+../../PONG_bsp/ps7_cortexa9_0/include/xuartps.h:451:27: error: expected declaration specifiers or '...' before 'XUartPs'
+ int XUartPs_CfgInitialize(XUartPs *InstancePtr,
+                           ^
+../../PONG_bsp/ps7_cortexa9_0/include/xuartps.h:452:8: error: expected declaration specifiers or '...' before 'XUartPs_Config'
+        XUartPs_Config * Config, u32 EffectiveAddr);
+        ^
+../../PONG_bsp/ps7_cortexa9_0/include/xuartps.h:454:27: error: expected declaration specifiers or '...' before 'XUartPs'
+ unsigned int XUartPs_Send(XUartPs *InstancePtr, u8 *BufferPtr,
+                           ^
+../../PONG_bsp/ps7_cortexa9_0/include/xuartps.h:457:27: error: expected declaration specifiers or '...' before 'XUartPs'
+ unsigned int XUartPs_Recv(XUartPs *InstancePtr, u8 *BufferPtr,
+                           ^
+../../PONG_bsp/ps7_cortexa9_0/include/xuartps.h:460:25: error: expected declaration specifiers or '...' before 'XUartPs'
+ int XUartPs_SetBaudRate(XUartPs *InstancePtr, u32 BaudRate);
+                         ^
+../../PONG_bsp/ps7_cortexa9_0/include/xuartps.h:465:25: error: expected declaration specifiers or '...' before 'XUartPs'
+ void XUartPs_SetOptions(XUartPs *InstancePtr, u16 Options);
+                         ^
+../../PONG_bsp/ps7_cortexa9_0/include/xuartps.h:467:24: error: expected declaration specifiers or '...' before 'XUartPs'
+ u16 XUartPs_GetOptions(XUartPs *InstancePtr);
+                        ^
+../../PONG_bsp/ps7_cortexa9_0/include/xuartps.h:469:31: error: expected declaration specifiers or '...' before 'XUartPs'
+ void XUartPs_SetFifoThreshold(XUartPs *InstancePtr, u8 TriggerLevel);
+                               ^
+../../PONG_bsp/ps7_cortexa9_0/include/xuartps.h:471:29: error: expected declaration specifiers or '...' before 'XUartPs'
+ u8 XUartPs_GetFifoThreshold(XUartPs *InstancePtr);
+                             ^
+../../PONG_bsp/ps7_cortexa9_0/include/xuartps.h:473:28: error: expected declaration specifiers or '...' before 'XUartPs'
+ u16 XUartPs_GetModemStatus(XUartPs *InstancePtr);
+                            ^
+../../PONG_bsp/ps7_cortexa9_0/include/xuartps.h:475:23: error: expected declaration specifiers or '...' before 'XUartPs'
+ u32 XUartPs_IsSending(XUartPs *InstancePtr);
+                       ^
+../../PONG_bsp/ps7_cortexa9_0/include/xuartps.h:477:24: error: expected declaration specifiers or '...' before 'XUartPs'
+ u8 XUartPs_GetOperMode(XUartPs *InstancePtr);
+                        ^
+../../PONG_bsp/ps7_cortexa9_0/include/xuartps.h:479:26: error: expected declaration specifiers or '...' before 'XUartPs'
+ void XUartPs_SetOperMode(XUartPs *InstancePtr, u8 OperationMode);
+                          ^
+../../PONG_bsp/ps7_cortexa9_0/include/xuartps.h:481:25: error: expected declaration specifiers or '...' before 'XUartPs'
+ u8 XUartPs_GetFlowDelay(XUartPs *InstancePtr);
+                         ^
+../../PONG_bsp/ps7_cortexa9_0/include/xuartps.h:483:27: error: expected declaration specifiers or '...' before 'XUartPs'
+ void XUartPs_SetFlowDelay(XUartPs *InstancePtr, u8 FlowDelayValue);
+                           ^
+../../PONG_bsp/ps7_cortexa9_0/include/xuartps.h:485:27: error: expected declaration specifiers or '...' before 'XUartPs'
+ u8 XUartPs_GetRecvTimeout(XUartPs *InstancePtr);
+                           ^
+../../PONG_bsp/ps7_cortexa9_0/include/xuartps.h:487:29: error: expected declaration specifiers or '...' before 'XUartPs'
+ void XUartPs_SetRecvTimeout(XUartPs *InstancePtr, u8 RecvTimeout);
+                             ^
+../../PONG_bsp/ps7_cortexa9_0/include/xuartps.h:489:27: error: expected declaration specifiers or '...' before 'XUartPs'
+ int XUartPs_SetDataFormat(XUartPs *InstancePtr, XUartPsFormat * Format);
+                           ^
+../../PONG_bsp/ps7_cortexa9_0/include/xuartps.h:489:49: error: expected declaration specifiers or '...' before 'XUartPsFormat'
+ int XUartPs_SetDataFormat(XUartPs *InstancePtr, XUartPsFormat * Format);
+                                                 ^
+../../PONG_bsp/ps7_cortexa9_0/include/xuartps.h:490:28: error: expected declaration specifiers or '...' before 'XUartPs'
+ void XUartPs_GetDataFormat(XUartPs *InstancePtr, XUartPsFormat * Format);
+                            ^
+../../PONG_bsp/ps7_cortexa9_0/include/xuartps.h:490:50: error: expected declaration specifiers or '...' before 'XUartPsFormat'
+ void XUartPs_GetDataFormat(XUartPs *InstancePtr, XUartPsFormat * Format);
+                                                  ^
+../../PONG_bsp/ps7_cortexa9_0/include/xuartps.h:495:30: error: expected declaration specifiers or '...' before 'XUartPs'
+ u32 XUartPs_GetInterruptMask(XUartPs *InstancePtr);
+                              ^
+../../PONG_bsp/ps7_cortexa9_0/include/xuartps.h:497:31: error: expected declaration specifiers or '...' before 'XUartPs'
+ void XUartPs_SetInterruptMask(XUartPs *InstancePtr, u32 Mask);
+                               ^
+../../PONG_bsp/ps7_cortexa9_0/include/xuartps.h:499:31: error: expected declaration specifiers or '...' before 'XUartPs'
+ void XUartPs_InterruptHandler(XUartPs *InstancePtr);
+                               ^
+../../PONG_bsp/ps7_cortexa9_0/include/xuartps.h:501:25: error: expected declaration specifiers or '...' before 'XUartPs'
+ void XUartPs_SetHandler(XUartPs *InstancePtr, XUartPs_Handler FuncPtr,
+                         ^
+../../PONG_bsp/ps7_cortexa9_0/include/xuartps.h:501:47: error: expected declaration specifiers or '...' before 'XUartPs_Handler'
+ void XUartPs_SetHandler(XUartPs *InstancePtr, XUartPs_Handler FuncPtr,
+                                               ^
+../../PONG_bsp/ps7_cortexa9_0/include/xuartps.h:507:22: error: expected declaration specifiers or '...' before 'XUartPs'
+ int XUartPs_SelfTest(XUartPs *InstancePtr);
+                      ^
+../src/main.c:65:1: error: expected '=', ',', ';', 'asm' or '__attribute__' before '{' token
+ {
+ ^
+../src/main.c:118:1: error: expected '=', ',', ';', 'asm' or '__attribute__' before '{' token
+ {
+ ^
+../src/main.c:135:16: error: expected '=', ',', ';', 'asm' or '__attribute__' before '{' token
+ char readUART(){
+                ^
+In file included from ../src/main.c:23:0:
+../src/pong.h:56:5: error: old-style parameter declarations in prototyped function definition
+ int PongDisplayInitialize(DisplayCtrl *dispPtr, u16 vdmaId, u16 timerId, u32 dispCtrlAddr, int fHdmi, u32 *framePtr[DISPLAY_NUM_FRAMES])
+     ^
+../src/main.c:145:1: error: expected '{' at end of input
+ }
+ ^
+../src/main.c:145:1: warning: control reaches end of non-void function [-Wreturn-type]
+ }
+ ^
+make: *** [src/main.o] Error 1
+19:32:54 **** Auto Build of configuration Debug for project PONG ****
+make all 
+'Building file: ../src/main.c'
+'Invoking: ARM gcc compiler'
+arm-xilinx-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -I../../PONG_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/main.d" -MT"src/main.d" -o "src/main.o" "../src/main.c"
+../src/main.c: In function 'main':
+../src/main.c:93:3: warning: implicit declaration of function 'readUART' [-Wimplicit-function-declaration]
+   readUART();
+   ^
+../src/main.c:98:4: warning: implicit declaration of function 'AudioRunDemo' [-Wimplicit-function-declaration]
+    AudioRunDemo(AUDIO_CTRL_BASEADDR, UART_BASEADDR, SW_BASEADDR, BTN_BASEADDR);
+    ^
+../src/main.c:101:4: warning: implicit declaration of function 'DisplayDemoRun' [-Wimplicit-function-declaration]
+    DisplayDemoRun(&vgaCtrl, UART_BASEADDR);
+    ^
+../src/main.c: At top level:
+../src/main.c:135:6: error: conflicting types for 'readUART'
+ char readUART(){
+      ^
+../src/main.c:93:3: note: previous implicit declaration of 'readUART' was here
+   readUART();
+   ^
+make: *** [src/main.o] Error 1
+19:37:28 **** Auto Build of configuration Debug for project PONG ****
+make all 
+'Building file: ../src/main.c'
+'Invoking: ARM gcc compiler'
+arm-xilinx-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -I../../PONG_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/main.d" -MT"src/main.d" -o "src/main.o" "../src/main.c"
+../src/main.c: In function 'main':
+../src/main.c:93:3: warning: implicit declaration of function 'readUART' [-Wimplicit-function-declaration]
+   userInput=readUART();
+   ^
+../src/main.c:98:4: warning: implicit declaration of function 'AudioRunDemo' [-Wimplicit-function-declaration]
+    AudioRunDemo(AUDIO_CTRL_BASEADDR, UART_BASEADDR, SW_BASEADDR, BTN_BASEADDR);
+    ^
+../src/main.c:101:4: warning: implicit declaration of function 'DisplayDemoRun' [-Wimplicit-function-declaration]
+    DisplayDemoRun(&vgaCtrl, UART_BASEADDR);
+    ^
+../src/main.c: At top level:
+../src/main.c:135:6: error: conflicting types for 'readUART'
+ char readUART(){
+      ^
+../src/main.c:93:13: note: previous implicit declaration of 'readUART' was here
+   userInput=readUART();
+             ^
+make: *** [src/main.o] Error 1
+19:37:48 **** Auto Build of configuration Debug for project PONG ****
+make all 
+'Building file: ../src/main.c'
+'Invoking: ARM gcc compiler'
+arm-xilinx-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -I../../PONG_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/main.d" -MT"src/main.d" -o "src/main.o" "../src/main.c"
+../src/main.c: In function 'main':
+../src/main.c:99:4: warning: implicit declaration of function 'AudioRunDemo' [-Wimplicit-function-declaration]
+    AudioRunDemo(AUDIO_CTRL_BASEADDR, UART_BASEADDR, SW_BASEADDR, BTN_BASEADDR);
+    ^
+../src/main.c:102:4: warning: implicit declaration of function 'DisplayDemoRun' [-Wimplicit-function-declaration]
+    DisplayDemoRun(&vgaCtrl, UART_BASEADDR);
+    ^
+'Finished building: ../src/main.c'
+' '
+'Building target: PONG.elf'
+'Invoking: ARM gcc linker'
+arm-xilinx-eabi-gcc -Wl,-T -Wl,../src/lscript.ld -L../../PONG_bsp/ps7_cortexa9_0/lib -o "PONG.elf"  ./src/display_ctrl.o ./src/main.o ./src/pong.o ./src/timer_ps.o   -Wl,--start-group,-lxil,-lgcc,-lc,--end-group
+./src/pong.o: In function `crearRectangulo':
+D:\GIT\Zybo\VGA\source\vivado\hw\zybo_bsd\zybo_bsd.sdk\PONG\Debug/../src/pong.h:43: multiple definition of `crearRectangulo'
+./src/main.o:D:\GIT\Zybo\VGA\source\vivado\hw\zybo_bsd\zybo_bsd.sdk\PONG\Debug/../src/pong.h:43: first defined here
+./src/main.o: In function `main':
+main.c:(.text+0x20c): undefined reference to `AudioRunDemo'
+main.c:(.text+0x224): undefined reference to `DisplayDemoRun'
+main.c:(.text+0x23c): undefined reference to `DisplayDemoRun'
+collect2.exe: error: ld returned 1 exit status
+make: *** [PONG.elf] Error 1
+19:39:10 **** Auto Build of configuration Debug for project PONG ****
+make all 
+'Building file: ../src/pong.c'
+'Invoking: ARM gcc compiler'
+arm-xilinx-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -I../../PONG_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/pong.d" -MT"src/pong.d" -o "src/pong.o" "../src/pong.c"
+../src/pong.c:48:12: error: redefinition of 'crearRectangulo'
+ Rectangulo crearRectangulo(int x, int y, u32 color, u32 ancho, u32 alto){
+            ^
+In file included from ../src/pong.c:13:0:
+../src/pong.h:43:12: note: previous definition of 'crearRectangulo' was here
+ Rectangulo crearRectangulo(int x, int y, u32 color, u32 ancho, u32 alto){
+            ^
+make: *** [src/pong.o] Error 1
+19:39:17 **** Auto Build of configuration Debug for project PONG ****
+make all 
+'Building file: ../src/pong.c'
+'Invoking: ARM gcc compiler'
+arm-xilinx-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -I../../PONG_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/pong.d" -MT"src/pong.d" -o "src/pong.o" "../src/pong.c"
+'Finished building: ../src/pong.c'
+' '
+'Building target: PONG.elf'
+'Invoking: ARM gcc linker'
+arm-xilinx-eabi-gcc -Wl,-T -Wl,../src/lscript.ld -L../../PONG_bsp/ps7_cortexa9_0/lib -o "PONG.elf"  ./src/display_ctrl.o ./src/main.o ./src/pong.o ./src/timer_ps.o   -Wl,--start-group,-lxil,-lgcc,-lc,--end-group
+./src/pong.o: In function `crearRectangulo':
+D:\GIT\Zybo\VGA\source\vivado\hw\zybo_bsd\zybo_bsd.sdk\PONG\Debug/../src/pong.c:48: multiple definition of `crearRectangulo'
+./src/main.o:D:\GIT\Zybo\VGA\source\vivado\hw\zybo_bsd\zybo_bsd.sdk\PONG\Debug/../src/pong.h:43: first defined here
+./src/main.o: In function `main':
+main.c:(.text+0x20c): undefined reference to `AudioRunDemo'
+main.c:(.text+0x224): undefined reference to `DisplayDemoRun'
+main.c:(.text+0x23c): undefined reference to `DisplayDemoRun'
+collect2.exe: error: ld returned 1 exit status
+make: *** [PONG.elf] Error 1
+19:39:29 **** Auto Build of configuration Debug for project PONG ****
+make all 
+'Building target: PONG.elf'
+'Invoking: ARM gcc linker'
+arm-xilinx-eabi-gcc -Wl,-T -Wl,../src/lscript.ld -L../../PONG_bsp/ps7_cortexa9_0/lib -o "PONG.elf"  ./src/display_ctrl.o ./src/main.o ./src/pong.o ./src/timer_ps.o   -Wl,--start-group,-lxil,-lgcc,-lc,--end-group
+./src/pong.o: In function `crearRectangulo':
+D:\GIT\Zybo\VGA\source\vivado\hw\zybo_bsd\zybo_bsd.sdk\PONG\Debug/../src/pong.c:48: multiple definition of `crearRectangulo'
+./src/main.o:D:\GIT\Zybo\VGA\source\vivado\hw\zybo_bsd\zybo_bsd.sdk\PONG\Debug/../src/pong.h:43: first defined here
+./src/main.o: In function `main':
+main.c:(.text+0x20c): undefined reference to `AudioRunDemo'
+main.c:(.text+0x224): undefined reference to `DisplayDemoRun'
+main.c:(.text+0x23c): undefined reference to `DisplayDemoRun'
+collect2.exe: error: ld returned 1 exit status
+make: *** [PONG.elf] Error 1
+19:39:35 **** Auto Build of configuration Debug for project PONG ****
+make all 
+'Building target: PONG.elf'
+'Invoking: ARM gcc linker'
+arm-xilinx-eabi-gcc -Wl,-T -Wl,../src/lscript.ld -L../../PONG_bsp/ps7_cortexa9_0/lib -o "PONG.elf"  ./src/display_ctrl.o ./src/main.o ./src/pong.o ./src/timer_ps.o   -Wl,--start-group,-lxil,-lgcc,-lc,--end-group
+./src/pong.o: In function `crearRectangulo':
+D:\GIT\Zybo\VGA\source\vivado\hw\zybo_bsd\zybo_bsd.sdk\PONG\Debug/../src/pong.c:48: multiple definition of `crearRectangulo'
+./src/main.o:D:\GIT\Zybo\VGA\source\vivado\hw\zybo_bsd\zybo_bsd.sdk\PONG\Debug/../src/pong.h:43: first defined here
+./src/main.o: In function `main':
+main.c:(.text+0x20c): undefined reference to `AudioRunDemo'
+main.c:(.text+0x224): undefined reference to `DisplayDemoRun'
+main.c:(.text+0x23c): undefined reference to `DisplayDemoRun'
+collect2.exe: error: ld returned 1 exit status
+make: *** [PONG.elf] Error 1
+19:39:58 **** Auto Build of configuration Debug for project PONG ****
+make all 
+'Building target: PONG.elf'
+'Invoking: ARM gcc linker'
+arm-xilinx-eabi-gcc -Wl,-T -Wl,../src/lscript.ld -L../../PONG_bsp/ps7_cortexa9_0/lib -o "PONG.elf"  ./src/display_ctrl.o ./src/main.o ./src/pong.o ./src/timer_ps.o   -Wl,--start-group,-lxil,-lgcc,-lc,--end-group
+./src/pong.o: In function `crearRectangulo':
+D:\GIT\Zybo\VGA\source\vivado\hw\zybo_bsd\zybo_bsd.sdk\PONG\Debug/../src/pong.c:48: multiple definition of `crearRectangulo'
+./src/main.o:D:\GIT\Zybo\VGA\source\vivado\hw\zybo_bsd\zybo_bsd.sdk\PONG\Debug/../src/pong.h:43: first defined here
+./src/main.o: In function `main':
+main.c:(.text+0x20c): undefined reference to `AudioRunDemo'
+main.c:(.text+0x224): undefined reference to `DisplayDemoRun'
+main.c:(.text+0x23c): undefined reference to `DisplayDemoRun'
+collect2.exe: error: ld returned 1 exit status
+make: *** [PONG.elf] Error 1
+19:40:00 **** Auto Build of configuration Debug for project PONG ****
+make all 
+'Building target: PONG.elf'
+'Invoking: ARM gcc linker'
+arm-xilinx-eabi-gcc -Wl,-T -Wl,../src/lscript.ld -L../../PONG_bsp/ps7_cortexa9_0/lib -o "PONG.elf"  ./src/display_ctrl.o ./src/main.o ./src/pong.o ./src/timer_ps.o   -Wl,--start-group,-lxil,-lgcc,-lc,--end-group
+./src/pong.o: In function `crearRectangulo':
+D:\GIT\Zybo\VGA\source\vivado\hw\zybo_bsd\zybo_bsd.sdk\PONG\Debug/../src/pong.c:48: multiple definition of `crearRectangulo'
+./src/main.o:D:\GIT\Zybo\VGA\source\vivado\hw\zybo_bsd\zybo_bsd.sdk\PONG\Debug/../src/pong.h:43: first defined here
+./src/main.o: In function `main':
+main.c:(.text+0x20c): undefined reference to `AudioRunDemo'
+main.c:(.text+0x224): undefined reference to `DisplayDemoRun'
+main.c:(.text+0x23c): undefined reference to `DisplayDemoRun'
+collect2.exe: error: ld returned 1 exit status
+make: *** [PONG.elf] Error 1
+19:40:13 **** Auto Build of configuration Debug for project PONG ****
+make all 
+'Building file: ../src/pong.c'
+'Invoking: ARM gcc compiler'
+arm-xilinx-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -I../../PONG_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/pong.d" -MT"src/pong.d" -o "src/pong.o" "../src/pong.c"
+'Finished building: ../src/pong.c'
+' '
+'Building target: PONG.elf'
+'Invoking: ARM gcc linker'
+arm-xilinx-eabi-gcc -Wl,-T -Wl,../src/lscript.ld -L../../PONG_bsp/ps7_cortexa9_0/lib -o "PONG.elf"  ./src/display_ctrl.o ./src/main.o ./src/pong.o ./src/timer_ps.o   -Wl,--start-group,-lxil,-lgcc,-lc,--end-group
+./src/pong.o: In function `crearRectangulo':
+D:\GIT\Zybo\VGA\source\vivado\hw\zybo_bsd\zybo_bsd.sdk\PONG\Debug/../src/pong.c:48: multiple definition of `crearRectangulo'
+./src/main.o:D:\GIT\Zybo\VGA\source\vivado\hw\zybo_bsd\zybo_bsd.sdk\PONG\Debug/../src/pong.h:43: first defined here
+./src/main.o: In function `main':
+main.c:(.text+0x20c): undefined reference to `AudioRunDemo'
+main.c:(.text+0x224): undefined reference to `DisplayDemoRun'
+main.c:(.text+0x23c): undefined reference to `DisplayDemoRun'
+collect2.exe: error: ld returned 1 exit status
+make: *** [PONG.elf] Error 1
+19:40:32 **** Auto Build of configuration Debug for project PONG ****
+make all 
+'Building target: PONG.elf'
+'Invoking: ARM gcc linker'
+arm-xilinx-eabi-gcc -Wl,-T -Wl,../src/lscript.ld -L../../PONG_bsp/ps7_cortexa9_0/lib -o "PONG.elf"  ./src/display_ctrl.o ./src/main.o ./src/pong.o ./src/timer_ps.o   -Wl,--start-group,-lxil,-lgcc,-lc,--end-group
+./src/pong.o: In function `crearRectangulo':
+D:\GIT\Zybo\VGA\source\vivado\hw\zybo_bsd\zybo_bsd.sdk\PONG\Debug/../src/pong.c:48: multiple definition of `crearRectangulo'
+./src/main.o:D:\GIT\Zybo\VGA\source\vivado\hw\zybo_bsd\zybo_bsd.sdk\PONG\Debug/../src/pong.h:43: first defined here
+./src/main.o: In function `main':
+main.c:(.text+0x20c): undefined reference to `AudioRunDemo'
+main.c:(.text+0x224): undefined reference to `DisplayDemoRun'
+main.c:(.text+0x23c): undefined reference to `DisplayDemoRun'
+collect2.exe: error: ld returned 1 exit status
+make: *** [PONG.elf] Error 1
+19:41:13 **** Auto Build of configuration Debug for project PONG ****
+make all 
+'Building target: PONG.elf'
+'Invoking: ARM gcc linker'
+arm-xilinx-eabi-gcc -Wl,-T -Wl,../src/lscript.ld -L../../PONG_bsp/ps7_cortexa9_0/lib -o "PONG.elf"  ./src/display_ctrl.o ./src/main.o ./src/pong.o ./src/timer_ps.o   -Wl,--start-group,-lxil,-lgcc,-lc,--end-group
+./src/pong.o: In function `crearRectangulo':
+D:\GIT\Zybo\VGA\source\vivado\hw\zybo_bsd\zybo_bsd.sdk\PONG\Debug/../src/pong.c:48: multiple definition of `crearRectangulo'
+./src/main.o:D:\GIT\Zybo\VGA\source\vivado\hw\zybo_bsd\zybo_bsd.sdk\PONG\Debug/../src/pong.h:43: first defined here
+./src/main.o: In function `main':
+main.c:(.text+0x20c): undefined reference to `AudioRunDemo'
+main.c:(.text+0x224): undefined reference to `DisplayDemoRun'
+main.c:(.text+0x23c): undefined reference to `DisplayDemoRun'
+collect2.exe: error: ld returned 1 exit status
+make: *** [PONG.elf] Error 1
+19:41:37 **** Auto Build of configuration Debug for project PONG ****
+make all 
+'Building target: PONG.elf'
+'Invoking: ARM gcc linker'
+arm-xilinx-eabi-gcc -Wl,-T -Wl,../src/lscript.ld -L../../PONG_bsp/ps7_cortexa9_0/lib -o "PONG.elf"  ./src/display_ctrl.o ./src/main.o ./src/pong.o ./src/timer_ps.o   -Wl,--start-group,-lxil,-lgcc,-lc,--end-group
+./src/pong.o: In function `crearRectangulo':
+D:\GIT\Zybo\VGA\source\vivado\hw\zybo_bsd\zybo_bsd.sdk\PONG\Debug/../src/pong.c:48: multiple definition of `crearRectangulo'
+./src/main.o:D:\GIT\Zybo\VGA\source\vivado\hw\zybo_bsd\zybo_bsd.sdk\PONG\Debug/../src/pong.h:43: first defined here
+./src/main.o: In function `main':
+main.c:(.text+0x20c): undefined reference to `AudioRunDemo'
+main.c:(.text+0x224): undefined reference to `DisplayDemoRun'
+main.c:(.text+0x23c): undefined reference to `DisplayDemoRun'
+collect2.exe: error: ld returned 1 exit status
+make: *** [PONG.elf] Error 1
+19:42:01 **** Auto Build of configuration Debug for project PONG ****
+make all 
+'Building file: ../src/pong.c'
+'Invoking: ARM gcc compiler'
+arm-xilinx-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -I../../PONG_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/pong.d" -MT"src/pong.d" -o "src/pong.o" "../src/pong.c"
+'Finished building: ../src/pong.c'
+' '
+'Building target: PONG.elf'
+'Invoking: ARM gcc linker'
+arm-xilinx-eabi-gcc -Wl,-T -Wl,../src/lscript.ld -L../../PONG_bsp/ps7_cortexa9_0/lib -o "PONG.elf"  ./src/display_ctrl.o ./src/main.o ./src/pong.o ./src/timer_ps.o   -Wl,--start-group,-lxil,-lgcc,-lc,--end-group
+./src/main.o: In function `main':
+D:\GIT\Zybo\VGA\source\vivado\hw\zybo_bsd\zybo_bsd.sdk\PONG\Debug/../src/main.c:99: undefined reference to `AudioRunDemo'
+D:\GIT\Zybo\VGA\source\vivado\hw\zybo_bsd\zybo_bsd.sdk\PONG\Debug/../src/main.c:102: undefined reference to `DisplayDemoRun'
+D:\GIT\Zybo\VGA\source\vivado\hw\zybo_bsd\zybo_bsd.sdk\PONG\Debug/../src/main.c:105: undefined reference to `DisplayDemoRun'
+collect2.exe: error: ld returned 1 exit status
+make: *** [PONG.elf] Error 1
+19:42:12 **** Auto Build of configuration Debug for project PONG ****
+make all 
+'Building target: PONG.elf'
+'Invoking: ARM gcc linker'
+arm-xilinx-eabi-gcc -Wl,-T -Wl,../src/lscript.ld -L../../PONG_bsp/ps7_cortexa9_0/lib -o "PONG.elf"  ./src/display_ctrl.o ./src/main.o ./src/pong.o ./src/timer_ps.o   -Wl,--start-group,-lxil,-lgcc,-lc,--end-group
+./src/main.o: In function `main':
+D:\GIT\Zybo\VGA\source\vivado\hw\zybo_bsd\zybo_bsd.sdk\PONG\Debug/../src/main.c:99: undefined reference to `AudioRunDemo'
+D:\GIT\Zybo\VGA\source\vivado\hw\zybo_bsd\zybo_bsd.sdk\PONG\Debug/../src/main.c:102: undefined reference to `DisplayDemoRun'
+D:\GIT\Zybo\VGA\source\vivado\hw\zybo_bsd\zybo_bsd.sdk\PONG\Debug/../src/main.c:105: undefined reference to `DisplayDemoRun'
+collect2.exe: error: ld returned 1 exit status
+make: *** [PONG.elf] Error 1
+19:42:31 **** Auto Build of configuration Debug for project PONG ****
+make all 
+'Building file: ../src/pong.c'
+'Invoking: ARM gcc compiler'
+arm-xilinx-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -I../../PONG_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/pong.d" -MT"src/pong.d" -o "src/pong.o" "../src/pong.c"
+'Finished building: ../src/pong.c'
+' '
+'Building target: PONG.elf'
+'Invoking: ARM gcc linker'
+arm-xilinx-eabi-gcc -Wl,-T -Wl,../src/lscript.ld -L../../PONG_bsp/ps7_cortexa9_0/lib -o "PONG.elf"  ./src/display_ctrl.o ./src/main.o ./src/pong.o ./src/timer_ps.o   -Wl,--start-group,-lxil,-lgcc,-lc,--end-group
+./src/pong.o: In function `crearRectangulo':
+D:\GIT\Zybo\VGA\source\vivado\hw\zybo_bsd\zybo_bsd.sdk\PONG\Debug/../src/pong.c:48: multiple definition of `crearRectangulo'
+./src/main.o:D:\GIT\Zybo\VGA\source\vivado\hw\zybo_bsd\zybo_bsd.sdk\PONG\Debug/../src/pong.h:43: first defined here
+./src/main.o: In function `main':
+main.c:(.text+0x20c): undefined reference to `AudioRunDemo'
+main.c:(.text+0x224): undefined reference to `DisplayDemoRun'
+main.c:(.text+0x23c): undefined reference to `DisplayDemoRun'
+collect2.exe: error: ld returned 1 exit status
+make: *** [PONG.elf] Error 1
+19:43:28 **** Auto Build of configuration Debug for project PONG ****
+make all 
+'Building target: PONG.elf'
+'Invoking: ARM gcc linker'
+arm-xilinx-eabi-gcc -Wl,-T -Wl,../src/lscript.ld -L../../PONG_bsp/ps7_cortexa9_0/lib -o "PONG.elf"  ./src/display_ctrl.o ./src/main.o ./src/pong.o ./src/timer_ps.o   -Wl,--start-group,-lxil,-lgcc,-lc,--end-group
+./src/pong.o: In function `crearRectangulo':
+D:\GIT\Zybo\VGA\source\vivado\hw\zybo_bsd\zybo_bsd.sdk\PONG\Debug/../src/pong.c:48: multiple definition of `crearRectangulo'
+./src/main.o:D:\GIT\Zybo\VGA\source\vivado\hw\zybo_bsd\zybo_bsd.sdk\PONG\Debug/../src/pong.h:43: first defined here
+./src/main.o: In function `main':
+main.c:(.text+0x20c): undefined reference to `AudioRunDemo'
+main.c:(.text+0x224): undefined reference to `DisplayDemoRun'
+main.c:(.text+0x23c): undefined reference to `DisplayDemoRun'
+collect2.exe: error: ld returned 1 exit status
+make: *** [PONG.elf] Error 1
+19:43:36 **** Auto Build of configuration Debug for project PONG ****
+make all 
+'Building target: PONG.elf'
+'Invoking: ARM gcc linker'
+arm-xilinx-eabi-gcc -Wl,-T -Wl,../src/lscript.ld -L../../PONG_bsp/ps7_cortexa9_0/lib -o "PONG.elf"  ./src/display_ctrl.o ./src/main.o ./src/pong.o ./src/timer_ps.o   -Wl,--start-group,-lxil,-lgcc,-lc,--end-group
+./src/pong.o: In function `crearRectangulo':
+D:\GIT\Zybo\VGA\source\vivado\hw\zybo_bsd\zybo_bsd.sdk\PONG\Debug/../src/pong.c:48: multiple definition of `crearRectangulo'
+./src/main.o:D:\GIT\Zybo\VGA\source\vivado\hw\zybo_bsd\zybo_bsd.sdk\PONG\Debug/../src/pong.h:43: first defined here
+./src/main.o: In function `main':
+main.c:(.text+0x20c): undefined reference to `AudioRunDemo'
+main.c:(.text+0x224): undefined reference to `DisplayDemoRun'
+main.c:(.text+0x23c): undefined reference to `DisplayDemoRun'
+collect2.exe: error: ld returned 1 exit status
+make: *** [PONG.elf] Error 1
+19:43:43 **** Auto Build of configuration Debug for project PONG ****
+make all 
+'Building target: PONG.elf'
+'Invoking: ARM gcc linker'
+arm-xilinx-eabi-gcc -Wl,-T -Wl,../src/lscript.ld -L../../PONG_bsp/ps7_cortexa9_0/lib -o "PONG.elf"  ./src/display_ctrl.o ./src/main.o ./src/pong.o ./src/timer_ps.o   -Wl,--start-group,-lxil,-lgcc,-lc,--end-group
+./src/pong.o: In function `crearRectangulo':
+D:\GIT\Zybo\VGA\source\vivado\hw\zybo_bsd\zybo_bsd.sdk\PONG\Debug/../src/pong.c:48: multiple definition of `crearRectangulo'
+./src/main.o:D:\GIT\Zybo\VGA\source\vivado\hw\zybo_bsd\zybo_bsd.sdk\PONG\Debug/../src/pong.h:43: first defined here
+./src/main.o: In function `main':
+main.c:(.text+0x20c): undefined reference to `AudioRunDemo'
+main.c:(.text+0x224): undefined reference to `DisplayDemoRun'
+main.c:(.text+0x23c): undefined reference to `DisplayDemoRun'
+collect2.exe: error: ld returned 1 exit status
+make: *** [PONG.elf] Error 1
+19:44:18 **** Auto Build of configuration Debug for project PONG ****
+make all 
+'Building target: PONG.elf'
+'Invoking: ARM gcc linker'
+arm-xilinx-eabi-gcc -Wl,-T -Wl,../src/lscript.ld -L../../PONG_bsp/ps7_cortexa9_0/lib -o "PONG.elf"  ./src/display_ctrl.o ./src/main.o ./src/pong.o ./src/timer_ps.o   -Wl,--start-group,-lxil,-lgcc,-lc,--end-group
+./src/pong.o: In function `crearRectangulo':
+D:\GIT\Zybo\VGA\source\vivado\hw\zybo_bsd\zybo_bsd.sdk\PONG\Debug/../src/pong.c:48: multiple definition of `crearRectangulo'
+./src/main.o:D:\GIT\Zybo\VGA\source\vivado\hw\zybo_bsd\zybo_bsd.sdk\PONG\Debug/../src/pong.h:43: first defined here
+./src/main.o: In function `main':
+main.c:(.text+0x20c): undefined reference to `AudioRunDemo'
+main.c:(.text+0x224): undefined reference to `DisplayDemoRun'
+main.c:(.text+0x23c): undefined reference to `DisplayDemoRun'
+collect2.exe: error: ld returned 1 exit status
+make: *** [PONG.elf] Error 1
+19:44:40 **** Auto Build of configuration Debug for project PONG ****
+make all 
+'Building file: ../src/pong.c'
+'Invoking: ARM gcc compiler'
+arm-xilinx-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -I../../PONG_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/pong.d" -MT"src/pong.d" -o "src/pong.o" "../src/pong.c"
+'Finished building: ../src/pong.c'
+' '
+'Building target: PONG.elf'
+'Invoking: ARM gcc linker'
+arm-xilinx-eabi-gcc -Wl,-T -Wl,../src/lscript.ld -L../../PONG_bsp/ps7_cortexa9_0/lib -o "PONG.elf"  ./src/display_ctrl.o ./src/main.o ./src/pong.o ./src/timer_ps.o   -Wl,--start-group,-lxil,-lgcc,-lc,--end-group
+./src/main.o: In function `main':
+D:\GIT\Zybo\VGA\source\vivado\hw\zybo_bsd\zybo_bsd.sdk\PONG\Debug/../src/main.c:99: undefined reference to `AudioRunDemo'
+D:\GIT\Zybo\VGA\source\vivado\hw\zybo_bsd\zybo_bsd.sdk\PONG\Debug/../src/main.c:102: undefined reference to `DisplayDemoRun'
+D:\GIT\Zybo\VGA\source\vivado\hw\zybo_bsd\zybo_bsd.sdk\PONG\Debug/../src/main.c:105: undefined reference to `DisplayDemoRun'
+collect2.exe: error: ld returned 1 exit status
+make: *** [PONG.elf] Error 1
+19:44:52 **** Auto Build of configuration Debug for project PONG ****
+make all 
+'Building target: PONG.elf'
+'Invoking: ARM gcc linker'
+arm-xilinx-eabi-gcc -Wl,-T -Wl,../src/lscript.ld -L../../PONG_bsp/ps7_cortexa9_0/lib -o "PONG.elf"  ./src/display_ctrl.o ./src/main.o ./src/pong.o ./src/timer_ps.o   -Wl,--start-group,-lxil,-lgcc,-lc,--end-group
+./src/main.o: In function `main':
+D:\GIT\Zybo\VGA\source\vivado\hw\zybo_bsd\zybo_bsd.sdk\PONG\Debug/../src/main.c:99: undefined reference to `AudioRunDemo'
+D:\GIT\Zybo\VGA\source\vivado\hw\zybo_bsd\zybo_bsd.sdk\PONG\Debug/../src/main.c:102: undefined reference to `DisplayDemoRun'
+D:\GIT\Zybo\VGA\source\vivado\hw\zybo_bsd\zybo_bsd.sdk\PONG\Debug/../src/main.c:105: undefined reference to `DisplayDemoRun'
+collect2.exe: error: ld returned 1 exit status
+make: *** [PONG.elf] Error 1
+19:46:49 **** Auto Build of configuration Debug for project PONG ****
+make all 
+'Building target: PONG.elf'
+'Invoking: ARM gcc linker'
+arm-xilinx-eabi-gcc -Wl,-T -Wl,../src/lscript.ld -L../../PONG_bsp/ps7_cortexa9_0/lib -o "PONG.elf"  ./src/display_ctrl.o ./src/main.o ./src/pong.o ./src/timer_ps.o   -Wl,--start-group,-lxil,-lgcc,-lc,--end-group
+./src/main.o: In function `main':
+D:\GIT\Zybo\VGA\source\vivado\hw\zybo_bsd\zybo_bsd.sdk\PONG\Debug/../src/main.c:99: undefined reference to `AudioRunDemo'
+D:\GIT\Zybo\VGA\source\vivado\hw\zybo_bsd\zybo_bsd.sdk\PONG\Debug/../src/main.c:102: undefined reference to `DisplayDemoRun'
+D:\GIT\Zybo\VGA\source\vivado\hw\zybo_bsd\zybo_bsd.sdk\PONG\Debug/../src/main.c:105: undefined reference to `DisplayDemoRun'
+collect2.exe: error: ld returned 1 exit status
+make: *** [PONG.elf] Error 1
+19:46:52 **** Auto Build of configuration Debug for project PONG ****
+make all 
+'Building file: ../src/pong.c'
+'Invoking: ARM gcc compiler'
+arm-xilinx-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -I../../PONG_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/pong.d" -MT"src/pong.d" -o "src/pong.o" "../src/pong.c"
+'Finished building: ../src/pong.c'
+' '
+'Building target: PONG.elf'
+'Invoking: ARM gcc linker'
+arm-xilinx-eabi-gcc -Wl,-T -Wl,../src/lscript.ld -L../../PONG_bsp/ps7_cortexa9_0/lib -o "PONG.elf"  ./src/display_ctrl.o ./src/main.o ./src/pong.o ./src/timer_ps.o   -Wl,--start-group,-lxil,-lgcc,-lc,--end-group
+./src/pong.o: In function `crearRectangulo':
+D:\GIT\Zybo\VGA\source\vivado\hw\zybo_bsd\zybo_bsd.sdk\PONG\Debug/../src/pong.c:48: multiple definition of `crearRectangulo'
+./src/main.o:D:\GIT\Zybo\VGA\source\vivado\hw\zybo_bsd\zybo_bsd.sdk\PONG\Debug/../src/pong.h:43: first defined here
+./src/main.o: In function `main':
+main.c:(.text+0x20c): undefined reference to `AudioRunDemo'
+main.c:(.text+0x224): undefined reference to `DisplayDemoRun'
+main.c:(.text+0x23c): undefined reference to `DisplayDemoRun'
+collect2.exe: error: ld returned 1 exit status
+make: *** [PONG.elf] Error 1
+19:48:58 **** Auto Build of configuration Debug for project PONG ****
+make all 
+'Building target: PONG.elf'
+'Invoking: ARM gcc linker'
+arm-xilinx-eabi-gcc -Wl,-T -Wl,../src/lscript.ld -L../../PONG_bsp/ps7_cortexa9_0/lib -o "PONG.elf"  ./src/display_ctrl.o ./src/main.o ./src/pong.o ./src/timer_ps.o   -Wl,--start-group,-lxil,-lgcc,-lc,--end-group
+./src/pong.o: In function `crearRectangulo':
+D:\GIT\Zybo\VGA\source\vivado\hw\zybo_bsd\zybo_bsd.sdk\PONG\Debug/../src/pong.c:48: multiple definition of `crearRectangulo'
+./src/main.o:D:\GIT\Zybo\VGA\source\vivado\hw\zybo_bsd\zybo_bsd.sdk\PONG\Debug/../src/pong.h:43: first defined here
+./src/main.o: In function `main':
+main.c:(.text+0x20c): undefined reference to `AudioRunDemo'
+main.c:(.text+0x224): undefined reference to `DisplayDemoRun'
+main.c:(.text+0x23c): undefined reference to `DisplayDemoRun'
+collect2.exe: error: ld returned 1 exit status
+make: *** [PONG.elf] Error 1
+19:49:00 **** Auto Build of configuration Debug for project PONG ****
+make all 
+'Building target: PONG.elf'
+'Invoking: ARM gcc linker'
+arm-xilinx-eabi-gcc -Wl,-T -Wl,../src/lscript.ld -L../../PONG_bsp/ps7_cortexa9_0/lib -o "PONG.elf"  ./src/display_ctrl.o ./src/main.o ./src/pong.o ./src/timer_ps.o   -Wl,--start-group,-lxil,-lgcc,-lc,--end-group
+./src/pong.o: In function `crearRectangulo':
+D:\GIT\Zybo\VGA\source\vivado\hw\zybo_bsd\zybo_bsd.sdk\PONG\Debug/../src/pong.c:48: multiple definition of `crearRectangulo'
+./src/main.o:D:\GIT\Zybo\VGA\source\vivado\hw\zybo_bsd\zybo_bsd.sdk\PONG\Debug/../src/pong.h:43: first defined here
+./src/main.o: In function `main':
+main.c:(.text+0x20c): undefined reference to `AudioRunDemo'
+main.c:(.text+0x224): undefined reference to `DisplayDemoRun'
+main.c:(.text+0x23c): undefined reference to `DisplayDemoRun'
+collect2.exe: error: ld returned 1 exit status
+make: *** [PONG.elf] Error 1
+19:53:50 **** Clean-only build of configuration Debug for project PONG ****
+make clean 
+rm -rf  ./src/display_ctrl.o ./src/main.o ./src/pong.o ./src/timer_ps.o  ./src/display_ctrl.d ./src/main.d ./src/pong.d ./src/timer_ps.d  PONG.elf.size  PONG.elf
+' '
+19:53:50 **** Auto Build of configuration Debug for project PONG ****
+make all 
+'Building file: ../src/display_ctrl.c'
+'Invoking: ARM gcc compiler'
+arm-xilinx-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -I../../PONG_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/display_ctrl.d" -MT"src/display_ctrl.d" -o "src/display_ctrl.o" "../src/display_ctrl.c"
+'Finished building: ../src/display_ctrl.c'
+' '
+'Building file: ../src/main.c'
+'Invoking: ARM gcc compiler'
+arm-xilinx-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -I../../PONG_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/main.d" -MT"src/main.d" -o "src/main.o" "../src/main.c"
+In file included from ../src/main.c:23:0:
+../src/pong.h:47:1: error: expected '=', ',', ';', 'asm' or '__attribute__' before 'int'
+ int PongDisplayInitialize(DisplayCtrl *dispPtr, u16 vdmaId, u16 timerId, u32 dispCtrlAddr, int fHdmi, u32 *framePtr[DISPLAY_NUM_FRAMES]);
+ ^
+../src/main.c: In function 'main':
+../src/main.c:79:2: warning: implicit declaration of function 'PongDisplayInitialize' [-Wimplicit-function-declaration]
+  PongDisplayInitialize(&vgaCtrl, VGA_VDMA_ID, SCU_TIMER_ID, VGA_BASEADDR, DISPLAY_NOT_HDMI, vgaPtr);
+  ^
+../src/main.c:99:4: warning: implicit declaration of function 'AudioRunDemo' [-Wimplicit-function-declaration]
+    AudioRunDemo(AUDIO_CTRL_BASEADDR, UART_BASEADDR, SW_BASEADDR, BTN_BASEADDR);
+    ^
+../src/main.c:102:4: warning: implicit declaration of function 'DisplayDemoRun' [-Wimplicit-function-declaration]
+    DisplayDemoRun(&vgaCtrl, UART_BASEADDR);
+    ^
+make: *** [src/main.o] Error 1
+19:53:57 **** Auto Build of configuration Debug for project PONG ****
+make all 
+'Building file: ../src/main.c'
+'Invoking: ARM gcc compiler'
+arm-xilinx-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -I../../PONG_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/main.d" -MT"src/main.d" -o "src/main.o" "../src/main.c"
+../src/main.c: In function 'main':
+../src/main.c:99:4: warning: implicit declaration of function 'AudioRunDemo' [-Wimplicit-function-declaration]
+    AudioRunDemo(AUDIO_CTRL_BASEADDR, UART_BASEADDR, SW_BASEADDR, BTN_BASEADDR);
+    ^
+../src/main.c:102:4: warning: implicit declaration of function 'DisplayDemoRun' [-Wimplicit-function-declaration]
+    DisplayDemoRun(&vgaCtrl, UART_BASEADDR);
+    ^
+'Finished building: ../src/main.c'
+' '
+'Building file: ../src/pong.c'
+'Invoking: ARM gcc compiler'
+arm-xilinx-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -I../../PONG_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/pong.d" -MT"src/pong.d" -o "src/pong.o" "../src/pong.c"
+'Finished building: ../src/pong.c'
+' '
+'Building file: ../src/timer_ps.c'
+'Invoking: ARM gcc compiler'
+arm-xilinx-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -I../../PONG_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/timer_ps.d" -MT"src/timer_ps.d" -o "src/timer_ps.o" "../src/timer_ps.c"
+'Finished building: ../src/timer_ps.c'
+' '
+'Building target: PONG.elf'
+'Invoking: ARM gcc linker'
+arm-xilinx-eabi-gcc -Wl,-T -Wl,../src/lscript.ld -L../../PONG_bsp/ps7_cortexa9_0/lib -o "PONG.elf"  ./src/display_ctrl.o ./src/main.o ./src/pong.o ./src/timer_ps.o   -Wl,--start-group,-lxil,-lgcc,-lc,--end-group
+./src/main.o: In function `main':
+D:\GIT\Zybo\VGA\source\vivado\hw\zybo_bsd\zybo_bsd.sdk\PONG\Debug/../src/main.c:99: undefined reference to `AudioRunDemo'
+D:\GIT\Zybo\VGA\source\vivado\hw\zybo_bsd\zybo_bsd.sdk\PONG\Debug/../src/main.c:102: undefined reference to `DisplayDemoRun'
+D:\GIT\Zybo\VGA\source\vivado\hw\zybo_bsd\zybo_bsd.sdk\PONG\Debug/../src/main.c:105: undefined reference to `DisplayDemoRun'
+collect2.exe: error: ld returned 1 exit status
+make: *** [PONG.elf] Error 1
+19:54:22 **** Auto Build of configuration Debug for project PONG ****
+make all 
+'Building target: PONG.elf'
+'Invoking: ARM gcc linker'
+arm-xilinx-eabi-gcc -Wl,-T -Wl,../src/lscript.ld -L../../PONG_bsp/ps7_cortexa9_0/lib -o "PONG.elf"  ./src/display_ctrl.o ./src/main.o ./src/pong.o ./src/timer_ps.o   -Wl,--start-group,-lxil,-lgcc,-lc,--end-group
+./src/main.o: In function `main':
+D:\GIT\Zybo\VGA\source\vivado\hw\zybo_bsd\zybo_bsd.sdk\PONG\Debug/../src/main.c:99: undefined reference to `AudioRunDemo'
+D:\GIT\Zybo\VGA\source\vivado\hw\zybo_bsd\zybo_bsd.sdk\PONG\Debug/../src/main.c:102: undefined reference to `DisplayDemoRun'
+D:\GIT\Zybo\VGA\source\vivado\hw\zybo_bsd\zybo_bsd.sdk\PONG\Debug/../src/main.c:105: undefined reference to `DisplayDemoRun'
+collect2.exe: error: ld returned 1 exit status
+make: *** [PONG.elf] Error 1
+19:59:57 **** Auto Build of configuration Debug for project PONG ****
+make all 
+'Building file: ../src/main.c'
+'Invoking: ARM gcc compiler'
+arm-xilinx-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -I../../PONG_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/main.d" -MT"src/main.d" -o "src/main.o" "../src/main.c"
+../src/main.c: In function 'main':
+../src/main.c:99:4: warning: implicit declaration of function 'AudioRunDemo' [-Wimplicit-function-declaration]
+    AudioRunDemo(AUDIO_CTRL_BASEADDR, UART_BASEADDR, SW_BASEADDR, BTN_BASEADDR);
+    ^
+../src/main.c:102:4: warning: implicit declaration of function 'DisplayDemoRun' [-Wimplicit-function-declaration]
+    DisplayDemoRun(&vgaCtrl, UART_BASEADDR);
+    ^
+'Finished building: ../src/main.c'
+' '
+'Building target: PONG.elf'
+'Invoking: ARM gcc linker'
+arm-xilinx-eabi-gcc -Wl,-T -Wl,../src/lscript.ld -L../../PONG_bsp/ps7_cortexa9_0/lib -o "PONG.elf"  ./src/display_ctrl.o ./src/main.o ./src/pong.o ./src/timer_ps.o   -Wl,--start-group,-lxil,-lgcc,-lc,--end-group
+./src/main.o: In function `main':
+D:\GIT\Zybo\VGA\source\vivado\hw\zybo_bsd\zybo_bsd.sdk\PONG\Debug/../src/main.c:91: undefined reference to `MainDemoPrintMenu'
+D:\GIT\Zybo\VGA\source\vivado\hw\zybo_bsd\zybo_bsd.sdk\PONG\Debug/../src/main.c:99: undefined reference to `AudioRunDemo'
+D:\GIT\Zybo\VGA\source\vivado\hw\zybo_bsd\zybo_bsd.sdk\PONG\Debug/../src/main.c:102: undefined reference to `DisplayDemoRun'
+D:\GIT\Zybo\VGA\source\vivado\hw\zybo_bsd\zybo_bsd.sdk\PONG\Debug/../src/main.c:105: undefined reference to `DisplayDemoRun'
+collect2.exe: error: ld returned 1 exit status
+make: *** [PONG.elf] Error 1
+20:21:59 **** Auto Build of configuration Debug for project PONG ****
+make all 
+'Building file: ../src/main.c'
+'Invoking: ARM gcc compiler'
+arm-xilinx-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -I../../PONG_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/main.d" -MT"src/main.d" -o "src/main.o" "../src/main.c"
+../src/main.c: In function 'main':
+../src/main.c:99:4: warning: implicit declaration of function 'AudioRunDemo' [-Wimplicit-function-declaration]
+    AudioRunDemo(AUDIO_CTRL_BASEADDR, UART_BASEADDR, SW_BASEADDR, BTN_BASEADDR);
+    ^
+../src/main.c:102:4: warning: implicit declaration of function 'DisplayDemoRun' [-Wimplicit-function-declaration]
+    DisplayDemoRun(&vgaCtrl, UART_BASEADDR);
+    ^
+'Finished building: ../src/main.c'
+' '
+'Building target: PONG.elf'
+'Invoking: ARM gcc linker'
+arm-xilinx-eabi-gcc -Wl,-T -Wl,../src/lscript.ld -L../../PONG_bsp/ps7_cortexa9_0/lib -o "PONG.elf"  ./src/display_ctrl.o ./src/main.o ./src/pong.o ./src/timer_ps.o   -Wl,--start-group,-lxil,-lgcc,-lc,--end-group
+./src/main.o: In function `main':
+D:\GIT\Zybo\VGA\source\vivado\hw\zybo_bsd\zybo_bsd.sdk\PONG\Debug/../src/main.c:91: undefined reference to `MainDemoPrintMenu'
+D:\GIT\Zybo\VGA\source\vivado\hw\zybo_bsd\zybo_bsd.sdk\PONG\Debug/../src/main.c:99: undefined reference to `AudioRunDemo'
+D:\GIT\Zybo\VGA\source\vivado\hw\zybo_bsd\zybo_bsd.sdk\PONG\Debug/../src/main.c:102: undefined reference to `DisplayDemoRun'
+D:\GIT\Zybo\VGA\source\vivado\hw\zybo_bsd\zybo_bsd.sdk\PONG\Debug/../src/main.c:105: undefined reference to `DisplayDemoRun'
+collect2.exe: error: ld returned 1 exit status
+make: *** [PONG.elf] Error 1
+20:23:08 **** Auto Build of configuration Debug for project base_demo ****
+make all 
+'Building file: ../src/main.c'
+'Invoking: ARM gcc compiler'
+arm-xilinx-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -I../../base_demo_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/main.d" -MT"src/main.d" -o "src/main.o" "../src/main.c"
+'Finished building: ../src/main.c'
+' '
+'Building target: base_demo.elf'
+'Invoking: ARM gcc linker'
+arm-xilinx-eabi-gcc -Wl,-T -Wl,../src/lscript.ld -L../../base_demo_bsp/ps7_cortexa9_0/lib -o "base_demo.elf"  ./src/audio_demo.o ./src/display_ctrl.o ./src/display_demo.o ./src/main.o ./src/platform.o ./src/timer_ps.o   -Wl,--start-group,-lxil,-lgcc,-lc,--end-group
+'Finished building target: base_demo.elf'
+' '
+'Invoking: ARM Print Size'
+arm-xilinx-eabi-size base_demo.elf  |tee "base_demo.elf.size"
+   text	   data	    bss	    dec	    hex	filename
+  97132	   2528	51714704	51814364	3169fdc	base_demo.elf
+'Finished building: base_demo.elf.size'
+' '

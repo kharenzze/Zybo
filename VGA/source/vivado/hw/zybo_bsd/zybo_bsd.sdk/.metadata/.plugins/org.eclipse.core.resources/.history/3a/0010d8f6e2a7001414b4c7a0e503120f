@@ -1,0 +1,27 @@
+/*
+ * pong.h
+ *
+ *  Created on: 29/01/2015
+ *      Author: paolo
+ */
+
+#ifndef PONG_H_
+#define PONG_H_
+
+/* ------------------------------------------------------------ */
+/*							DEFINES								*/
+/* ------------------------------------------------------------ */
+
+#define RED 0x00FF0000
+#define GREEN 0x0000FF00
+#define BLUE 0x000000FF
+#define BLACK 0x00000000
+#define WHITE 0x00FFFFFF
+#define true 1
+#define false 0
+
+#define DISPLAY_MAX_FRAME (1920*1080)
+#define DISPLAY_STRIDE (1920 * 4)
+
+
+#endif /* PONG_H_ */
