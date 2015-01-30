@@ -5634,3 +5634,18 @@ arm-xilinx-eabi-size base_demo.elf  |tee "base_demo.elf.size"
   97132	   2528	51714704	51814364	3169fdc	base_demo.elf
 'Finished building: base_demo.elf.size'
 ' '
+13:20:40 **** Auto Build of configuration Debug for project PONG ****
+make all 
+'Building target: PONG.elf'
+'Invoking: ARM gcc linker'
+arm-xilinx-eabi-gcc -Wl,-T -Wl,../src/lscript.ld -L../../PONG_bsp/ps7_cortexa9_0/lib -o "PONG.elf"  ./src/display_ctrl.o ./src/main.o ./src/pong.o ./src/timer_ps.o   -Wl,--start-group,-lxil,-lgcc,-lc,--end-group
+./src/main.o: In function `main':
+D:\GIT\Zybo\VGA\source\vivado\hw\zybo_bsd\zybo_bsd.sdk\PONG\Debug/../src/main.c:91: undefined reference to `MainDemoPrintMenu'
+D:\GIT\Zybo\VGA\source\vivado\hw\zybo_bsd\zybo_bsd.sdk\PONG\Debug/../src/main.c:99: undefined reference to `AudioRunDemo'
+D:\GIT\Zybo\VGA\source\vivado\hw\zybo_bsd\zybo_bsd.sdk\PONG\Debug/../src/main.c:102: undefined reference to `DisplayDemoRun'
+D:\GIT\Zybo\VGA\source\vivado\hw\zybo_bsd\zybo_bsd.sdk\PONG\Debug/../src/main.c:105: undefined reference to `DisplayDemoRun'
+collect2.exe: error: ld returned 1 exit status
+make: *** [PONG.elf] Error 1
+13:20:43 **** Auto Build of configuration Debug for project base_demo ****
+make all 
+make: No se hace nada para `all'.
