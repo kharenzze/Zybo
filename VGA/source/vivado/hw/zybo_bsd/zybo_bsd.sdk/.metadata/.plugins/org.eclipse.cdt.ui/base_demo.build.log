@@ -1,6 +1,6 @@
-13:20:43 **** Auto Build of configuration Debug for project base_demo ****
+21:41:32 **** Incremental Build of configuration Debug for project base_demo ****
 make all 
 make: No se hace nada para `all'.
 
-13:20:43 Build Finished (took 257ms)
+21:41:33 Build Finished (took 234ms)
 

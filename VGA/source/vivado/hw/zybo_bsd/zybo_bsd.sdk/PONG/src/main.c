@@ -24,6 +24,7 @@
 #include "timer_ps.h"
 #include "xparameters.h"
 #include "xuartps.h"
+#include "xgpio.h"
 
 /* ------------------------------------------------------------ */
 /*				Global Variables								*/
@@ -34,6 +35,11 @@
  */
 DisplayCtrl hdmiCtrl;
 DisplayCtrl vgaCtrl;
+
+/*
+ * btn-sw Driver structs
+ */
+XGpio sw, btn;
 
 /*
  * Framebuffers for each display device
@@ -55,8 +61,7 @@ u32 hdmiBuf[DISPLAY_NUM_FRAMES][DISPLAY_MAX_FRAME];
 #define SW_BASEADDR XPAR_SWS_4BITS_BASEADDR
 #define BTN_BASEADDR XPAR_BTNS_4BITS_BASEADDR
 
-void MainDemoPrintMenu();
-char readUART();
+void Menu();
 
 /* ------------------------------------------------------------ */
 /*				Procedure Definitions							*/
@@ -78,6 +83,10 @@ int main(void)
 
 	PongDisplayInitialize(&vgaCtrl, VGA_VDMA_ID, SCU_TIMER_ID, VGA_BASEADDR, DISPLAY_NOT_HDMI, vgaPtr);
 	PongDisplayInitialize(&hdmiCtrl, HDMI_VDMA_ID, SCU_TIMER_ID, HDMI_BASEADDR, DISPLAY_HDMI, hdmiPtr);
+	XGpio_Initialize(&sw, XPAR_SWS_4BITS_DEVICE_ID);
+	XGpio_SetDataDirection(&sw, 1, 0xffffffff);
+	XGpio_Initialize(&btn, XPAR_BTNS_4BITS_DEVICE_ID);
+	XGpio_SetDataDirection(&btn, 1, 0xffffffff);
 	TimerInitialize(SCU_TIMER_ID);
 
 	/* Flush UART FIFO */
@@ -88,21 +97,24 @@ int main(void)
 
 	while (userInput != 'q')
 	{
-		MainDemoPrintMenu();
+		Menu();
 
 		//lee una entrada de UART, y la muestra por el terminal.
-		userInput=readUART();
+		userInput=readUART(UART_BASEADDR);
 
 		switch (userInput)
 		{
 		case '1':
-			AudioRunDemo(AUDIO_CTRL_BASEADDR, UART_BASEADDR, SW_BASEADDR, BTN_BASEADDR);
+			DisplayDemoChangeRes(&vgaCtrl,UART_BASEADDR);
 			break;
 		case '2':
-			DisplayDemoRun(&vgaCtrl, UART_BASEADDR);
+			DisplayDemoChangeRes(&hdmiCtrl,UART_BASEADDR);
 			break;
 		case '3':
-			DisplayDemoRun(&hdmiCtrl, UART_BASEADDR);
+			pong(&vgaCtrl ,UART_BASEADDR, &btn, &sw);
+			break;
+		case '4':
+			pong(&hdmiCtrl,UART_BASEADDR, &btn, &sw);
 			break;
 		case 'q':
 			break;
@@ -117,30 +129,23 @@ int main(void)
 
 void Menu()
 {
-	xil_printf("\x1B[H"); //Set cursor to top left of terminal
-	xil_printf("\x1B[2J"); //Clear terminal
+	//xil_printf("\x1B[H"); //Set cursor to top left of terminal
+	//xil_printf("\x1B[2J"); //Clear terminal
+	xil_printf("\n\r");
+	xil_printf("\n\r");
+	xil_printf("\n\r");
 	xil_printf("**************************************************\n\r");
 	xil_printf("**************************************************\n\r");
-	xil_printf("*       		 Bienvenido a PONG!!!		     *\n\r");
+	xil_printf("*               Bienvenido a PONG!!!             *\n\r");
 	xil_printf("**************************************************\n\r");
 	xil_printf("**************************************************\n\r");
 	xil_printf("\n\r");
-	xil_printf("1 - Cambiar resolución");
-	xil_printf("2 - VGA\n\r");
-	xil_printf("3 - HDMI\n\r");
+	xil_printf("1 - Cambiar resolución VGA\n\r");
+	xil_printf("2 - Cambiar resolución HDMI\n\r");
+	xil_printf("3 - Jugar en VGA\n\r");
+	xil_printf("4 - Jugar en HDMI\n\r");
 	xil_printf("q - Quit\n\r");
 	xil_printf("\n\r");
 	xil_printf("Select a demo to run:");
 }
 
-char readUART(){
-	char userInput;
-	/* Wait for data on UART */
-	while (!XUartPs_IsReceiveData(UART_BASEADDR))
-	{}
-
-	/* Store the first character in the UART recieve FIFO and echo it */
-	userInput = XUartPs_ReadReg(UART_BASEADDR, XUARTPS_FIFO_OFFSET);
-	xil_printf("%c", userInput);
-	return userInput;
-}

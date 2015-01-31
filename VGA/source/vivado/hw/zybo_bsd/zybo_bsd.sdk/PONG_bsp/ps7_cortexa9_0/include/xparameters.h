@@ -20,34 +20,6 @@
 
 /******************************************************************/
 
-/* Definitions for driver AXI_DISPCTRL */
-#define XPAR_AXI_DISPCTRL_NUM_INSTANCES 2
-
-/* Definitions for peripheral AXI_DISPCTRL_0 */
-#define XPAR_AXI_DISPCTRL_0_DEVICE_ID 0
-#define XPAR_AXI_DISPCTRL_0_S_AXI_BASEADDR 0x43C00000
-#define XPAR_AXI_DISPCTRL_0_S_AXI_HIGHADDR 0x43C0FFFF
-
-
-/* Definitions for peripheral AXI_DISPCTRL_1 */
-#define XPAR_AXI_DISPCTRL_1_DEVICE_ID 1
-#define XPAR_AXI_DISPCTRL_1_S_AXI_BASEADDR 0x43C10000
-#define XPAR_AXI_DISPCTRL_1_S_AXI_HIGHADDR 0x43C1FFFF
-
-
-/******************************************************************/
-
-/* Definitions for driver AXI_I2S_ADI */
-#define XPAR_AXI_I2S_ADI_NUM_INSTANCES 1
-
-/* Definitions for peripheral AXI_I2S_ADI_1 */
-#define XPAR_AXI_I2S_ADI_1_DEVICE_ID 0
-#define XPAR_AXI_I2S_ADI_1_S_AXI_BASEADDR 0x43C20000
-#define XPAR_AXI_I2S_ADI_1_S_AXI_HIGHADDR 0x43C2FFFF
-
-
-/******************************************************************/
-
 /* Definitions for driver AXIVDMA */
 #define XPAR_XAXIVDMA_NUM_INSTANCES 2
 
@@ -287,6 +259,21 @@
 
 
 /******************************************************************/
+
+
+/* Definitions for peripheral AXI_DISPCTRL_0 */
+#define XPAR_AXI_DISPCTRL_0_S_AXI_BASEADDR 0x43C00000
+#define XPAR_AXI_DISPCTRL_0_S_AXI_HIGHADDR 0x43C0FFFF
+
+
+/* Definitions for peripheral AXI_DISPCTRL_1 */
+#define XPAR_AXI_DISPCTRL_1_S_AXI_BASEADDR 0x43C10000
+#define XPAR_AXI_DISPCTRL_1_S_AXI_HIGHADDR 0x43C1FFFF
+
+
+/* Definitions for peripheral AXI_I2S_ADI_1 */
+#define XPAR_AXI_I2S_ADI_1_S_AXI_BASEADDR 0x43C20000
+#define XPAR_AXI_I2S_ADI_1_S_AXI_HIGHADDR 0x43C2FFFF
 
 
 /* Definitions for peripheral PS7_AFI_0 */

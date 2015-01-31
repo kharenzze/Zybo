@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <projectDescription>
-	<name>PONG_bsp</name>
+	<name>pong_bsp</name>
 	<comment>Created by SDK v2014.2</comment>
 	<projects>
 		<project>system_wrapper_hw_platform_0</project>

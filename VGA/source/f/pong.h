@@ -1,0 +1,52 @@
+/*
+ * pong.h
+ *
+ *  Created on: 29/01/2015
+ *      Author: paolo
+ */
+
+#ifndef PONG_H_
+#define PONG_H_
+
+/* ------------------------------------------------------------ */
+/*				Include File Definitions						*/
+/* ------------------------------------------------------------ */
+#include "xil_types.h"
+#include "display_ctrl.h"
+
+/* ------------------------------------------------------------ */
+/*							DEFINES								*/
+/* ------------------------------------------------------------ */
+
+#define RED 0x00FF0000
+#define GREEN 0x0000FF00
+#define BLUE 0x000000FF
+#define BLACK 0x00000000
+#define WHITE 0x00FFFFFF
+#define true 1
+#define false 0
+
+#define DISPLAY_MAX_FRAME (1920*1080)
+#define DISPLAY_STRIDE (1920 * 4)
+
+/* ------------------------------------------------------------ */
+/*							STRUCT RECTANGULO					*/
+/* ------------------------------------------------------------ */
+typedef struct{
+	int x;
+	int y;
+	u32 color;
+	u32 ancho;
+	u32 alto;
+}Rectangulo;
+
+
+/* ------------------------------------------------------------ */
+/*							headers								*/
+/* ------------------------------------------------------------ */
+int PongDisplayInitialize(DisplayCtrl *dispPtr, u16 vdmaId, u16 timerId, u32 dispCtrlAddr, int fHdmi, u32 *framePtr[DISPLAY_NUM_FRAMES]);
+Rectangulo crearRectangulo(int x, int y, u32 color, u32 ancho, u32 alto);
+char readUART(u32 uartAdress);
+void pong(DisplayCtrl *video ,u32 uartAddress, u32 botenesAddress);
+
+#endif /* PONG_H_ */

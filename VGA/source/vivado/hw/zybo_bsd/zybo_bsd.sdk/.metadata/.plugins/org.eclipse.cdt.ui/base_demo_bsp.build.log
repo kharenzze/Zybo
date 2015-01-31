@@ -1,4 +1,4 @@
-10:25:13 **** Build of project base_demo_bsp ****
+16:44:22 **** Build of project base_demo_bsp ****
 make -k all 
 "Running Make include in ps7_cortexa9_0/libsrc/axi_dispctrl_v1_00_a/src"
 make -C ps7_cortexa9_0/libsrc/axi_dispctrl_v1_00_a/src -s include  "SHELL=CMD" "COMPILER=arm-xilinx-eabi-gcc" "ARCHIVER=arm-xilinx-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-g"
@@ -129,5 +129,5 @@ make -C ps7_cortexa9_0/libsrc/xadcps_v2_0/src -s libs  "SHELL=CMD" "COMPILER=arm
 "Compiling xadcps"
 'Finished building libraries'
 
-10:25:28 Build Finished (took 15s.467ms)
+16:44:57 Build Finished (took 35s.44ms)
 

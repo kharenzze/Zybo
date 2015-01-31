@@ -1,6 +1,6 @@
-20:51:58 **** Incremental Build of configuration Debug for project fsbl ****
+17:20:25 **** Incremental Build of configuration Debug for project fsbl ****
 make all 
-make: No se hace nada para `all'.
+make: *** No hay ninguna regla para construir el objetivo `D:/GIT/Zybo/VGA/source/vivado/hw/zybo_bsd/zybo_bsd.sdk/system_wrapper_hw_platform_0/ps7_init.c', necesario para `src/ps7_init.o'.  Alto.
 
-20:51:58 Build Finished (took 165ms)
+17:20:26 Build Finished (took 299ms)
 

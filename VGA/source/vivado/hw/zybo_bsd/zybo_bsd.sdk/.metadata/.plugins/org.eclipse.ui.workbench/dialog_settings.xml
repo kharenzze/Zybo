@@ -4,6 +4,7 @@
 		<item value="true" key="WizardFileSystemResourceImportPage1.STORE_OVERWRITE_EXISTING_RESOURCES_ID"/>
 		<item value="false" key="WizardFileSystemResourceImportPage1.STORE_CREATE_CONTAINER_STRUCTURE_ID"/>
 		<list key="WizardFileSystemResourceImportPage1.STORE_SOURCE_NAMES_ID">
+			<item value="C:\DATOS\GIT\VGA\source\f"/>
 			<item value="D:\GIT\Zybo\VGA\source\vivado\SDK\base_demo"/>
 			<item value="D:\GIT\Zybo\VGA\source\vivado\SDK\fsbl"/>
 		</list>
@@ -11,6 +12,8 @@
 	<section name="WorkbenchPreferenceDialogSettings">
 		<item value="100" key="DIALOG_Y_ORIGIN"/>
 		<item value="598" key="DIALOG_X_ORIGIN"/>
+	</section>
+	<section name="NewWizardAction">
 	</section>
 	<section name="ZipFileImportWizard">
 	</section>

@@ -594,3 +594,311 @@ java.lang.NullPointerException
  [Hsm 55-1607] Software Repository Paths d:/GIT/Zybo/zybo_base_system/source/vivado/hw/lib/ADI/axi_i2s_adi_1.0 and C:/DATOS/GIT/VGA/source/vivado/hw/zybo_bsd/zybo_bsd.sdk/system_wrapper_hw_platform_1/../../../../../../lib/ADI/axi_i2s_adi_1.0 do not exist or not accessible
 13:50:14 INFO  : Processing command line option -hwspec C:/DATOS/GIT/VGA/source/vivado/hw/zybo_bsd/zybo_bsd.sdk/system_wrapper.hdf.
 13:50:15 INFO  : Checking for hwspec changes in the project system_wrapper_hw_platform_1.
+16:38:22 INFO  : Processing command line option -hwspec C:/DATOS/GIT/VGA/source/vivado/hw/zybo_bsd/zybo_bsd.sdk/system_wrapper.hdf.
+16:38:23 INFO  : Checking for hwspec changes in the project system_wrapper_hw_platform_1.
+17:17:08 WARN  :  [Hsm 55-1607] Software Repository Paths d:/GIT/Zybo/zybo_base_system/source/vivado/hw/lib/Digilent/axi_dispctrl_1.0 and C:/DATOS/GIT/VGA/source/vivado/hw/zybo_bsd/zybo_bsd.sdk/system_wrapper_hw_platform_0/../../../../../../lib/Digilent/axi_dispctrl_1.0 do not exist or not accessible
+ [Hsm 55-1607] Software Repository Paths d:/GIT/Zybo/zybo_base_system/source/vivado/hw/lib/ADI/axi_i2s_adi_1.0 and C:/DATOS/GIT/VGA/source/vivado/hw/zybo_bsd/zybo_bsd.sdk/system_wrapper_hw_platform_0/../../../../../../lib/ADI/axi_i2s_adi_1.0 do not exist or not accessible
+17:17:09 WARN  :  [Hsm 55-1607] Software Repository Paths d:/GIT/Zybo/zybo_base_system/source/vivado/hw/lib/Digilent/axi_dispctrl_1.0 and C:/DATOS/GIT/VGA/source/vivado/hw/zybo_bsd/zybo_bsd.sdk/system_wrapper_hw_platform_0/../../../../../../lib/Digilent/axi_dispctrl_1.0 do not exist or not accessible
+ [Hsm 55-1607] Software Repository Paths d:/GIT/Zybo/zybo_base_system/source/vivado/hw/lib/ADI/axi_i2s_adi_1.0 and C:/DATOS/GIT/VGA/source/vivado/hw/zybo_bsd/zybo_bsd.sdk/system_wrapper_hw_platform_0/../../../../../../lib/ADI/axi_i2s_adi_1.0 do not exist or not accessible
+17:17:21 INFO  : FPGA configured successfully with bitstream "C:/DATOS/GIT/VGA/source/vivado/hw/zybo_bsd/zybo_bsd.sdk/system_wrapper_hw_platform_0/system_wrapper.bit"
+17:17:33 INFO  : ps7_init is completed.
+17:17:33 INFO  : ps7_post_config is completed.
+17:17:34 INFO  : Processor reset is completed for ps7_cortexa9_0
+17:17:54 ERROR :  [Hsm 55-1594] Core axi_dispctrl of version 1.00.a not found in repositories
+ [Hsm 55-1594] Core axi_dispctrl of version 1.00.a not found in repositories
+ [Hsm 55-1594] Core axi_i2s_adi of version 1.00.a not found in repositories
+17:17:56 ERROR :  [Hsm 55-1594] Core axi_dispctrl of version 1.00.a not found in repositories
+ [Hsm 55-1594] Core axi_dispctrl of version 1.00.a not found in repositories
+ [Hsm 55-1594] Core axi_i2s_adi of version 1.00.a not found in repositories
+17:17:56 ERROR :  [Hsm 55-1594] Core axi_dispctrl of version 1.00.a not found in repositories
+ [Hsm 55-1594] Core axi_dispctrl of version 1.00.a not found in repositories
+ [Hsm 55-1594] Core axi_i2s_adi of version 1.00.a not found in repositories
+ [Hsm 55-1594] Core axi_dispctrl of version 1.00.a not found in repositories
+ [Hsm 55-1594] Core axi_dispctrl of version 1.00.a not found in repositories
+ [Hsm 55-1594] Core axi_i2s_adi of version 1.00.a not found in repositories
+ [Hsm 55-1430] Driver Name is empty
+17:17:56 ERROR :  [Hsm 55-1594] Core axi_dispctrl of version 1.00.a not found in repositories
+ [Hsm 55-1594] Core axi_dispctrl of version 1.00.a not found in repositories
+ [Hsm 55-1594] Core axi_i2s_adi of version 1.00.a not found in repositories
+ [Hsm 55-1594] Core axi_dispctrl of version 1.00.a not found in repositories
+ [Hsm 55-1594] Core axi_dispctrl of version 1.00.a not found in repositories
+ [Hsm 55-1594] Core axi_i2s_adi of version 1.00.a not found in repositories
+17:17:56 ERROR :  [Hsm 55-1594] Core axi_dispctrl of version 1.00.a not found in repositories
+ [Hsm 55-1594] Core axi_dispctrl of version 1.00.a not found in repositories
+ [Hsm 55-1594] Core axi_i2s_adi of version 1.00.a not found in repositories
+ [Hsm 55-1594] Core axi_dispctrl of version 1.00.a not found in repositories
+ [Hsm 55-1594] Core axi_dispctrl of version 1.00.a not found in repositories
+ [Hsm 55-1594] Core axi_i2s_adi of version 1.00.a not found in repositories
+17:18:15 ERROR :  [Hsm 55-1594] Core axi_dispctrl of version 1.00.a not found in repositories
+ [Hsm 55-1594] Core axi_dispctrl of version 1.00.a not found in repositories
+ [Hsm 55-1594] Core axi_i2s_adi of version 1.00.a not found in repositories
+17:18:19 ERROR :  [Hsm 55-1594] Core axi_dispctrl of version 1.00.a not found in repositories
+ [Hsm 55-1594] Core axi_dispctrl of version 1.00.a not found in repositories
+ [Hsm 55-1594] Core axi_i2s_adi of version 1.00.a not found in repositories
+17:18:19 ERROR :  [Hsm 55-1594] Core axi_dispctrl of version 1.00.a not found in repositories
+ [Hsm 55-1594] Core axi_dispctrl of version 1.00.a not found in repositories
+ [Hsm 55-1594] Core axi_i2s_adi of version 1.00.a not found in repositories
+17:18:22 ERROR :  [Hsm 55-1594] Core axi_dispctrl of version 1.00.a not found in repositories
+ [Hsm 55-1594] Core axi_dispctrl of version 1.00.a not found in repositories
+ [Hsm 55-1594] Core axi_i2s_adi of version 1.00.a not found in repositories
+ [Hsm 55-1594] Core axi_dispctrl of version 1.00.a not found in repositories
+ [Hsm 55-1594] Core axi_dispctrl of version 1.00.a not found in repositories
+ [Hsm 55-1594] Core axi_i2s_adi of version 1.00.a not found in repositories
+17:18:27 INFO  : Processor reset is completed for ps7_cortexa9_0
+17:20:33 INFO  : Processor reset is completed for ps7_cortexa9_0
+17:22:28 ERROR :  [Hsm 55-1594] Core axi_dispctrl of version 1.00.a not found in repositories
+ [Hsm 55-1594] Core axi_dispctrl of version 1.00.a not found in repositories
+ [Hsm 55-1594] Core axi_i2s_adi of version 1.00.a not found in repositories
+17:22:28 ERROR :  [Hsm 55-1594] Core axi_dispctrl of version 1.00.a not found in repositories
+ [Hsm 55-1594] Core axi_dispctrl of version 1.00.a not found in repositories
+ [Hsm 55-1594] Core axi_i2s_adi of version 1.00.a not found in repositories
+17:22:31 ERROR :  [Hsm 55-1594] Core axi_dispctrl of version 1.00.a not found in repositories
+ [Hsm 55-1594] Core axi_dispctrl of version 1.00.a not found in repositories
+ [Hsm 55-1594] Core axi_i2s_adi of version 1.00.a not found in repositories
+17:22:31 ERROR :  [Hsm 55-1594] Core axi_dispctrl of version 1.00.a not found in repositories
+ [Hsm 55-1594] Core axi_dispctrl of version 1.00.a not found in repositories
+ [Hsm 55-1594] Core axi_i2s_adi of version 1.00.a not found in repositories
+ [Hsm 55-1594] Core axi_dispctrl of version 1.00.a not found in repositories
+ [Hsm 55-1594] Core axi_dispctrl of version 1.00.a not found in repositories
+ [Hsm 55-1594] Core axi_i2s_adi of version 1.00.a not found in repositories
+ [Hsm 55-1430] Driver Name is empty
+17:22:31 ERROR :  [Hsm 55-1594] Core axi_dispctrl of version 1.00.a not found in repositories
+ [Hsm 55-1594] Core axi_dispctrl of version 1.00.a not found in repositories
+ [Hsm 55-1594] Core axi_i2s_adi of version 1.00.a not found in repositories
+ [Hsm 55-1594] Core axi_dispctrl of version 1.00.a not found in repositories
+ [Hsm 55-1594] Core axi_dispctrl of version 1.00.a not found in repositories
+ [Hsm 55-1594] Core axi_i2s_adi of version 1.00.a not found in repositories
+17:22:31 ERROR :  [Hsm 55-1594] Core axi_dispctrl of version 1.00.a not found in repositories
+ [Hsm 55-1594] Core axi_dispctrl of version 1.00.a not found in repositories
+ [Hsm 55-1594] Core axi_i2s_adi of version 1.00.a not found in repositories
+ [Hsm 55-1594] Core axi_dispctrl of version 1.00.a not found in repositories
+ [Hsm 55-1594] Core axi_dispctrl of version 1.00.a not found in repositories
+ [Hsm 55-1594] Core axi_i2s_adi of version 1.00.a not found in repositories
+17:28:38 ERROR :  [Hsm 55-1594] Core axi_dispctrl of version 1.00.a not found in repositories
+ [Hsm 55-1594] Core axi_dispctrl of version 1.00.a not found in repositories
+ [Hsm 55-1594] Core axi_i2s_adi of version 1.00.a not found in repositories
+17:29:47 ERROR :  [Hsm 55-1430] Driver Name is empty
+17:30:16 ERROR : Unexpected error while parsing XMD response ?: com.google.gson.JsonSyntaxException: com.google.gson.stream.MalformedJsonException: invalid number or unquoted string near 
+17:31:08 WARN  :  [Hsm 55-1607] Software Repository Paths d:/GIT/Zybo/zybo_base_system/source/vivado/hw/lib/Digilent/axi_dispctrl_1.0 and C:/DATOS/GIT/VGA/source/vivado/hw/zybo_bsd/zybo_bsd.sdk/system_wrapper_hw_platform_0/../../../../../../lib/Digilent/axi_dispctrl_1.0 do not exist or not accessible
+ [Hsm 55-1607] Software Repository Paths d:/GIT/Zybo/zybo_base_system/source/vivado/hw/lib/ADI/axi_i2s_adi_1.0 and C:/DATOS/GIT/VGA/source/vivado/hw/zybo_bsd/zybo_bsd.sdk/system_wrapper_hw_platform_0/../../../../../../lib/ADI/axi_i2s_adi_1.0 do not exist or not accessible
+17:31:08 WARN  :  [Hsm 55-1607] Software Repository Paths d:/GIT/Zybo/zybo_base_system/source/vivado/hw/lib/Digilent/axi_dispctrl_1.0 and C:/DATOS/GIT/VGA/source/vivado/hw/zybo_bsd/zybo_bsd.sdk/system_wrapper_hw_platform_0/../../../../../../lib/Digilent/axi_dispctrl_1.0 do not exist or not accessible
+ [Hsm 55-1607] Software Repository Paths d:/GIT/Zybo/zybo_base_system/source/vivado/hw/lib/ADI/axi_i2s_adi_1.0 and C:/DATOS/GIT/VGA/source/vivado/hw/zybo_bsd/zybo_bsd.sdk/system_wrapper_hw_platform_0/../../../../../../lib/ADI/axi_i2s_adi_1.0 do not exist or not accessible
+17:31:08 ERROR :  [Hsm 55-1594] Core axi_dispctrl of version 1.00.a not found in repositories
+ [Hsm 55-1594] Core axi_dispctrl of version 1.00.a not found in repositories
+ [Hsm 55-1594] Core axi_i2s_adi of version 1.00.a not found in repositories
+17:31:08 ERROR :  [Hsm 55-1594] Core axi_dispctrl of version 1.00.a not found in repositories
+ [Hsm 55-1594] Core axi_dispctrl of version 1.00.a not found in repositories
+ [Hsm 55-1594] Core axi_i2s_adi of version 1.00.a not found in repositories
+ [Hsm 55-1594] Core axi_dispctrl of version 1.00.a not found in repositories
+ [Hsm 55-1594] Core axi_dispctrl of version 1.00.a not found in repositories
+ [Hsm 55-1594] Core axi_i2s_adi of version 1.00.a not found in repositories
+ [Hsm 55-1594] Core  of version  not found in repositories
+17:31:08 ERROR :  [Hsm 55-1430] Driver Name is empty
+17:31:08 ERROR :  [Hsm 55-1594] Core axi_dispctrl of version 1.00.a not found in repositories
+ [Hsm 55-1594] Core axi_dispctrl of version 1.00.a not found in repositories
+ [Hsm 55-1594] Core axi_i2s_adi of version 1.00.a not found in repositories
+17:31:08 ERROR :  [Hsm 55-1594] Core axi_dispctrl of version 1.00.a not found in repositories
+ [Hsm 55-1594] Core axi_dispctrl of version 1.00.a not found in repositories
+ [Hsm 55-1594] Core axi_i2s_adi of version 1.00.a not found in repositories
+ [Hsm 55-1594] Core axi_dispctrl of version 1.00.a not found in repositories
+ [Hsm 55-1594] Core axi_dispctrl of version 1.00.a not found in repositories
+ [Hsm 55-1594] Core axi_i2s_adi of version 1.00.a not found in repositories
+ [Hsm 55-1594] Core axi_dispctrl of version 1.00.a not found in repositories
+ [Hsm 55-1594] Core axi_dispctrl of version 1.00.a not found in repositories
+ [Hsm 55-1594] Core axi_i2s_adi of version 1.00.a not found in repositories
+17:31:10 INFO  : Processing command line option -hwspec C:/DATOS/GIT/VGA/source/vivado/hw/zybo_bsd/zybo_bsd.sdk/system_wrapper.hdf.
+17:31:10 WARN  :  [Hsm 55-1607] Software Repository Paths d:/GIT/Zybo/zybo_base_system/source/vivado/hw/lib/Digilent/axi_dispctrl_1.0 and C:/DATOS/GIT/VGA/source/vivado/hw/zybo_bsd/zybo_bsd.sdk/system_wrapper_hw_platform_1/../../../../../../lib/Digilent/axi_dispctrl_1.0 do not exist or not accessible
+ [Hsm 55-1607] Software Repository Paths d:/GIT/Zybo/zybo_base_system/source/vivado/hw/lib/ADI/axi_i2s_adi_1.0 and C:/DATOS/GIT/VGA/source/vivado/hw/zybo_bsd/zybo_bsd.sdk/system_wrapper_hw_platform_1/../../../../../../lib/ADI/axi_i2s_adi_1.0 do not exist or not accessible
+17:31:11 WARN  :  [Hsm 55-1607] Software Repository Paths d:/GIT/Zybo/zybo_base_system/source/vivado/hw/lib/Digilent/axi_dispctrl_1.0 and C:/DATOS/GIT/VGA/source/vivado/hw/zybo_bsd/zybo_bsd.sdk/system_wrapper_hw_platform_1/../../../../../../lib/Digilent/axi_dispctrl_1.0 do not exist or not accessible
+ [Hsm 55-1607] Software Repository Paths d:/GIT/Zybo/zybo_base_system/source/vivado/hw/lib/ADI/axi_i2s_adi_1.0 and C:/DATOS/GIT/VGA/source/vivado/hw/zybo_bsd/zybo_bsd.sdk/system_wrapper_hw_platform_1/../../../../../../lib/ADI/axi_i2s_adi_1.0 do not exist or not accessible
+17:31:11 WARN  :  [Hsm 55-1607] Software Repository Paths d:/GIT/Zybo/zybo_base_system/source/vivado/hw/lib/Digilent/axi_dispctrl_1.0 and C:/DATOS/GIT/VGA/source/vivado/hw/zybo_bsd/zybo_bsd.sdk/system_wrapper_hw_platform_1/../../../../../../lib/Digilent/axi_dispctrl_1.0 do not exist or not accessible
+ [Hsm 55-1607] Software Repository Paths d:/GIT/Zybo/zybo_base_system/source/vivado/hw/lib/ADI/axi_i2s_adi_1.0 and C:/DATOS/GIT/VGA/source/vivado/hw/zybo_bsd/zybo_bsd.sdk/system_wrapper_hw_platform_1/../../../../../../lib/ADI/axi_i2s_adi_1.0 do not exist or not accessible
+17:31:11 WARN  :  [Hsm 55-1607] Software Repository Paths d:/GIT/Zybo/zybo_base_system/source/vivado/hw/lib/Digilent/axi_dispctrl_1.0 and C:/DATOS/GIT/VGA/source/vivado/hw/zybo_bsd/zybo_bsd.sdk/system_wrapper_hw_platform_1/../../../../../../lib/Digilent/axi_dispctrl_1.0 do not exist or not accessible
+ [Hsm 55-1607] Software Repository Paths d:/GIT/Zybo/zybo_base_system/source/vivado/hw/lib/ADI/axi_i2s_adi_1.0 and C:/DATOS/GIT/VGA/source/vivado/hw/zybo_bsd/zybo_bsd.sdk/system_wrapper_hw_platform_1/../../../../../../lib/ADI/axi_i2s_adi_1.0 do not exist or not accessible
+17:34:50 ERROR :  [Hsm 55-1594] Core axi_dispctrl of version 1.00.a not found in repositories
+ [Hsm 55-1594] Core axi_dispctrl of version 1.00.a not found in repositories
+ [Hsm 55-1594] Core axi_i2s_adi of version 1.00.a not found in repositories
+17:34:50 ERROR :  [Hsm 55-1594] Core axi_dispctrl of version 1.00.a not found in repositories
+ [Hsm 55-1594] Core axi_dispctrl of version 1.00.a not found in repositories
+ [Hsm 55-1594] Core axi_i2s_adi of version 1.00.a not found in repositories
+ [Hsm 55-1594] Core axi_dispctrl of version 1.00.a not found in repositories
+ [Hsm 55-1594] Core axi_dispctrl of version 1.00.a not found in repositories
+ [Hsm 55-1594] Core axi_i2s_adi of version 1.00.a not found in repositories
+17:34:50 ERROR :  [Hsm 55-1594] Core axi_dispctrl of version 1.00.a not found in repositories
+ [Hsm 55-1594] Core axi_dispctrl of version 1.00.a not found in repositories
+ [Hsm 55-1594] Core axi_i2s_adi of version 1.00.a not found in repositories
+17:34:50 ERROR :  [Hsm 55-1594] Core axi_dispctrl of version 1.00.a not found in repositories
+ [Hsm 55-1594] Core axi_dispctrl of version 1.00.a not found in repositories
+ [Hsm 55-1594] Core axi_i2s_adi of version 1.00.a not found in repositories
+ [Hsm 55-1594] Core axi_dispctrl of version 1.00.a not found in repositories
+ [Hsm 55-1594] Core axi_dispctrl of version 1.00.a not found in repositories
+ [Hsm 55-1594] Core axi_i2s_adi of version 1.00.a not found in repositories
+17:37:29 INFO  : FPGA configured successfully with bitstream "C:/DATOS/GIT/VGA/source/vivado/hw/zybo_bsd/zybo_bsd.sdk/system_wrapper_hw_platform_0/system_wrapper.bit"
+17:37:48 INFO  : Processor reset is completed for ps7_cortexa9_0
+19:11:34 INFO  : FPGA configured successfully with bitstream "C:/DATOS/GIT/VGA/source/vivado/hw/zybo_bsd/zybo_bsd.sdk/system_wrapper_hw_platform_0/system_wrapper.bit"
+19:12:32 INFO  : ps7_init is completed.
+19:12:32 INFO  : ps7_post_config is completed.
+19:12:32 INFO  : Processor reset is completed for ps7_cortexa9_0
+19:13:13 INFO  : ps7_cortexa9_0 Processor is in use. Please stop existing Run or Debug sessions before launching.
+19:13:23 INFO  : Processor reset is completed for ps7_cortexa9_0
+19:13:46 INFO  : FPGA configured successfully with bitstream "C:/DATOS/GIT/VGA/source/vivado/hw/zybo_bsd/zybo_bsd.sdk/system_wrapper_hw_platform_0/system_wrapper.bit"
+19:13:58 INFO  : ps7_cortexa9_0 Processor is in use. Please stop existing Run or Debug sessions before launching.
+19:14:14 ERROR : Unexpected error while parsing XMD response ?: com.google.gson.JsonSyntaxException: com.google.gson.stream.MalformedJsonException: invalid number or unquoted string near 
+19:14:27 INFO  : Processing command line option -hwspec C:/DATOS/GIT/VGA/source/vivado/hw/zybo_bsd/zybo_bsd.sdk/system_wrapper.hdf.
+19:14:31 WARN  :  [Hsm 55-1607] Software Repository Paths d:/GIT/Zybo/zybo_base_system/source/vivado/hw/lib/Digilent/axi_dispctrl_1.0 and C:/DATOS/GIT/VGA/source/vivado/hw/zybo_bsd/zybo_bsd.sdk/system_wrapper_hw_platform_0/../../../../../../lib/Digilent/axi_dispctrl_1.0 do not exist or not accessible
+ [Hsm 55-1607] Software Repository Paths d:/GIT/Zybo/zybo_base_system/source/vivado/hw/lib/ADI/axi_i2s_adi_1.0 and C:/DATOS/GIT/VGA/source/vivado/hw/zybo_bsd/zybo_bsd.sdk/system_wrapper_hw_platform_0/../../../../../../lib/ADI/axi_i2s_adi_1.0 do not exist or not accessible
+19:14:32 WARN  :  [Hsm 55-1607] Software Repository Paths d:/GIT/Zybo/zybo_base_system/source/vivado/hw/lib/Digilent/axi_dispctrl_1.0 and C:/DATOS/GIT/VGA/source/vivado/hw/zybo_bsd/zybo_bsd.sdk/system_wrapper_hw_platform_1/../../../../../../lib/Digilent/axi_dispctrl_1.0 do not exist or not accessible
+ [Hsm 55-1607] Software Repository Paths d:/GIT/Zybo/zybo_base_system/source/vivado/hw/lib/ADI/axi_i2s_adi_1.0 and C:/DATOS/GIT/VGA/source/vivado/hw/zybo_bsd/zybo_bsd.sdk/system_wrapper_hw_platform_1/../../../../../../lib/ADI/axi_i2s_adi_1.0 do not exist or not accessible
+19:14:32 WARN  :  [Hsm 55-1607] Software Repository Paths d:/GIT/Zybo/zybo_base_system/source/vivado/hw/lib/Digilent/axi_dispctrl_1.0 and C:/DATOS/GIT/VGA/source/vivado/hw/zybo_bsd/zybo_bsd.sdk/system_wrapper_hw_platform_1/../../../../../../lib/Digilent/axi_dispctrl_1.0 do not exist or not accessible
+ [Hsm 55-1607] Software Repository Paths d:/GIT/Zybo/zybo_base_system/source/vivado/hw/lib/ADI/axi_i2s_adi_1.0 and C:/DATOS/GIT/VGA/source/vivado/hw/zybo_bsd/zybo_bsd.sdk/system_wrapper_hw_platform_1/../../../../../../lib/ADI/axi_i2s_adi_1.0 do not exist or not accessible
+19:14:32 WARN  :  [Hsm 55-1607] Software Repository Paths d:/GIT/Zybo/zybo_base_system/source/vivado/hw/lib/Digilent/axi_dispctrl_1.0 and C:/DATOS/GIT/VGA/source/vivado/hw/zybo_bsd/zybo_bsd.sdk/system_wrapper_hw_platform_1/../../../../../../lib/Digilent/axi_dispctrl_1.0 do not exist or not accessible
+ [Hsm 55-1607] Software Repository Paths d:/GIT/Zybo/zybo_base_system/source/vivado/hw/lib/ADI/axi_i2s_adi_1.0 and C:/DATOS/GIT/VGA/source/vivado/hw/zybo_bsd/zybo_bsd.sdk/system_wrapper_hw_platform_1/../../../../../../lib/ADI/axi_i2s_adi_1.0 do not exist or not accessible
+19:14:32 ERROR :  [Hsm 55-1681] C:\DATOS\GIT\VGA\source\vivado\hw\zybo_bsd\zybo_bsd.sdk\system_wrapper_hw_platform_1\system.hdf doesn't have Hardware Handoff XML
+19:14:33 WARN  :  [Hsm 55-1607] Software Repository Paths d:/GIT/Zybo/zybo_base_system/source/vivado/hw/lib/Digilent/axi_dispctrl_1.0 and C:/DATOS/GIT/VGA/source/vivado/hw/zybo_bsd/zybo_bsd.sdk/system_wrapper_hw_platform_1/../../../../../../lib/Digilent/axi_dispctrl_1.0 do not exist or not accessible
+ [Hsm 55-1607] Software Repository Paths d:/GIT/Zybo/zybo_base_system/source/vivado/hw/lib/ADI/axi_i2s_adi_1.0 and C:/DATOS/GIT/VGA/source/vivado/hw/zybo_bsd/zybo_bsd.sdk/system_wrapper_hw_platform_1/../../../../../../lib/ADI/axi_i2s_adi_1.0 do not exist or not accessible
+19:14:54 INFO  : FPGA configured successfully with bitstream "C:/DATOS/GIT/VGA/source/vivado/hw/zybo_bsd/zybo_bsd.sdk/system_wrapper_hw_platform_0/system_wrapper.bit"
+19:15:14 INFO  : ps7_init is completed.
+19:15:14 INFO  : ps7_post_config is completed.
+19:15:14 INFO  : Processor reset is completed for ps7_cortexa9_0
+19:18:04 INFO  : Processor reset is completed for ps7_cortexa9_0
+19:20:35 INFO  : ps7_cortexa9_0 Processor is in use. Please stop existing Run or Debug sessions before launching.
+19:21:10 INFO  : Processor reset is completed for ps7_cortexa9_0
+19:23:33 INFO  : FPGA configured successfully with bitstream "C:/DATOS/GIT/VGA/source/vivado/hw/zybo_bsd/zybo_bsd.sdk/system_wrapper_hw_platform_0/system_wrapper.bit"
+19:24:14 INFO  : Processor reset is completed for ps7_cortexa9_0
+19:25:15 INFO  : ps7_cortexa9_0 Processor is in use. Please stop existing Run or Debug sessions before launching.
+19:25:27 INFO  : Processor reset is completed for ps7_cortexa9_0
+19:26:09 INFO  : FPGA configured successfully with bitstream "C:/DATOS/GIT/VGA/source/vivado/hw/zybo_bsd/zybo_bsd.sdk/system_wrapper_hw_platform_0/system_wrapper.bit"
+19:26:21 INFO  : ps7_init is completed.
+19:26:21 INFO  : ps7_post_config is completed.
+19:26:21 INFO  : Processor reset is completed for ps7_cortexa9_0
+19:30:05 ERROR :  [Hsm 55-1594] Core axi_dispctrl of version 1.00.a not found in repositories
+ [Hsm 55-1594] Core axi_dispctrl of version 1.00.a not found in repositories
+ [Hsm 55-1594] Core axi_i2s_adi of version 1.00.a not found in repositories
+19:30:05 ERROR :  [Hsm 55-1594] Core axi_dispctrl of version 1.00.a not found in repositories
+ [Hsm 55-1594] Core axi_dispctrl of version 1.00.a not found in repositories
+ [Hsm 55-1594] Core axi_i2s_adi of version 1.00.a not found in repositories
+19:30:28 ERROR :  [Hsm 55-1594] Core axi_dispctrl of version 1.00.a not found in repositories
+ [Hsm 55-1594] Core axi_dispctrl of version 1.00.a not found in repositories
+ [Hsm 55-1594] Core axi_i2s_adi of version 1.00.a not found in repositories
+ [Hsm 55-1594] Core axi_dispctrl of version 1.00.a not found in repositories
+ [Hsm 55-1594] Core axi_dispctrl of version 1.00.a not found in repositories
+ [Hsm 55-1594] Core axi_i2s_adi of version 1.00.a not found in repositories
+19:30:33 INFO  : FPGA configured successfully with bitstream "C:/DATOS/GIT/VGA/source/vivado/hw/zybo_bsd/zybo_bsd.sdk/system_wrapper_hw_platform_0/system_wrapper.bit"
+19:30:36 ERROR :  [Hsm 55-1594] Core axi_dispctrl of version 1.00.a not found in repositories
+ [Hsm 55-1594] Core axi_dispctrl of version 1.00.a not found in repositories
+ [Hsm 55-1594] Core axi_i2s_adi of version 1.00.a not found in repositories
+19:30:36 ERROR :  [Hsm 55-1594] Core axi_dispctrl of version 1.00.a not found in repositories
+ [Hsm 55-1594] Core axi_dispctrl of version 1.00.a not found in repositories
+ [Hsm 55-1594] Core axi_i2s_adi of version 1.00.a not found in repositories
+19:30:37 ERROR :  [Hsm 55-1594] Core axi_dispctrl of version 1.00.a not found in repositories
+ [Hsm 55-1594] Core axi_dispctrl of version 1.00.a not found in repositories
+ [Hsm 55-1594] Core axi_i2s_adi of version 1.00.a not found in repositories
+19:30:41 ERROR :  [Hsm 55-1594] Core axi_dispctrl of version 1.00.a not found in repositories
+ [Hsm 55-1594] Core axi_dispctrl of version 1.00.a not found in repositories
+ [Hsm 55-1594] Core axi_i2s_adi of version 1.00.a not found in repositories
+19:30:41 ERROR :  [Hsm 55-1594] Core axi_dispctrl of version 1.00.a not found in repositories
+ [Hsm 55-1594] Core axi_dispctrl of version 1.00.a not found in repositories
+ [Hsm 55-1594] Core axi_i2s_adi of version 1.00.a not found in repositories
+19:30:43 ERROR :  [Hsm 55-1594] Core axi_dispctrl of version 1.00.a not found in repositories
+ [Hsm 55-1594] Core axi_dispctrl of version 1.00.a not found in repositories
+ [Hsm 55-1594] Core axi_i2s_adi of version 1.00.a not found in repositories
+ [Hsm 55-1594] Core axi_dispctrl of version 1.00.a not found in repositories
+ [Hsm 55-1594] Core axi_dispctrl of version 1.00.a not found in repositories
+ [Hsm 55-1594] Core axi_i2s_adi of version 1.00.a not found in repositories
+19:30:45 INFO  : ps7_init is completed.
+19:30:45 INFO  : ps7_post_config is completed.
+19:30:46 INFO  : Processor reset is completed for ps7_cortexa9_0
+19:31:24 ERROR :  [Hsm 55-1594] Core axi_dispctrl of version 1.00.a not found in repositories
+ [Hsm 55-1594] Core axi_dispctrl of version 1.00.a not found in repositories
+ [Hsm 55-1594] Core axi_i2s_adi of version 1.00.a not found in repositories
+19:31:25 ERROR :  [Hsm 55-1594] Core axi_dispctrl of version 1.00.a not found in repositories
+ [Hsm 55-1594] Core axi_dispctrl of version 1.00.a not found in repositories
+ [Hsm 55-1594] Core axi_i2s_adi of version 1.00.a not found in repositories
+19:31:35 ERROR :  [Hsm 55-1594] Core axi_dispctrl of version 1.00.a not found in repositories
+ [Hsm 55-1594] Core axi_dispctrl of version 1.00.a not found in repositories
+ [Hsm 55-1594] Core axi_i2s_adi of version 1.00.a not found in repositories
+19:31:35 ERROR :  [Hsm 55-1594] Core axi_dispctrl of version 1.00.a not found in repositories
+ [Hsm 55-1594] Core axi_dispctrl of version 1.00.a not found in repositories
+ [Hsm 55-1594] Core axi_i2s_adi of version 1.00.a not found in repositories
+19:34:36 ERROR :  [Hsm 55-1594] Core axi_dispctrl of version 1.00.a not found in repositories
+ [Hsm 55-1594] Core axi_dispctrl of version 1.00.a not found in repositories
+ [Hsm 55-1594] Core axi_i2s_adi of version 1.00.a not found in repositories
+ [Hsm 55-1594] Core axi_dispctrl of version 1.00.a not found in repositories
+ [Hsm 55-1594] Core axi_dispctrl of version 1.00.a not found in repositories
+ [Hsm 55-1594] Core axi_i2s_adi of version 1.00.a not found in repositories
+19:34:43 INFO  : FPGA configured successfully with bitstream "C:/DATOS/GIT/VGA/source/vivado/hw/zybo_bsd/zybo_bsd.sdk/system_wrapper_hw_platform_0/system_wrapper.bit"
+19:36:23 INFO  : ps7_init is completed.
+19:36:23 INFO  : ps7_post_config is completed.
+19:36:23 INFO  : Processor reset is completed for ps7_cortexa9_0
+19:38:50 INFO  : FPGA configured successfully with bitstream "C:/DATOS/GIT/VGA/source/vivado/hw/zybo_bsd/zybo_bsd.sdk/system_wrapper_hw_platform_0/system_wrapper.bit"
+19:38:56 INFO  : ps7_init is completed.
+19:38:56 INFO  : ps7_post_config is completed.
+19:38:57 INFO  : Processor reset is completed for ps7_cortexa9_0
+19:42:32 INFO  : ps7_cortexa9_0 Processor is in use. Please stop existing Run or Debug sessions before launching.
+19:42:49 INFO  : FPGA configured successfully with bitstream "C:/DATOS/GIT/VGA/source/vivado/hw/zybo_bsd/zybo_bsd.sdk/system_wrapper_hw_platform_0/system_wrapper.bit"
+19:42:56 INFO  : ps7_init is completed.
+19:42:56 INFO  : ps7_post_config is completed.
+19:42:56 INFO  : Processor reset is completed for ps7_cortexa9_0
+19:46:56 INFO  : FPGA configured successfully with bitstream "C:/DATOS/GIT/VGA/source/vivado/hw/zybo_bsd/zybo_bsd.sdk/system_wrapper_hw_platform_0/system_wrapper.bit"
+19:47:05 INFO  : ps7_init is completed.
+19:47:05 INFO  : ps7_post_config is completed.
+19:47:05 INFO  : Processor reset is completed for ps7_cortexa9_0
+19:47:53 INFO  : FPGA configured successfully with bitstream "C:/DATOS/GIT/VGA/source/vivado/hw/zybo_bsd/zybo_bsd.sdk/system_wrapper_hw_platform_0/system_wrapper.bit"
+19:48:05 INFO  : ps7_init is completed.
+19:48:05 INFO  : ps7_post_config is completed.
+19:48:05 INFO  : Processor reset is completed for ps7_cortexa9_0
+19:53:07 INFO  : Processor reset is completed for ps7_cortexa9_0
+19:57:29 INFO  : Processor reset is completed for ps7_cortexa9_0
+20:16:35 INFO  : Processor reset is completed for ps7_cortexa9_0
+20:17:21 INFO  : ps7_cortexa9_0 Processor is in use. Please stop existing Run or Debug sessions before launching.
+20:17:35 INFO  : Processor reset is completed for ps7_cortexa9_0
+20:18:14 INFO  : Processor reset is completed for ps7_cortexa9_0
+20:32:17 INFO  : Processor reset is completed for ps7_cortexa9_0
+20:38:16 INFO  : Processor reset is completed for ps7_cortexa9_0
+20:44:59 INFO  : Processor reset is completed for ps7_cortexa9_0
+20:57:29 INFO  : Processor reset is completed for ps7_cortexa9_0
+20:59:45 INFO  : Processor reset is completed for ps7_cortexa9_0
+21:04:52 INFO  : Processor reset is completed for ps7_cortexa9_0
+21:07:15 INFO  : Processor reset is completed for ps7_cortexa9_0
+21:12:17 INFO  : Processor reset is completed for ps7_cortexa9_0
+21:28:40 INFO  : Processor reset is completed for ps7_cortexa9_0
+21:41:00 ERROR : Unexpected error while launching program.
+java.lang.RuntimeException: The program file specified in the launch configuration does not exist
+	at com.xilinx.sdk.debug.core.XilinxAppLaunchConfigurationDelegate.runApplication(XilinxAppLaunchConfigurationDelegate.java:477)
+	at com.xilinx.sdk.debug.core.XilinxAppLaunchConfigurationDelegate.launch(XilinxAppLaunchConfigurationDelegate.java:252)
+	at com.xilinx.sdk.debug.ui.XilinxAppLaunchDelegateWrapper.launch(XilinxAppLaunchDelegateWrapper.java:31)
+	at org.eclipse.debug.internal.core.LaunchConfiguration.launch(LaunchConfiguration.java:855)
+	at org.eclipse.debug.internal.core.LaunchConfiguration.launch(LaunchConfiguration.java:704)
+	at org.eclipse.debug.internal.ui.DebugUIPlugin.buildAndLaunch(DebugUIPlugin.java:1047)
+	at org.eclipse.debug.internal.ui.DebugUIPlugin$8.run(DebugUIPlugin.java:1251)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:54)
+21:41:38 INFO  : Processor reset is completed for ps7_cortexa9_0
+21:50:47 ERROR : Unable to disconnect from existing targets
+java.lang.NullPointerException
+	at com.xilinx.sdk.targetmanager.internal.json.XMDJSONProcess.issueCommand(XMDJSONProcess.java:144)
+	at com.xilinx.sdk.targetmanager.internal.TM.disconnectTarget(TM.java:338)
+	at com.xilinx.sdk.targetmanager.internal.TM.disconnectExistingTargets(TM.java:320)
+	at com.xilinx.sdk.targetmanager.internal.TM.terminate(TM.java:210)
+	at com.xilinx.sdk.targetmanager.TMPlugin.stop(TMPlugin.java:57)
+	at org.eclipse.osgi.framework.internal.core.BundleContextImpl$2.run(BundleContextImpl.java:771)
+	at java.security.AccessController.doPrivileged(Native Method)
+	at org.eclipse.osgi.framework.internal.core.BundleContextImpl.stop(BundleContextImpl.java:764)
+	at org.eclipse.osgi.framework.internal.core.BundleHost.stopWorker(BundleHost.java:510)
+	at org.eclipse.osgi.framework.internal.core.AbstractBundle.suspend(AbstractBundle.java:566)
+	at org.eclipse.osgi.framework.internal.core.Framework.suspendBundle(Framework.java:1206)
+	at org.eclipse.osgi.framework.internal.core.StartLevelManager.decFWSL(StartLevelManager.java:592)
+	at org.eclipse.osgi.framework.internal.core.StartLevelManager.doSetStartLevel(StartLevelManager.java:257)
+	at org.eclipse.osgi.framework.internal.core.StartLevelManager.shutdown(StartLevelManager.java:215)
+	at org.eclipse.osgi.framework.internal.core.InternalSystemBundle.suspend(InternalSystemBundle.java:284)
+	at org.eclipse.osgi.framework.internal.core.Framework.shutdown(Framework.java:692)
+	at org.eclipse.osgi.framework.internal.core.Framework.close(Framework.java:600)
+	at org.eclipse.core.runtime.adaptor.EclipseStarter.shutdown(EclipseStarter.java:399)
+	at org.eclipse.core.runtime.adaptor.EclipseStarter.run(EclipseStarter.java:199)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:57)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:606)
+	at org.eclipse.equinox.launcher.Main.invokeFramework(Main.java:629)
+	at org.eclipse.equinox.launcher.Main.basicRun(Main.java:584)
+	at org.eclipse.equinox.launcher.Main.run(Main.java:1438)
+21:50:47 ERROR : Unexpected error while parsing XMD response ?: com.google.gson.JsonSyntaxException: com.google.gson.stream.MalformedJsonException: invalid number or unquoted string near 
