@@ -9118,3 +9118,774 @@ arm-xilinx-eabi-size pong.elf  |tee "pong.elf.size"
   85288	   2568	49801856	49889712	2f941b0	pong.elf
 'Finished building: pong.elf.size'
 ' '
+17:28:19 **** Incremental Build of configuration Debug for project pong ****
+make all 
+make: No se hace nada para `all'.
+17:28:21 **** Incremental Build of configuration Debug for project base_demo ****
+make all 
+make: No se hace nada para `all'.
+17:28:40 **** Incremental Build of configuration Debug for project pong ****
+make all 
+make: No se hace nada para `all'.
+17:28:42 **** Incremental Build of configuration Debug for project base_demo ****
+make all 
+make: No se hace nada para `all'.
+17:31:25 **** Auto Build of configuration Debug for project pong ****
+make all 
+'Building file: ../src/pong.c'
+'Invoking: ARM gcc compiler'
+arm-xilinx-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -I../../pong_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/pong.d" -MT"src/pong.d" -o "src/pong.o" "../src/pong.c"
+'Finished building: ../src/pong.c'
+' '
+'Building target: pong.elf'
+'Invoking: ARM gcc linker'
+arm-xilinx-eabi-gcc -Wl,-T -Wl,../src/lscript.ld -L../../pong_bsp/ps7_cortexa9_0/lib -o "pong.elf"  ./src/display_ctrl.o ./src/main.o ./src/pong.o ./src/timer_ps.o   -Wl,--start-group,-lxil,-lgcc,-lc,--end-group
+'Finished building target: pong.elf'
+' '
+'Invoking: ARM Print Size'
+arm-xilinx-eabi-size pong.elf  |tee "pong.elf.size"
+   text	   data	    bss	    dec	    hex	filename
+  85280	   2568	49801856	49889704	2f941a8	pong.elf
+'Finished building: pong.elf.size'
+' '
+17:32:59 **** Auto Build of configuration Debug for project pong ****
+make all 
+'Building file: ../src/main.c'
+'Invoking: ARM gcc compiler'
+arm-xilinx-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -I../../pong_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/main.d" -MT"src/main.d" -o "src/main.o" "../src/main.c"
+'Finished building: ../src/main.c'
+' '
+'Building target: pong.elf'
+'Invoking: ARM gcc linker'
+arm-xilinx-eabi-gcc -Wl,-T -Wl,../src/lscript.ld -L../../pong_bsp/ps7_cortexa9_0/lib -o "pong.elf"  ./src/display_ctrl.o ./src/main.o ./src/pong.o ./src/timer_ps.o   -Wl,--start-group,-lxil,-lgcc,-lc,--end-group
+'Finished building target: pong.elf'
+' '
+'Invoking: ARM Print Size'
+arm-xilinx-eabi-size pong.elf  |tee "pong.elf.size"
+   text	   data	    bss	    dec	    hex	filename
+  85320	   2568	49801856	49889744	2f941d0	pong.elf
+'Finished building: pong.elf.size'
+' '
+17:33:56 **** Auto Build of configuration Debug for project pong ****
+make all 
+'Building file: ../src/main.c'
+'Invoking: ARM gcc compiler'
+arm-xilinx-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -I../../pong_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/main.d" -MT"src/main.d" -o "src/main.o" "../src/main.c"
+'Finished building: ../src/main.c'
+' '
+'Building target: pong.elf'
+'Invoking: ARM gcc linker'
+arm-xilinx-eabi-gcc -Wl,-T -Wl,../src/lscript.ld -L../../pong_bsp/ps7_cortexa9_0/lib -o "pong.elf"  ./src/display_ctrl.o ./src/main.o ./src/pong.o ./src/timer_ps.o   -Wl,--start-group,-lxil,-lgcc,-lc,--end-group
+'Finished building target: pong.elf'
+' '
+'Invoking: ARM Print Size'
+arm-xilinx-eabi-size pong.elf  |tee "pong.elf.size"
+   text	   data	    bss	    dec	    hex	filename
+  85472	   2568	49801856	49889896	2f94268	pong.elf
+'Finished building: pong.elf.size'
+' '
+17:41:04 **** Auto Build of configuration Debug for project pong ****
+make all 
+'Building file: ../src/pong.c'
+'Invoking: ARM gcc compiler'
+arm-xilinx-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -I../../pong_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/pong.d" -MT"src/pong.d" -o "src/pong.o" "../src/pong.c"
+'Finished building: ../src/pong.c'
+' '
+'Building target: pong.elf'
+'Invoking: ARM gcc linker'
+arm-xilinx-eabi-gcc -Wl,-T -Wl,../src/lscript.ld -L../../pong_bsp/ps7_cortexa9_0/lib -o "pong.elf"  ./src/display_ctrl.o ./src/main.o ./src/pong.o ./src/timer_ps.o   -Wl,--start-group,-lxil,-lgcc,-lc,--end-group
+'Finished building target: pong.elf'
+' '
+'Invoking: ARM Print Size'
+arm-xilinx-eabi-size pong.elf  |tee "pong.elf.size"
+   text	   data	    bss	    dec	    hex	filename
+  85536	   2568	49801856	49889960	2f942a8	pong.elf
+'Finished building: pong.elf.size'
+' '
+17:43:17 **** Auto Build of configuration Debug for project pong ****
+make all 
+'Building file: ../src/pong.c'
+'Invoking: ARM gcc compiler'
+arm-xilinx-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -I../../pong_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/pong.d" -MT"src/pong.d" -o "src/pong.o" "../src/pong.c"
+../src/pong.c: In function 'pong':
+../src/pong.c:122:15: warning: unknown escape sequence: '\p' [enabled by default]
+    xil_printf("%d - %d\n\pelota",puntuacionA,puntuacionB);
+               ^
+../src/pong.c:129:15: warning: unknown escape sequence: '\p' [enabled by default]
+    xil_printf("%d - %d\n\pelota",puntuacionA,puntuacionB);
+               ^
+'Finished building: ../src/pong.c'
+' '
+'Building target: pong.elf'
+'Invoking: ARM gcc linker'
+arm-xilinx-eabi-gcc -Wl,-T -Wl,../src/lscript.ld -L../../pong_bsp/ps7_cortexa9_0/lib -o "pong.elf"  ./src/display_ctrl.o ./src/main.o ./src/pong.o ./src/timer_ps.o   -Wl,--start-group,-lxil,-lgcc,-lc,--end-group
+'Finished building target: pong.elf'
+' '
+'Invoking: ARM Print Size'
+arm-xilinx-eabi-size pong.elf  |tee "pong.elf.size"
+   text	   data	    bss	    dec	    hex	filename
+  85536	   2568	49801856	49889960	2f942a8	pong.elf
+'Finished building: pong.elf.size'
+' '
+17:43:37 **** Auto Build of configuration Debug for project pong ****
+make all 
+'Building file: ../src/pong.c'
+'Invoking: ARM gcc compiler'
+arm-xilinx-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -I../../pong_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/pong.d" -MT"src/pong.d" -o "src/pong.o" "../src/pong.c"
+'Finished building: ../src/pong.c'
+' '
+'Building target: pong.elf'
+'Invoking: ARM gcc linker'
+arm-xilinx-eabi-gcc -Wl,-T -Wl,../src/lscript.ld -L../../pong_bsp/ps7_cortexa9_0/lib -o "pong.elf"  ./src/display_ctrl.o ./src/main.o ./src/pong.o ./src/timer_ps.o   -Wl,--start-group,-lxil,-lgcc,-lc,--end-group
+'Finished building target: pong.elf'
+' '
+'Invoking: ARM Print Size'
+arm-xilinx-eabi-size pong.elf  |tee "pong.elf.size"
+   text	   data	    bss	    dec	    hex	filename
+  85536	   2568	49801856	49889960	2f942a8	pong.elf
+'Finished building: pong.elf.size'
+' '
+17:44:36 **** Auto Build of configuration Debug for project pong ****
+make all 
+'Building file: ../src/pong.c'
+'Invoking: ARM gcc compiler'
+arm-xilinx-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -I../../pong_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/pong.d" -MT"src/pong.d" -o "src/pong.o" "../src/pong.c"
+'Finished building: ../src/pong.c'
+' '
+'Building target: pong.elf'
+'Invoking: ARM gcc linker'
+arm-xilinx-eabi-gcc -Wl,-T -Wl,../src/lscript.ld -L../../pong_bsp/ps7_cortexa9_0/lib -o "pong.elf"  ./src/display_ctrl.o ./src/main.o ./src/pong.o ./src/timer_ps.o   -Wl,--start-group,-lxil,-lgcc,-lc,--end-group
+'Finished building target: pong.elf'
+' '
+'Invoking: ARM Print Size'
+arm-xilinx-eabi-size pong.elf  |tee "pong.elf.size"
+   text	   data	    bss	    dec	    hex	filename
+  85536	   2568	49801856	49889960	2f942a8	pong.elf
+'Finished building: pong.elf.size'
+' '
+17:50:51 **** Auto Build of configuration Debug for project pong ****
+make all 
+'Building file: ../src/pong.c'
+'Invoking: ARM gcc compiler'
+arm-xilinx-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -I../../pong_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/pong.d" -MT"src/pong.d" -o "src/pong.o" "../src/pong.c"
+'Finished building: ../src/pong.c'
+' '
+'Building target: pong.elf'
+'Invoking: ARM gcc linker'
+arm-xilinx-eabi-gcc -Wl,-T -Wl,../src/lscript.ld -L../../pong_bsp/ps7_cortexa9_0/lib -o "pong.elf"  ./src/display_ctrl.o ./src/main.o ./src/pong.o ./src/timer_ps.o   -Wl,--start-group,-lxil,-lgcc,-lc,--end-group
+'Finished building target: pong.elf'
+' '
+'Invoking: ARM Print Size'
+arm-xilinx-eabi-size pong.elf  |tee "pong.elf.size"
+   text	   data	    bss	    dec	    hex	filename
+  85664	   2568	49801856	49890088	2f94328	pong.elf
+'Finished building: pong.elf.size'
+' '
+17:52:03 **** Auto Build of configuration Debug for project pong ****
+make all 
+'Building file: ../src/pong.c'
+'Invoking: ARM gcc compiler'
+arm-xilinx-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -I../../pong_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/pong.d" -MT"src/pong.d" -o "src/pong.o" "../src/pong.c"
+../src/pong.c: In function 'pong':
+../src/pong.c:77:2: error: expected '=', ',', ';', 'asm' or '__attribute__' before 'frame'
+  frame=video->framePtr[video->curFrame];
+  ^
+In file included from ../../pong_bsp/ps7_cortexa9_0/include/xuartps.h:179:0,
+                 from ../src/pong.c:15:
+../src/pong.c:184:29: error: 'uartAdress' undeclared (first use in this function)
+   if (XUartPs_IsReceiveData(uartAdress)){
+                             ^
+../../pong_bsp/ps7_cortexa9_0/include/xuartps_hw.h:398:15: note: in definition of macro 'XUartPs_IsReceiveData'
+  !((Xil_In32((BaseAddress) + XUARTPS_SR_OFFSET) &  \
+               ^
+../src/pong.c:184:29: note: each undeclared identifier is reported only once for each function it appears in
+   if (XUartPs_IsReceiveData(uartAdress)){
+                             ^
+../../pong_bsp/ps7_cortexa9_0/include/xuartps_hw.h:398:15: note: in definition of macro 'XUartPs_IsReceiveData'
+  !((Xil_In32((BaseAddress) + XUARTPS_SR_OFFSET) &  \
+               ^
+make: *** [src/pong.o] Error 1
+17:52:07 **** Auto Build of configuration Debug for project pong ****
+make all 
+'Building file: ../src/pong.c'
+'Invoking: ARM gcc compiler'
+arm-xilinx-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -I../../pong_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/pong.d" -MT"src/pong.d" -o "src/pong.o" "../src/pong.c"
+In file included from ../../pong_bsp/ps7_cortexa9_0/include/xuartps.h:179:0,
+                 from ../src/pong.c:15:
+../src/pong.c: In function 'pong':
+../src/pong.c:184:29: error: 'uartAdress' undeclared (first use in this function)
+   if (XUartPs_IsReceiveData(uartAdress)){
+                             ^
+../../pong_bsp/ps7_cortexa9_0/include/xuartps_hw.h:398:15: note: in definition of macro 'XUartPs_IsReceiveData'
+  !((Xil_In32((BaseAddress) + XUARTPS_SR_OFFSET) &  \
+               ^
+../src/pong.c:184:29: note: each undeclared identifier is reported only once for each function it appears in
+   if (XUartPs_IsReceiveData(uartAdress)){
+                             ^
+../../pong_bsp/ps7_cortexa9_0/include/xuartps_hw.h:398:15: note: in definition of macro 'XUartPs_IsReceiveData'
+  !((Xil_In32((BaseAddress) + XUARTPS_SR_OFFSET) &  \
+               ^
+../src/pong.c:76:8: warning: unused variable 'entrada' [-Wunused-variable]
+  char  entrada;
+        ^
+make: *** [src/pong.o] Error 1
+17:52:45 **** Auto Build of configuration Debug for project pong ****
+make all 
+'Building file: ../src/pong.c'
+'Invoking: ARM gcc compiler'
+arm-xilinx-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -I../../pong_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/pong.d" -MT"src/pong.d" -o "src/pong.o" "../src/pong.c"
+In file included from ../../pong_bsp/ps7_cortexa9_0/include/xuartps.h:179:0,
+                 from ../src/pong.c:15:
+../src/pong.c: In function 'pong':
+../src/pong.c:184:29: error: 'uartAdress' undeclared (first use in this function)
+   if (XUartPs_IsReceiveData(uartAdress)){
+                             ^
+../../pong_bsp/ps7_cortexa9_0/include/xuartps_hw.h:398:15: note: in definition of macro 'XUartPs_IsReceiveData'
+  !((Xil_In32((BaseAddress) + XUARTPS_SR_OFFSET) &  \
+               ^
+../src/pong.c:184:29: note: each undeclared identifier is reported only once for each function it appears in
+   if (XUartPs_IsReceiveData(uartAdress)){
+                             ^
+../../pong_bsp/ps7_cortexa9_0/include/xuartps_hw.h:398:15: note: in definition of macro 'XUartPs_IsReceiveData'
+  !((Xil_In32((BaseAddress) + XUARTPS_SR_OFFSET) &  \
+               ^
+../src/pong.c:76:8: warning: unused variable 'entrada' [-Wunused-variable]
+  char  entrada;
+        ^
+make: *** [src/pong.o] Error 1
+17:52:51 **** Auto Build of configuration Debug for project pong ****
+make all 
+'Building file: ../src/pong.c'
+'Invoking: ARM gcc compiler'
+arm-xilinx-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -I../../pong_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/pong.d" -MT"src/pong.d" -o "src/pong.o" "../src/pong.c"
+../src/pong.c: In function 'pong':
+../src/pong.c:76:8: warning: unused variable 'entrada' [-Wunused-variable]
+  char  entrada;
+        ^
+'Finished building: ../src/pong.c'
+' '
+'Building target: pong.elf'
+'Invoking: ARM gcc linker'
+arm-xilinx-eabi-gcc -Wl,-T -Wl,../src/lscript.ld -L../../pong_bsp/ps7_cortexa9_0/lib -o "pong.elf"  ./src/display_ctrl.o ./src/main.o ./src/pong.o ./src/timer_ps.o   -Wl,--start-group,-lxil,-lgcc,-lc,--end-group
+'Finished building target: pong.elf'
+' '
+'Invoking: ARM Print Size'
+arm-xilinx-eabi-size pong.elf  |tee "pong.elf.size"
+   text	   data	    bss	    dec	    hex	filename
+  85664	   2568	49801856	49890088	2f94328	pong.elf
+'Finished building: pong.elf.size'
+' '
+17:54:38 **** Auto Build of configuration Debug for project pong ****
+make all 
+'Building file: ../src/pong.c'
+'Invoking: ARM gcc compiler'
+arm-xilinx-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -I../../pong_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/pong.d" -MT"src/pong.d" -o "src/pong.o" "../src/pong.c"
+In file included from ../../pong_bsp/ps7_cortexa9_0/include/xuartps.h:179:0,
+                 from ../src/pong.c:15:
+../src/pong.c: In function 'pong':
+../src/pong.c:185:34: error: 'uartAdress' undeclared (first use in this function)
+    entrada=XUartPs_IsReceiveData(uartAdress);
+                                  ^
+../../pong_bsp/ps7_cortexa9_0/include/xuartps_hw.h:398:15: note: in definition of macro 'XUartPs_IsReceiveData'
+  !((Xil_In32((BaseAddress) + XUARTPS_SR_OFFSET) &  \
+               ^
+../src/pong.c:185:34: note: each undeclared identifier is reported only once for each function it appears in
+    entrada=XUartPs_IsReceiveData(uartAdress);
+                                  ^
+../../pong_bsp/ps7_cortexa9_0/include/xuartps_hw.h:398:15: note: in definition of macro 'XUartPs_IsReceiveData'
+  !((Xil_In32((BaseAddress) + XUARTPS_SR_OFFSET) &  \
+               ^
+make: *** [src/pong.o] Error 1
+17:54:52 **** Auto Build of configuration Debug for project pong ****
+make all 
+'Building file: ../src/pong.c'
+'Invoking: ARM gcc compiler'
+arm-xilinx-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -I../../pong_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/pong.d" -MT"src/pong.d" -o "src/pong.o" "../src/pong.c"
+'Finished building: ../src/pong.c'
+' '
+'Building target: pong.elf'
+'Invoking: ARM gcc linker'
+arm-xilinx-eabi-gcc -Wl,-T -Wl,../src/lscript.ld -L../../pong_bsp/ps7_cortexa9_0/lib -o "pong.elf"  ./src/display_ctrl.o ./src/main.o ./src/pong.o ./src/timer_ps.o   -Wl,--start-group,-lxil,-lgcc,-lc,--end-group
+'Finished building target: pong.elf'
+' '
+'Invoking: ARM Print Size'
+arm-xilinx-eabi-size pong.elf  |tee "pong.elf.size"
+   text	   data	    bss	    dec	    hex	filename
+  85792	   2568	49801856	49890216	2f943a8	pong.elf
+'Finished building: pong.elf.size'
+' '
+17:55:14 **** Auto Build of configuration Debug for project pong ****
+make all 
+'Building file: ../src/pong.c'
+'Invoking: ARM gcc compiler'
+arm-xilinx-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -I../../pong_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/pong.d" -MT"src/pong.d" -o "src/pong.o" "../src/pong.c"
+'Finished building: ../src/pong.c'
+' '
+'Building target: pong.elf'
+'Invoking: ARM gcc linker'
+arm-xilinx-eabi-gcc -Wl,-T -Wl,../src/lscript.ld -L../../pong_bsp/ps7_cortexa9_0/lib -o "pong.elf"  ./src/display_ctrl.o ./src/main.o ./src/pong.o ./src/timer_ps.o   -Wl,--start-group,-lxil,-lgcc,-lc,--end-group
+'Finished building target: pong.elf'
+' '
+'Invoking: ARM Print Size'
+arm-xilinx-eabi-size pong.elf  |tee "pong.elf.size"
+   text	   data	    bss	    dec	    hex	filename
+  85792	   2568	49801856	49890216	2f943a8	pong.elf
+'Finished building: pong.elf.size'
+' '
+17:56:16 **** Auto Build of configuration Debug for project pong ****
+make all 
+'Building file: ../src/pong.c'
+'Invoking: ARM gcc compiler'
+arm-xilinx-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -I../../pong_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/pong.d" -MT"src/pong.d" -o "src/pong.o" "../src/pong.c"
+'Finished building: ../src/pong.c'
+' '
+'Building target: pong.elf'
+'Invoking: ARM gcc linker'
+arm-xilinx-eabi-gcc -Wl,-T -Wl,../src/lscript.ld -L../../pong_bsp/ps7_cortexa9_0/lib -o "pong.elf"  ./src/display_ctrl.o ./src/main.o ./src/pong.o ./src/timer_ps.o   -Wl,--start-group,-lxil,-lgcc,-lc,--end-group
+'Finished building target: pong.elf'
+' '
+'Invoking: ARM Print Size'
+arm-xilinx-eabi-size pong.elf  |tee "pong.elf.size"
+   text	   data	    bss	    dec	    hex	filename
+  85808	   2568	49801856	49890232	2f943b8	pong.elf
+'Finished building: pong.elf.size'
+' '
+17:57:21 **** Incremental Build of configuration Debug for project pong ****
+make all 
+make: No se hace nada para `all'.
+17:57:23 **** Incremental Build of configuration Debug for project base_demo ****
+make all 
+make: No se hace nada para `all'.
+18:06:59 **** Auto Build of configuration Debug for project pong ****
+make all 
+'Building file: ../src/pong.c'
+'Invoking: ARM gcc compiler'
+arm-xilinx-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -I../../pong_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/pong.d" -MT"src/pong.d" -o "src/pong.o" "../src/pong.c"
+../src/pong.c: In function 'pong':
+../src/pong.c:76:2: error: unknown type name 'u1'
+  u1  pause=false;
+  ^
+../src/pong.c:76:6: warning: unused variable 'pause' [-Wunused-variable]
+  u1  pause=false;
+      ^
+make: *** [src/pong.o] Error 1
+18:07:06 **** Auto Build of configuration Debug for project pong ****
+make all 
+'Building file: ../src/pong.c'
+'Invoking: ARM gcc compiler'
+arm-xilinx-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -I../../pong_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/pong.d" -MT"src/pong.d" -o "src/pong.o" "../src/pong.c"
+../src/pong.c: In function 'pong':
+../src/pong.c:76:7: warning: unused variable 'pause' [-Wunused-variable]
+  u16  pause=false;
+       ^
+'Finished building: ../src/pong.c'
+' '
+'Building target: pong.elf'
+'Invoking: ARM gcc linker'
+arm-xilinx-eabi-gcc -Wl,-T -Wl,../src/lscript.ld -L../../pong_bsp/ps7_cortexa9_0/lib -o "pong.elf"  ./src/display_ctrl.o ./src/main.o ./src/pong.o ./src/timer_ps.o   -Wl,--start-group,-lxil,-lgcc,-lc,--end-group
+'Finished building target: pong.elf'
+' '
+'Invoking: ARM Print Size'
+arm-xilinx-eabi-size pong.elf  |tee "pong.elf.size"
+   text	   data	    bss	    dec	    hex	filename
+  85808	   2568	49801856	49890232	2f943b8	pong.elf
+'Finished building: pong.elf.size'
+' '
+18:07:21 **** Auto Build of configuration Debug for project pong ****
+make all 
+'Building file: ../src/pong.c'
+'Invoking: ARM gcc compiler'
+arm-xilinx-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -I../../pong_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/pong.d" -MT"src/pong.d" -o "src/pong.o" "../src/pong.c"
+../src/pong.c: In function 'pong':
+../src/pong.c:76:6: warning: unused variable 'pause' [-Wunused-variable]
+  u8  pause=false;
+      ^
+'Finished building: ../src/pong.c'
+' '
+'Building target: pong.elf'
+'Invoking: ARM gcc linker'
+arm-xilinx-eabi-gcc -Wl,-T -Wl,../src/lscript.ld -L../../pong_bsp/ps7_cortexa9_0/lib -o "pong.elf"  ./src/display_ctrl.o ./src/main.o ./src/pong.o ./src/timer_ps.o   -Wl,--start-group,-lxil,-lgcc,-lc,--end-group
+'Finished building target: pong.elf'
+' '
+'Invoking: ARM Print Size'
+arm-xilinx-eabi-size pong.elf  |tee "pong.elf.size"
+   text	   data	    bss	    dec	    hex	filename
+  85808	   2568	49801856	49890232	2f943b8	pong.elf
+'Finished building: pong.elf.size'
+' '
+18:07:25 **** Auto Build of configuration Debug for project pong ****
+make all 
+'Building file: ../src/pong.c'
+'Invoking: ARM gcc compiler'
+arm-xilinx-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -I../../pong_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/pong.d" -MT"src/pong.d" -o "src/pong.o" "../src/pong.c"
+../src/pong.c: In function 'pong':
+../src/pong.c:76:2: error: unknown type name 'u4'
+  u4  pause=false;
+  ^
+../src/pong.c:76:6: warning: unused variable 'pause' [-Wunused-variable]
+  u4  pause=false;
+      ^
+make: *** [src/pong.o] Error 1
+18:07:29 **** Auto Build of configuration Debug for project pong ****
+make all 
+'Building file: ../src/pong.c'
+'Invoking: ARM gcc compiler'
+arm-xilinx-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -I../../pong_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/pong.d" -MT"src/pong.d" -o "src/pong.o" "../src/pong.c"
+../src/pong.c: In function 'pong':
+../src/pong.c:76:6: warning: unused variable 'pause' [-Wunused-variable]
+  u8  pause=false;
+      ^
+'Finished building: ../src/pong.c'
+' '
+'Building target: pong.elf'
+'Invoking: ARM gcc linker'
+arm-xilinx-eabi-gcc -Wl,-T -Wl,../src/lscript.ld -L../../pong_bsp/ps7_cortexa9_0/lib -o "pong.elf"  ./src/display_ctrl.o ./src/main.o ./src/pong.o ./src/timer_ps.o   -Wl,--start-group,-lxil,-lgcc,-lc,--end-group
+'Finished building target: pong.elf'
+' '
+'Invoking: ARM Print Size'
+arm-xilinx-eabi-size pong.elf  |tee "pong.elf.size"
+   text	   data	    bss	    dec	    hex	filename
+  85808	   2568	49801856	49890232	2f943b8	pong.elf
+'Finished building: pong.elf.size'
+' '
+18:07:52 **** Auto Build of configuration Debug for project pong ****
+make all 
+'Building file: ../src/pong.c'
+'Invoking: ARM gcc compiler'
+arm-xilinx-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -I../../pong_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/pong.d" -MT"src/pong.d" -o "src/pong.o" "../src/pong.c"
+../src/pong.c: In function 'pong':
+../src/pong.c:76:4: warning: unused variable 'pause' [-Wunused-variable]
+    pause=false;
+    ^
+'Finished building: ../src/pong.c'
+' '
+'Building target: pong.elf'
+'Invoking: ARM gcc linker'
+arm-xilinx-eabi-gcc -Wl,-T -Wl,../src/lscript.ld -L../../pong_bsp/ps7_cortexa9_0/lib -o "pong.elf"  ./src/display_ctrl.o ./src/main.o ./src/pong.o ./src/timer_ps.o   -Wl,--start-group,-lxil,-lgcc,-lc,--end-group
+'Finished building target: pong.elf'
+' '
+'Invoking: ARM Print Size'
+arm-xilinx-eabi-size pong.elf  |tee "pong.elf.size"
+   text	   data	    bss	    dec	    hex	filename
+  85808	   2568	49801856	49890232	2f943b8	pong.elf
+'Finished building: pong.elf.size'
+' '
+18:16:01 **** Auto Build of configuration Debug for project pong ****
+make all 
+'Building file: ../src/pong.c'
+'Invoking: ARM gcc compiler'
+arm-xilinx-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -I../../pong_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/pong.d" -MT"src/pong.d" -o "src/pong.o" "../src/pong.c"
+../src/pong.c: In function 'pong':
+../src/pong.c:77:8: warning: variable 'entrada' set but not used [-Wunused-but-set-variable]
+  char  entrada;
+        ^
+../src/pong.c:76:4: warning: variable 'pause' set but not used [-Wunused-but-set-variable]
+    pause=false;
+    ^
+../src/pong.c: In function 'cambiarVelocidad':
+../src/pong.c:196:6: warning: value computed is not used [-Wunused-value]
+      *speed++;
+      ^
+../src/pong.c:198:6: warning: value computed is not used [-Wunused-value]
+      *speed--;
+      ^
+'Finished building: ../src/pong.c'
+' '
+'Building target: pong.elf'
+'Invoking: ARM gcc linker'
+arm-xilinx-eabi-gcc -Wl,-T -Wl,../src/lscript.ld -L../../pong_bsp/ps7_cortexa9_0/lib -o "pong.elf"  ./src/display_ctrl.o ./src/main.o ./src/pong.o ./src/timer_ps.o   -Wl,--start-group,-lxil,-lgcc,-lc,--end-group
+'Finished building target: pong.elf'
+' '
+'Invoking: ARM Print Size'
+arm-xilinx-eabi-size pong.elf  |tee "pong.elf.size"
+   text	   data	    bss	    dec	    hex	filename
+  85872	   2568	49801856	49890296	2f943f8	pong.elf
+'Finished building: pong.elf.size'
+' '
+18:16:23 **** Auto Build of configuration Debug for project pong ****
+make all 
+'Building file: ../src/pong.c'
+'Invoking: ARM gcc compiler'
+arm-xilinx-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -I../../pong_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/pong.d" -MT"src/pong.d" -o "src/pong.o" "../src/pong.c"
+../src/pong.c: In function 'pong':
+../src/pong.c:77:8: warning: variable 'entrada' set but not used [-Wunused-but-set-variable]
+  char  entrada;
+        ^
+../src/pong.c:76:4: warning: variable 'pause' set but not used [-Wunused-but-set-variable]
+    pause=false;
+    ^
+../src/pong.c: In function 'cambiarVelocidad':
+../src/pong.c:198:6: warning: value computed is not used [-Wunused-value]
+      *speed--;
+      ^
+'Finished building: ../src/pong.c'
+' '
+'Building target: pong.elf'
+'Invoking: ARM gcc linker'
+arm-xilinx-eabi-gcc -Wl,-T -Wl,../src/lscript.ld -L../../pong_bsp/ps7_cortexa9_0/lib -o "pong.elf"  ./src/display_ctrl.o ./src/main.o ./src/pong.o ./src/timer_ps.o   -Wl,--start-group,-lxil,-lgcc,-lc,--end-group
+'Finished building target: pong.elf'
+' '
+'Invoking: ARM Print Size'
+arm-xilinx-eabi-size pong.elf  |tee "pong.elf.size"
+   text	   data	    bss	    dec	    hex	filename
+  85872	   2568	49801856	49890296	2f943f8	pong.elf
+'Finished building: pong.elf.size'
+' '
+18:16:37 **** Auto Build of configuration Debug for project pong ****
+make all 
+'Building file: ../src/pong.c'
+'Invoking: ARM gcc compiler'
+arm-xilinx-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -I../../pong_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/pong.d" -MT"src/pong.d" -o "src/pong.o" "../src/pong.c"
+../src/pong.c: In function 'pong':
+../src/pong.c:77:8: warning: variable 'entrada' set but not used [-Wunused-but-set-variable]
+  char  entrada;
+        ^
+../src/pong.c:76:4: warning: variable 'pause' set but not used [-Wunused-but-set-variable]
+    pause=false;
+    ^
+../src/pong.c: In function 'cambiarVelocidad':
+../src/pong.c:198:16: error: lvalue required as decrement operand
+      (*speed)++--;
+                ^
+make: *** [src/pong.o] Error 1
+18:16:42 **** Auto Build of configuration Debug for project pong ****
+make all 
+'Building file: ../src/pong.c'
+'Invoking: ARM gcc compiler'
+arm-xilinx-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -I../../pong_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/pong.d" -MT"src/pong.d" -o "src/pong.o" "../src/pong.c"
+../src/pong.c: In function 'pong':
+../src/pong.c:77:8: warning: variable 'entrada' set but not used [-Wunused-but-set-variable]
+  char  entrada;
+        ^
+../src/pong.c:76:4: warning: variable 'pause' set but not used [-Wunused-but-set-variable]
+    pause=false;
+    ^
+'Finished building: ../src/pong.c'
+' '
+'Building target: pong.elf'
+'Invoking: ARM gcc linker'
+arm-xilinx-eabi-gcc -Wl,-T -Wl,../src/lscript.ld -L../../pong_bsp/ps7_cortexa9_0/lib -o "pong.elf"  ./src/display_ctrl.o ./src/main.o ./src/pong.o ./src/timer_ps.o   -Wl,--start-group,-lxil,-lgcc,-lc,--end-group
+'Finished building target: pong.elf'
+' '
+'Invoking: ARM Print Size'
+arm-xilinx-eabi-size pong.elf  |tee "pong.elf.size"
+   text	   data	    bss	    dec	    hex	filename
+  85872	   2568	49801856	49890296	2f943f8	pong.elf
+'Finished building: pong.elf.size'
+' '
+18:21:06 **** Auto Build of configuration Debug for project pong ****
+make all 
+'Building file: ../src/pong.c'
+'Invoking: ARM gcc compiler'
+arm-xilinx-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -I../../pong_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/pong.d" -MT"src/pong.d" -o "src/pong.o" "../src/pong.c"
+../src/pong.c: In function 'pong':
+../src/pong.c:195:8: warning: implicit declaration of function 'cambiarVelocidad' [-Wimplicit-function-declaration]
+        cambiarVelocidad(&speed,entrada);
+        ^
+../src/pong.c: At top level:
+../src/pong.c:205:6: warning: conflicting types for 'cambiarVelocidad' [enabled by default]
+ void cambiarVelocidad(u32 *speed,char entrada){
+      ^
+../src/pong.c:195:8: note: previous implicit declaration of 'cambiarVelocidad' was here
+        cambiarVelocidad(&speed,entrada);
+        ^
+'Finished building: ../src/pong.c'
+' '
+'Building target: pong.elf'
+'Invoking: ARM gcc linker'
+arm-xilinx-eabi-gcc -Wl,-T -Wl,../src/lscript.ld -L../../pong_bsp/ps7_cortexa9_0/lib -o "pong.elf"  ./src/display_ctrl.o ./src/main.o ./src/pong.o ./src/timer_ps.o   -Wl,--start-group,-lxil,-lgcc,-lc,--end-group
+'Finished building target: pong.elf'
+' '
+'Invoking: ARM Print Size'
+arm-xilinx-eabi-size pong.elf  |tee "pong.elf.size"
+   text	   data	    bss	    dec	    hex	filename
+  86000	   2568	49801856	49890424	2f94478	pong.elf
+'Finished building: pong.elf.size'
+' '
+18:21:57 **** Auto Build of configuration Debug for project pong ****
+make all 
+'Building file: ../src/pong.c'
+'Invoking: ARM gcc compiler'
+arm-xilinx-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -I../../pong_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/pong.d" -MT"src/pong.d" -o "src/pong.o" "../src/pong.c"
+../src/pong.c: In function 'pong':
+../src/pong.c:195:8: warning: implicit declaration of function 'cambiarVelocidad' [-Wimplicit-function-declaration]
+        cambiarVelocidad(&speed,entrada);
+        ^
+../src/pong.c: At top level:
+../src/pong.c:206:6: warning: conflicting types for 'cambiarVelocidad' [enabled by default]
+ void cambiarVelocidad(u32 *speed,char entrada){
+      ^
+../src/pong.c:195:8: note: previous implicit declaration of 'cambiarVelocidad' was here
+        cambiarVelocidad(&speed,entrada);
+        ^
+'Finished building: ../src/pong.c'
+' '
+'Building target: pong.elf'
+'Invoking: ARM gcc linker'
+arm-xilinx-eabi-gcc -Wl,-T -Wl,../src/lscript.ld -L../../pong_bsp/ps7_cortexa9_0/lib -o "pong.elf"  ./src/display_ctrl.o ./src/main.o ./src/pong.o ./src/timer_ps.o   -Wl,--start-group,-lxil,-lgcc,-lc,--end-group
+'Finished building target: pong.elf'
+' '
+'Invoking: ARM Print Size'
+arm-xilinx-eabi-size pong.elf  |tee "pong.elf.size"
+   text	   data	    bss	    dec	    hex	filename
+  86064	   2568	49801856	49890488	2f944b8	pong.elf
+'Finished building: pong.elf.size'
+' '
+18:22:29 **** Auto Build of configuration Debug for project pong ****
+make all 
+'Building file: ../src/pong.c'
+'Invoking: ARM gcc compiler'
+arm-xilinx-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -I../../pong_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/pong.d" -MT"src/pong.d" -o "src/pong.o" "../src/pong.c"
+../src/pong.c: In function 'pong':
+../src/pong.c:195:8: warning: implicit declaration of function 'cambiarVelocidad' [-Wimplicit-function-declaration]
+        cambiarVelocidad(&speed,entrada);
+        ^
+../src/pong.c: At top level:
+../src/pong.c:205:6: warning: conflicting types for 'cambiarVelocidad' [enabled by default]
+ void cambiarVelocidad(u32 *speed,char entrada){
+      ^
+../src/pong.c:195:8: note: previous implicit declaration of 'cambiarVelocidad' was here
+        cambiarVelocidad(&speed,entrada);
+        ^
+'Finished building: ../src/pong.c'
+' '
+'Building target: pong.elf'
+'Invoking: ARM gcc linker'
+arm-xilinx-eabi-gcc -Wl,-T -Wl,../src/lscript.ld -L../../pong_bsp/ps7_cortexa9_0/lib -o "pong.elf"  ./src/display_ctrl.o ./src/main.o ./src/pong.o ./src/timer_ps.o   -Wl,--start-group,-lxil,-lgcc,-lc,--end-group
+'Finished building target: pong.elf'
+' '
+'Invoking: ARM Print Size'
+arm-xilinx-eabi-size pong.elf  |tee "pong.elf.size"
+   text	   data	    bss	    dec	    hex	filename
+  86064	   2568	49801856	49890488	2f944b8	pong.elf
+'Finished building: pong.elf.size'
+' '
+18:22:47 **** Auto Build of configuration Debug for project pong ****
+make all 
+make: No se hace nada para `all'.
+18:22:52 **** Incremental Build of configuration Debug for project pong ****
+make all 
+make: No se hace nada para `all'.
+18:22:54 **** Incremental Build of configuration Debug for project base_demo ****
+make all 
+make: No se hace nada para `all'.
+18:25:18 **** Auto Build of configuration Debug for project pong ****
+make all 
+'Building file: ../src/pong.c'
+'Invoking: ARM gcc compiler'
+arm-xilinx-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -I../../pong_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/pong.d" -MT"src/pong.d" -o "src/pong.o" "../src/pong.c"
+'Finished building: ../src/pong.c'
+' '
+'Building target: pong.elf'
+'Invoking: ARM gcc linker'
+arm-xilinx-eabi-gcc -Wl,-T -Wl,../src/lscript.ld -L../../pong_bsp/ps7_cortexa9_0/lib -o "pong.elf"  ./src/display_ctrl.o ./src/main.o ./src/pong.o ./src/timer_ps.o   -Wl,--start-group,-lxil,-lgcc,-lc,--end-group
+'Finished building target: pong.elf'
+' '
+'Invoking: ARM Print Size'
+arm-xilinx-eabi-size pong.elf  |tee "pong.elf.size"
+   text	   data	    bss	    dec	    hex	filename
+  86064	   2568	49801856	49890488	2f944b8	pong.elf
+'Finished building: pong.elf.size'
+' '
+18:29:25 **** Auto Build of configuration Debug for project pong ****
+make all 
+'Building file: ../src/pong.c'
+'Invoking: ARM gcc compiler'
+arm-xilinx-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -I../../pong_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/pong.d" -MT"src/pong.d" -o "src/pong.o" "../src/pong.c"
+'Finished building: ../src/pong.c'
+' '
+'Building target: pong.elf'
+'Invoking: ARM gcc linker'
+arm-xilinx-eabi-gcc -Wl,-T -Wl,../src/lscript.ld -L../../pong_bsp/ps7_cortexa9_0/lib -o "pong.elf"  ./src/display_ctrl.o ./src/main.o ./src/pong.o ./src/timer_ps.o   -Wl,--start-group,-lxil,-lgcc,-lc,--end-group
+'Finished building target: pong.elf'
+' '
+'Invoking: ARM Print Size'
+arm-xilinx-eabi-size pong.elf  |tee "pong.elf.size"
+   text	   data	    bss	    dec	    hex	filename
+  86072	   2568	49801856	49890496	2f944c0	pong.elf
+'Finished building: pong.elf.size'
+' '
+18:30:53 **** Auto Build of configuration Debug for project pong ****
+make all 
+'Building file: ../src/pong.c'
+'Invoking: ARM gcc compiler'
+arm-xilinx-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -I../../pong_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/pong.d" -MT"src/pong.d" -o "src/pong.o" "../src/pong.c"
+'Finished building: ../src/pong.c'
+' '
+'Building target: pong.elf'
+'Invoking: ARM gcc linker'
+arm-xilinx-eabi-gcc -Wl,-T -Wl,../src/lscript.ld -L../../pong_bsp/ps7_cortexa9_0/lib -o "pong.elf"  ./src/display_ctrl.o ./src/main.o ./src/pong.o ./src/timer_ps.o   -Wl,--start-group,-lxil,-lgcc,-lc,--end-group
+'Finished building target: pong.elf'
+' '
+'Invoking: ARM Print Size'
+arm-xilinx-eabi-size pong.elf  |tee "pong.elf.size"
+   text	   data	    bss	    dec	    hex	filename
+  86136	   2568	49801856	49890560	2f94500	pong.elf
+'Finished building: pong.elf.size'
+' '
+18:31:12 **** Incremental Build of configuration Debug for project pong ****
+make all 
+make: No se hace nada para `all'.
+18:31:13 **** Incremental Build of configuration Debug for project base_demo ****
+make all 
+make: No se hace nada para `all'.
+18:32:06 **** Auto Build of configuration Debug for project pong ****
+make all 
+'Building file: ../src/pong.c'
+'Invoking: ARM gcc compiler'
+arm-xilinx-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -I../../pong_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/pong.d" -MT"src/pong.d" -o "src/pong.o" "../src/pong.c"
+'Finished building: ../src/pong.c'
+' '
+'Building target: pong.elf'
+'Invoking: ARM gcc linker'
+arm-xilinx-eabi-gcc -Wl,-T -Wl,../src/lscript.ld -L../../pong_bsp/ps7_cortexa9_0/lib -o "pong.elf"  ./src/display_ctrl.o ./src/main.o ./src/pong.o ./src/timer_ps.o   -Wl,--start-group,-lxil,-lgcc,-lc,--end-group
+'Finished building target: pong.elf'
+' '
+'Invoking: ARM Print Size'
+arm-xilinx-eabi-size pong.elf  |tee "pong.elf.size"
+   text	   data	    bss	    dec	    hex	filename
+  86136	   2568	49801856	49890560	2f94500	pong.elf
+'Finished building: pong.elf.size'
+' '
+18:38:29 **** Auto Build of configuration Debug for project pong ****
+make all 
+'Building file: ../src/main.c'
+'Invoking: ARM gcc compiler'
+arm-xilinx-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -I../../pong_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/main.d" -MT"src/main.d" -o "src/main.o" "../src/main.c"
+'Finished building: ../src/main.c'
+' '
+'Building target: pong.elf'
+'Invoking: ARM gcc linker'
+arm-xilinx-eabi-gcc -Wl,-T -Wl,../src/lscript.ld -L../../pong_bsp/ps7_cortexa9_0/lib -o "pong.elf"  ./src/display_ctrl.o ./src/main.o ./src/pong.o ./src/timer_ps.o   -Wl,--start-group,-lxil,-lgcc,-lc,--end-group
+'Finished building target: pong.elf'
+' '
+'Invoking: ARM Print Size'
+arm-xilinx-eabi-size pong.elf  |tee "pong.elf.size"
+   text	   data	    bss	    dec	    hex	filename
+  86216	   2568	49801856	49890640	2f94550	pong.elf
+'Finished building: pong.elf.size'
+' '
+18:39:30 **** Auto Build of configuration Debug for project pong ****
+make all 
+make: No se hace nada para `all'.
+18:41:22 **** Auto Build of configuration Debug for project pong ****
+make all 
+make: No se hace nada para `all'.
+18:41:24 **** Auto Build of configuration Debug for project pong ****
+make all 
+'Building file: ../src/pong.c'
+'Invoking: ARM gcc compiler'
+arm-xilinx-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -I../../pong_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/pong.d" -MT"src/pong.d" -o "src/pong.o" "../src/pong.c"
+'Finished building: ../src/pong.c'
+' '
+'Building target: pong.elf'
+'Invoking: ARM gcc linker'
+arm-xilinx-eabi-gcc -Wl,-T -Wl,../src/lscript.ld -L../../pong_bsp/ps7_cortexa9_0/lib -o "pong.elf"  ./src/display_ctrl.o ./src/main.o ./src/pong.o ./src/timer_ps.o   -Wl,--start-group,-lxil,-lgcc,-lc,--end-group
+'Finished building target: pong.elf'
+' '
+'Invoking: ARM Print Size'
+arm-xilinx-eabi-size pong.elf  |tee "pong.elf.size"
+   text	   data	    bss	    dec	    hex	filename
+  86216	   2568	49801856	49890640	2f94550	pong.elf
+'Finished building: pong.elf.size'
+' '

@@ -1,4 +1,4 @@
-21:48:29 **** Auto Build of configuration Debug for project pong ****
+18:41:24 **** Auto Build of configuration Debug for project pong ****
 make all 
 'Building file: ../src/pong.c'
 'Invoking: ARM gcc compiler'
@@ -13,9 +13,9 @@ arm-xilinx-eabi-gcc -Wl,-T -Wl,../src/lscript.ld -L../../pong_bsp/ps7_cortexa9_0
 'Invoking: ARM Print Size'
 arm-xilinx-eabi-size pong.elf  |tee "pong.elf.size"
    text	   data	    bss	    dec	    hex	filename
-  85288	   2568	49801856	49889712	2f941b0	pong.elf
+  86216	   2568	49801856	49890640	2f94550	pong.elf
 'Finished building: pong.elf.size'
 ' '
 
-21:48:31 Build Finished (took 1s.123ms)
+18:41:25 Build Finished (took 1s.373ms)
 
