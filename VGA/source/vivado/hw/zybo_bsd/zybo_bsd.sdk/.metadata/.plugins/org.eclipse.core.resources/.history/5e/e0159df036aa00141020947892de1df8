@@ -2,15 +2,9 @@
  * pong.h
  *
  *  Created on: 29/01/2015
- *      Author: Pablo Ráez
- *      		Vicente Cantón
- *
- *      Este archivo incluye ficheros creados propios, y ficheros
- *      reutilizados de:
- *
- *      ZYBO Base System demonstration, Sam Bobrowicz
- *		Copyright 2014, Digilent Inc.
+ *      Author: paolo
  */
+
 #ifndef PONG_H_
 #define PONG_H_
 
@@ -70,6 +64,5 @@ int nextFrame(DisplayCtrl *dispPtr, u32 **frame);
 u32 dir(u32 x, u32 y, u32 stride);
 void pintarRectangulo(u32 *frame, Rectangulo *r, u32 width, u32 height, u32 stride);
 void pintarFondo(u32 *frame, u32 color, u32 width, u32 height, u32 stride);
-void cambiarVelocidad(u32 *speed,char entrada);
 
 #endif /* PONG_H_ */

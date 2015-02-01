@@ -2,15 +2,9 @@
  * pong.h
  *
  *  Created on: 29/01/2015
- *      Author: Pablo Ráez
- *      		Vicente Cantón
- *
- *      Este archivo incluye ficheros creados propios, y ficheros
- *      reutilizados de:
- *
- *      ZYBO Base System demonstration, Sam Bobrowicz
- *		Copyright 2014, Digilent Inc.
+ *      Author: paolo
  */
+
 #ifndef PONG_H_
 #define PONG_H_
 

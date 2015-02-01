@@ -144,14 +144,8 @@ void Menu()
 	xil_printf("2 - Cambiar resolución HDMI\n\r");
 	xil_printf("3 - Jugar en VGA\n\r");
 	xil_printf("4 - Jugar en HDMI\n\r");
-	xil_printf("q - Salir\n\r");
+	xil_printf("q - Quit\n\r");
 	xil_printf("\n\r");
-	xil_printf("Se recuerda que para jugar, SW3 debe estar on\n\r");
-	xil_printf("Para pausar el juego, SW3 debe estar off\n\r");
-	xil_printf("SW0 cambia el color de la bola\n\r");
-	xil_printf("Barra espaciadora --> pausa\n\r");
-	xil_printf(" + --> aumentar velocidad");
-	xil_printf(" - --> disminuir velocidad");
-	xil_printf("Indique un numero:");
+	xil_printf("Select a demo to run:");
 }
 
