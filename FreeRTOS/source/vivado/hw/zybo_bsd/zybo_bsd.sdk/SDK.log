@@ -1,0 +1,387 @@
+10:07:16 INFO  : Processing command line option -hwspec D:/GIT/Zybo/VGA/source/vivado/hw/zybo_bsd/zybo_bsd.sdk/system_wrapper.hdf.
+10:41:03 INFO  : FPGA configured successfully with bitstream "D:/GIT/Zybo/VGA/source/vivado/hw/zybo_bsd/zybo_bsd.sdk/system_wrapper_hw_platform_0/system_wrapper.bit"
+10:41:22 INFO  : ps7_init is completed.
+10:41:22 INFO  : ps7_post_config is completed.
+10:41:22 INFO  : Processor reset is completed for ps7_cortexa9_0
+10:42:06 INFO  : Processor reset is completed for ps7_cortexa9_0
+10:43:01 INFO  : Processor reset is completed for ps7_cortexa9_0
+10:44:35 INFO  : FPGA configured successfully with bitstream "D:/GIT/Zybo/VGA/source/vivado/hw/zybo_bsd/zybo_bsd.sdk/system_wrapper_hw_platform_0/system_wrapper.bit"
+10:45:08 INFO  : ps7_init is completed.
+10:45:08 INFO  : ps7_post_config is completed.
+10:45:08 INFO  : Processor reset is completed for ps7_cortexa9_0
+10:46:08 ERROR : Unable to disconnect from existing targets
+java.lang.NullPointerException
+	at com.xilinx.sdk.targetmanager.internal.json.XMDJSONProcess.issueCommand(XMDJSONProcess.java:144)
+	at com.xilinx.sdk.targetmanager.internal.TM.disconnectTarget(TM.java:338)
+	at com.xilinx.sdk.targetmanager.internal.TM.disconnectExistingTargets(TM.java:320)
+	at com.xilinx.sdk.targetmanager.internal.TM.terminate(TM.java:210)
+	at com.xilinx.sdk.targetmanager.TMPlugin.stop(TMPlugin.java:57)
+	at org.eclipse.osgi.framework.internal.core.BundleContextImpl$2.run(BundleContextImpl.java:771)
+	at java.security.AccessController.doPrivileged(Native Method)
+	at org.eclipse.osgi.framework.internal.core.BundleContextImpl.stop(BundleContextImpl.java:764)
+	at org.eclipse.osgi.framework.internal.core.BundleHost.stopWorker(BundleHost.java:510)
+	at org.eclipse.osgi.framework.internal.core.AbstractBundle.suspend(AbstractBundle.java:566)
+	at org.eclipse.osgi.framework.internal.core.Framework.suspendBundle(Framework.java:1206)
+	at org.eclipse.osgi.framework.internal.core.StartLevelManager.decFWSL(StartLevelManager.java:592)
+	at org.eclipse.osgi.framework.internal.core.StartLevelManager.doSetStartLevel(StartLevelManager.java:257)
+	at org.eclipse.osgi.framework.internal.core.StartLevelManager.shutdown(StartLevelManager.java:215)
+	at org.eclipse.osgi.framework.internal.core.InternalSystemBundle.suspend(InternalSystemBundle.java:284)
+	at org.eclipse.osgi.framework.internal.core.Framework.shutdown(Framework.java:692)
+	at org.eclipse.osgi.framework.internal.core.Framework.close(Framework.java:600)
+	at org.eclipse.core.runtime.adaptor.EclipseStarter.shutdown(EclipseStarter.java:399)
+	at org.eclipse.core.runtime.adaptor.EclipseStarter.run(EclipseStarter.java:199)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:57)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:606)
+	at org.eclipse.equinox.launcher.Main.invokeFramework(Main.java:629)
+	at org.eclipse.equinox.launcher.Main.basicRun(Main.java:584)
+	at org.eclipse.equinox.launcher.Main.run(Main.java:1438)
+10:46:08 ERROR : Unexpected error while parsing XMD response ?: com.google.gson.JsonSyntaxException: com.google.gson.stream.MalformedJsonException: invalid number or unquoted string near 
+10:47:14 INFO  : Processing command line option -hwspec D:/GIT/Zybo/VGA/source/vivado/hw/zybo_bsd/zybo_bsd.sdk/system_wrapper.hdf.
+10:47:15 INFO  : Checking for hwspec changes in the project system_wrapper_hw_platform_0.
+10:48:05 INFO  : Processor reset is completed for ps7_cortexa9_0
+10:48:05 ERROR : Port COM9 is already in use.
+10:48:08 ERROR : Unexpected error while launching program.
+java.lang.RuntimeException: Failed to download ELF file
+
+
+    AP transaction timeout: ACK = 0x01, expected=0x02)
+    Error Address = 0x00118000, Size = 0x00000004
+
+
+	at com.xilinx.sdk.targetmanager.internal.TM.downloadELF(TM.java:752)
+	at com.xilinx.sdk.debug.core.internal.AppRunner.run(AppRunner.java:129)
+	at com.xilinx.sdk.debug.core.XilinxAppLaunchConfigurationDelegate.runApplication(XilinxAppLaunchConfigurationDelegate.java:534)
+	at com.xilinx.sdk.debug.core.XilinxAppLaunchConfigurationDelegate.launch(XilinxAppLaunchConfigurationDelegate.java:252)
+	at com.xilinx.sdk.debug.ui.XilinxAppLaunchDelegateWrapper.launch(XilinxAppLaunchDelegateWrapper.java:31)
+	at org.eclipse.debug.internal.core.LaunchConfiguration.launch(LaunchConfiguration.java:855)
+	at org.eclipse.debug.internal.core.LaunchConfiguration.launch(LaunchConfiguration.java:704)
+	at org.eclipse.debug.internal.ui.DebugUIPlugin.buildAndLaunch(DebugUIPlugin.java:1047)
+	at org.eclipse.debug.internal.ui.DebugUIPlugin$8.run(DebugUIPlugin.java:1251)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:54)
+10:51:02 INFO  : FPGA configured successfully with bitstream "D:/GIT/Zybo/VGA/source/vivado/hw/zybo_bsd/zybo_bsd.sdk/system_wrapper_hw_platform_0/system_wrapper.bit"
+10:51:53 ERROR : Unexpected error while parsing XMD response ?: com.google.gson.JsonSyntaxException: com.google.gson.stream.MalformedJsonException: invalid number or unquoted string near 
+10:52:06 INFO  : Processing command line option -hwspec D:/GIT/Zybo/VGA/source/vivado/hw/zybo_bsd/zybo_bsd.sdk/system_wrapper.hdf.
+10:52:07 INFO  : Checking for hwspec changes in the project system_wrapper_hw_platform_0.
+10:53:24 ERROR : Checking FPGA configuration failed..Connection to Board Failed
+
+
+    Unknown Error Occured
+    Cable is not connected to the host
+
+10:53:24 ERROR : Unexpected error while launching program.
+com.xilinx.sdk.targetmanager.TMException: Connection to Board Failed
+
+
+    Unknown Error Occured
+    Cable is not connected to the host
+
+	at com.xilinx.sdk.targetmanager.internal.TM.isFPGAConfigured(TM.java:386)
+	at com.xilinx.sdk.debug.core.XilinxAppLaunchConfigurationDelegate.isFpgaConfigured(XilinxAppLaunchConfigurationDelegate.java:297)
+	at com.xilinx.sdk.debug.core.XilinxAppLaunchConfigurationDelegate.launch(XilinxAppLaunchConfigurationDelegate.java:245)
+	at com.xilinx.sdk.debug.ui.XilinxAppLaunchDelegateWrapper.launch(XilinxAppLaunchDelegateWrapper.java:31)
+	at org.eclipse.debug.internal.core.LaunchConfiguration.launch(LaunchConfiguration.java:855)
+	at org.eclipse.debug.internal.core.LaunchConfiguration.launch(LaunchConfiguration.java:704)
+	at org.eclipse.debug.internal.ui.DebugUIPlugin.buildAndLaunch(DebugUIPlugin.java:1047)
+	at org.eclipse.debug.internal.ui.DebugUIPlugin$8.run(DebugUIPlugin.java:1251)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:54)
+10:53:49 INFO  : FPGA configured successfully with bitstream "D:/GIT/Zybo/VGA/source/vivado/hw/zybo_bsd/zybo_bsd.sdk/system_wrapper_hw_platform_0/system_wrapper.bit"
+10:54:00 INFO  : ps7_init is completed.
+10:54:00 INFO  : ps7_post_config is completed.
+10:54:01 INFO  : Processor reset is completed for ps7_cortexa9_0
+10:57:55 INFO  : Processor reset is completed for ps7_cortexa9_0
+10:57:55 ERROR : Port COM9 is already in use.
+10:57:55 ERROR : Unexpected error while launching program.
+java.lang.RuntimeException: Unknown Error Occured
+    Target '64' Does NOT exist in the Current System
+
+
+	at com.xilinx.sdk.targetmanager.internal.TM.downloadELF(TM.java:752)
+	at com.xilinx.sdk.debug.core.internal.AppRunner.run(AppRunner.java:129)
+	at com.xilinx.sdk.debug.core.XilinxAppLaunchConfigurationDelegate.runApplication(XilinxAppLaunchConfigurationDelegate.java:534)
+	at com.xilinx.sdk.debug.core.XilinxAppLaunchConfigurationDelegate.launch(XilinxAppLaunchConfigurationDelegate.java:252)
+	at com.xilinx.sdk.debug.ui.XilinxAppLaunchDelegateWrapper.launch(XilinxAppLaunchDelegateWrapper.java:31)
+	at org.eclipse.debug.internal.core.LaunchConfiguration.launch(LaunchConfiguration.java:855)
+	at org.eclipse.debug.internal.core.LaunchConfiguration.launch(LaunchConfiguration.java:704)
+	at org.eclipse.debug.internal.ui.DebugUIPlugin.buildAndLaunch(DebugUIPlugin.java:1047)
+	at org.eclipse.debug.internal.ui.DebugUIPlugin$8.run(DebugUIPlugin.java:1251)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:54)
+10:59:05 ERROR : Unexpected error while parsing XMD response ?: com.google.gson.JsonSyntaxException: com.google.gson.stream.MalformedJsonException: invalid number or unquoted string near 
+10:59:38 INFO  : Processing command line option -hwspec D:/GIT/Zybo/VGA/source/vivado/hw/zybo_bsd/zybo_bsd.sdk/system_wrapper.hdf.
+10:59:39 INFO  : Checking for hwspec changes in the project system_wrapper_hw_platform_0.
+11:00:03 ERROR : Unexpected error while launching program.
+java.lang.RuntimeException: Error in Resetting Target
+
+    Could not stop the processor after reset
+
+
+	at com.xilinx.sdk.targetmanager.internal.TM.doProcessorReset(TM.java:1153)
+	at com.xilinx.sdk.debug.core.XilinxAppLaunchConfigurationDelegate.runTargetSetup(XilinxAppLaunchConfigurationDelegate.java:431)
+	at com.xilinx.sdk.debug.core.XilinxAppLaunchConfigurationDelegate.runApplication(XilinxAppLaunchConfigurationDelegate.java:513)
+	at com.xilinx.sdk.debug.core.XilinxAppLaunchConfigurationDelegate.launch(XilinxAppLaunchConfigurationDelegate.java:252)
+	at com.xilinx.sdk.debug.ui.XilinxAppLaunchDelegateWrapper.launch(XilinxAppLaunchDelegateWrapper.java:31)
+	at org.eclipse.debug.internal.core.LaunchConfiguration.launch(LaunchConfiguration.java:855)
+	at org.eclipse.debug.internal.core.LaunchConfiguration.launch(LaunchConfiguration.java:704)
+	at org.eclipse.debug.internal.ui.DebugUIPlugin.buildAndLaunch(DebugUIPlugin.java:1047)
+	at org.eclipse.debug.internal.ui.DebugUIPlugin$8.run(DebugUIPlugin.java:1251)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:54)
+11:05:50 INFO  : FPGA Cable Disconnected. All active launches will be terminated.
+11:07:07 ERROR : Unexpected error while parsing XMD response ?: com.google.gson.JsonSyntaxException: com.google.gson.stream.MalformedJsonException: invalid number or unquoted string near 
+11:07:19 INFO  : Processing command line option -hwspec D:/GIT/Zybo/VGA/source/vivado/hw/zybo_bsd/zybo_bsd.sdk/system_wrapper.hdf.
+11:07:19 INFO  : Checking for hwspec changes in the project system_wrapper_hw_platform_0.
+11:08:23 INFO  : FPGA configured successfully with bitstream "D:/GIT/Zybo/VGA/source/vivado/hw/zybo_bsd/zybo_bsd.sdk/system_wrapper_hw_platform_0/system_wrapper.bit"
+11:08:40 INFO  : ps7_init is completed.
+11:08:40 INFO  : ps7_post_config is completed.
+11:08:40 INFO  : Processor reset is completed for ps7_cortexa9_0
+11:08:40 ERROR : Port COM9 is already in use.
+11:09:49 INFO  : Processor reset is completed for ps7_cortexa9_0
+11:09:49 ERROR : Unexpected error while launching program.
+java.lang.RuntimeException: Unknown Error Occured
+    Target '64' Does NOT exist in the Current System
+
+
+	at com.xilinx.sdk.targetmanager.internal.TM.downloadELF(TM.java:752)
+	at com.xilinx.sdk.debug.core.internal.AppRunner.run(AppRunner.java:129)
+	at com.xilinx.sdk.debug.core.XilinxAppLaunchConfigurationDelegate.runApplication(XilinxAppLaunchConfigurationDelegate.java:534)
+	at com.xilinx.sdk.debug.core.XilinxAppLaunchConfigurationDelegate.launch(XilinxAppLaunchConfigurationDelegate.java:252)
+	at com.xilinx.sdk.debug.ui.XilinxAppLaunchDelegateWrapper.launch(XilinxAppLaunchDelegateWrapper.java:31)
+	at org.eclipse.debug.internal.core.LaunchConfiguration.launch(LaunchConfiguration.java:855)
+	at org.eclipse.debug.internal.core.LaunchConfiguration.launch(LaunchConfiguration.java:704)
+	at org.eclipse.debug.internal.ui.DebugUIPlugin.buildAndLaunch(DebugUIPlugin.java:1047)
+	at org.eclipse.debug.internal.ui.DebugUIPlugin$8.run(DebugUIPlugin.java:1251)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:54)
+11:10:42 INFO  : FPGA configured successfully with bitstream "D:/GIT/Zybo/VGA/source/vivado/hw/zybo_bsd/zybo_bsd.sdk/system_wrapper_hw_platform_0/system_wrapper.bit"
+11:11:40 ERROR : Unexpected error while parsing XMD response ?: com.google.gson.JsonSyntaxException: com.google.gson.stream.MalformedJsonException: invalid number or unquoted string near 
+11:12:02 INFO  : Processing command line option -hwspec D:/GIT/Zybo/VGA/source/vivado/hw/zybo_bsd/zybo_bsd.sdk/system_wrapper.hdf.
+11:12:02 INFO  : Checking for hwspec changes in the project system_wrapper_hw_platform_0.
+11:14:19 INFO  : FPGA configured successfully with bitstream "D:/GIT/Zybo/VGA/source/vivado/hw/zybo_bsd/zybo_bsd.sdk/system_wrapper_hw_platform_0/system_wrapper.bit"
+11:14:37 INFO  : ps7_init is completed.
+11:14:37 INFO  : ps7_post_config is completed.
+11:14:37 INFO  : Processor reset is completed for ps7_cortexa9_0
+11:18:58 INFO  : FPGA configured successfully with bitstream "D:/GIT/Zybo/VGA/source/vivado/hw/zybo_bsd/zybo_bsd.sdk/system_wrapper_hw_platform_0/system_wrapper.bit"
+11:19:16 INFO  : ps7_init is completed.
+11:19:16 INFO  : ps7_post_config is completed.
+11:19:16 INFO  : Processor reset is completed for ps7_cortexa9_0
+11:20:58 INFO  : ps7_cortexa9_0 Processor is in use. Please stop existing Run or Debug sessions before launching.
+11:21:12 ERROR : Unexpected error while launching program.
+java.lang.RuntimeException: Unable to Stop Processor. System could be in unknown state.
+                     Please reset the system
+Unknown Error Occured
+    
+
+	at com.xilinx.sdk.targetmanager.internal.TM.stop(TM.java:850)
+	at com.xilinx.sdk.targetmanager.internal.CPURunSession.terminate(CPURunSession.java:27)
+	at com.xilinx.sdk.targetmanager.internal.TM.terminateCurrentLaunch(TM.java:897)
+	at com.xilinx.sdk.debug.core.XilinxAppLaunchConfigurationDelegate.runApplication(XilinxAppLaunchConfigurationDelegate.java:493)
+	at com.xilinx.sdk.debug.core.XilinxAppLaunchConfigurationDelegate.launch(XilinxAppLaunchConfigurationDelegate.java:252)
+	at com.xilinx.sdk.debug.ui.XilinxAppLaunchDelegateWrapper.launch(XilinxAppLaunchDelegateWrapper.java:31)
+	at org.eclipse.debug.internal.core.LaunchConfiguration.launch(LaunchConfiguration.java:855)
+	at org.eclipse.debug.internal.core.LaunchConfiguration.launch(LaunchConfiguration.java:704)
+	at org.eclipse.debug.internal.ui.DebugUIPlugin.buildAndLaunch(DebugUIPlugin.java:1047)
+	at org.eclipse.debug.internal.ui.DebugUIPlugin$8.run(DebugUIPlugin.java:1251)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:54)
+11:22:04 INFO  : FPGA configured successfully with bitstream "D:/GIT/Zybo/VGA/source/vivado/hw/zybo_bsd/zybo_bsd.sdk/system_wrapper_hw_platform_0/system_wrapper.bit"
+11:23:44 ERROR : Unexpected error while parsing XMD response ?: com.google.gson.JsonSyntaxException: com.google.gson.stream.MalformedJsonException: invalid number or unquoted string near 
+11:23:57 INFO  : Processing command line option -hwspec D:/GIT/Zybo/VGA/source/vivado/hw/zybo_bsd/zybo_bsd.sdk/system_wrapper.hdf.
+11:23:58 INFO  : Checking for hwspec changes in the project system_wrapper_hw_platform_0.
+11:24:13 INFO  : FPGA configured successfully with bitstream "D:/GIT/Zybo/VGA/source/vivado/hw/zybo_bsd/zybo_bsd.sdk/system_wrapper_hw_platform_0/system_wrapper.bit"
+11:24:37 INFO  : ps7_init is completed.
+11:24:37 INFO  : ps7_post_config is completed.
+11:24:37 INFO  : Processor reset is completed for ps7_cortexa9_0
+11:25:41 INFO  : Processor reset is completed for ps7_cortexa9_0
+11:25:41 ERROR : Unexpected error while launching program.
+java.lang.RuntimeException: Unknown Error Occured
+    Target '64' Does NOT exist in the Current System
+
+
+	at com.xilinx.sdk.targetmanager.internal.TM.downloadELF(TM.java:752)
+	at com.xilinx.sdk.debug.core.internal.AppRunner.run(AppRunner.java:129)
+	at com.xilinx.sdk.debug.core.XilinxAppLaunchConfigurationDelegate.runApplication(XilinxAppLaunchConfigurationDelegate.java:534)
+	at com.xilinx.sdk.debug.core.XilinxAppLaunchConfigurationDelegate.launch(XilinxAppLaunchConfigurationDelegate.java:252)
+	at com.xilinx.sdk.debug.ui.XilinxAppLaunchDelegateWrapper.launch(XilinxAppLaunchDelegateWrapper.java:31)
+	at org.eclipse.debug.internal.core.LaunchConfiguration.launch(LaunchConfiguration.java:855)
+	at org.eclipse.debug.internal.core.LaunchConfiguration.launch(LaunchConfiguration.java:704)
+	at org.eclipse.debug.internal.ui.DebugUIPlugin.buildAndLaunch(DebugUIPlugin.java:1047)
+	at org.eclipse.debug.internal.ui.DebugUIPlugin$8.run(DebugUIPlugin.java:1251)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:54)
+11:25:59 ERROR : Unexpected error while parsing XMD response ?: com.google.gson.JsonSyntaxException: com.google.gson.stream.MalformedJsonException: invalid number or unquoted string near 
+11:26:12 INFO  : Processing command line option -hwspec D:/GIT/Zybo/VGA/source/vivado/hw/zybo_bsd/zybo_bsd.sdk/system_wrapper.hdf.
+11:26:13 INFO  : Checking for hwspec changes in the project system_wrapper_hw_platform_0.
+11:26:46 INFO  : FPGA configured successfully with bitstream "D:/GIT/Zybo/VGA/source/vivado/hw/zybo_bsd/zybo_bsd.sdk/system_wrapper_hw_platform_0/system_wrapper.bit"
+11:26:59 INFO  : ps7_init is completed.
+11:26:59 INFO  : ps7_post_config is completed.
+11:26:59 INFO  : Processor reset is completed for ps7_cortexa9_0
+11:29:23 INFO  : Processor reset is completed for ps7_cortexa9_0
+11:35:46 INFO  : Processor reset is completed for ps7_cortexa9_0
+11:36:36 INFO  : FPGA configured successfully with bitstream "D:/GIT/Zybo/VGA/source/vivado/hw/zybo_bsd/zybo_bsd.sdk/system_wrapper_hw_platform_0/system_wrapper.bit"
+11:37:23 ERROR : Unable to disconnect from existing targets
+java.lang.NullPointerException
+	at com.xilinx.sdk.targetmanager.internal.json.XMDJSONProcess.issueCommand(XMDJSONProcess.java:144)
+	at com.xilinx.sdk.targetmanager.internal.TM.disconnectTarget(TM.java:338)
+	at com.xilinx.sdk.targetmanager.internal.TM.disconnectExistingTargets(TM.java:320)
+	at com.xilinx.sdk.targetmanager.internal.TM.terminate(TM.java:210)
+	at com.xilinx.sdk.targetmanager.TMPlugin.stop(TMPlugin.java:57)
+	at org.eclipse.osgi.framework.internal.core.BundleContextImpl$2.run(BundleContextImpl.java:771)
+	at java.security.AccessController.doPrivileged(Native Method)
+	at org.eclipse.osgi.framework.internal.core.BundleContextImpl.stop(BundleContextImpl.java:764)
+	at org.eclipse.osgi.framework.internal.core.BundleHost.stopWorker(BundleHost.java:510)
+	at org.eclipse.osgi.framework.internal.core.AbstractBundle.suspend(AbstractBundle.java:566)
+	at org.eclipse.osgi.framework.internal.core.Framework.suspendBundle(Framework.java:1206)
+	at org.eclipse.osgi.framework.internal.core.StartLevelManager.decFWSL(StartLevelManager.java:592)
+	at org.eclipse.osgi.framework.internal.core.StartLevelManager.doSetStartLevel(StartLevelManager.java:257)
+	at org.eclipse.osgi.framework.internal.core.StartLevelManager.shutdown(StartLevelManager.java:215)
+	at org.eclipse.osgi.framework.internal.core.InternalSystemBundle.suspend(InternalSystemBundle.java:284)
+	at org.eclipse.osgi.framework.internal.core.Framework.shutdown(Framework.java:692)
+	at org.eclipse.osgi.framework.internal.core.Framework.close(Framework.java:600)
+	at org.eclipse.core.runtime.adaptor.EclipseStarter.shutdown(EclipseStarter.java:399)
+	at org.eclipse.core.runtime.adaptor.EclipseStarter.run(EclipseStarter.java:199)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:57)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:606)
+	at org.eclipse.equinox.launcher.Main.invokeFramework(Main.java:629)
+	at org.eclipse.equinox.launcher.Main.basicRun(Main.java:584)
+	at org.eclipse.equinox.launcher.Main.run(Main.java:1438)
+11:37:24 ERROR : Unexpected error while parsing XMD response ?: com.google.gson.JsonSyntaxException: com.google.gson.stream.MalformedJsonException: invalid number or unquoted string near 
+11:37:36 INFO  : Processing command line option -hwspec D:/GIT/Zybo/VGA/source/vivado/hw/zybo_bsd/zybo_bsd.sdk/system_wrapper.hdf.
+11:37:37 INFO  : Checking for hwspec changes in the project system_wrapper_hw_platform_0.
+11:37:54 INFO  : Processor reset is completed for ps7_cortexa9_0
+11:37:57 ERROR : Unexpected error while launching program.
+java.lang.RuntimeException: Failed to download ELF file
+
+
+    AP transaction timeout: ACK = 0x01, expected=0x02)
+    Error Address = 0x00118000, Size = 0x00000004
+
+
+	at com.xilinx.sdk.targetmanager.internal.TM.downloadELF(TM.java:752)
+	at com.xilinx.sdk.debug.core.internal.AppRunner.run(AppRunner.java:129)
+	at com.xilinx.sdk.debug.core.XilinxAppLaunchConfigurationDelegate.runApplication(XilinxAppLaunchConfigurationDelegate.java:534)
+	at com.xilinx.sdk.debug.core.XilinxAppLaunchConfigurationDelegate.launch(XilinxAppLaunchConfigurationDelegate.java:252)
+	at com.xilinx.sdk.debug.ui.XilinxAppLaunchDelegateWrapper.launch(XilinxAppLaunchDelegateWrapper.java:31)
+	at org.eclipse.debug.internal.core.LaunchConfiguration.launch(LaunchConfiguration.java:855)
+	at org.eclipse.debug.internal.core.LaunchConfiguration.launch(LaunchConfiguration.java:704)
+	at org.eclipse.debug.internal.ui.DebugUIPlugin.buildAndLaunch(DebugUIPlugin.java:1047)
+	at org.eclipse.debug.internal.ui.DebugUIPlugin$8.run(DebugUIPlugin.java:1251)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:54)
+11:38:14 ERROR : Unexpected error while parsing XMD response ?: com.google.gson.JsonSyntaxException: com.google.gson.stream.MalformedJsonException: invalid number or unquoted string near 
+11:38:28 INFO  : Processing command line option -hwspec D:/GIT/Zybo/VGA/source/vivado/hw/zybo_bsd/zybo_bsd.sdk/system_wrapper.hdf.
+11:38:29 INFO  : Checking for hwspec changes in the project system_wrapper_hw_platform_0.
+11:38:52 INFO  : FPGA configured successfully with bitstream "D:/GIT/Zybo/VGA/source/vivado/hw/zybo_bsd/zybo_bsd.sdk/system_wrapper_hw_platform_0/system_wrapper.bit"
+11:39:10 INFO  : ps7_init is completed.
+11:39:11 INFO  : ps7_post_config is completed.
+11:39:11 INFO  : Processor reset is completed for ps7_cortexa9_0
+11:44:40 INFO  : Processor reset is completed for ps7_cortexa9_0
+11:45:13 INFO  : ps7_cortexa9_0 Processor is in use. Please stop existing Run or Debug sessions before launching.
+11:45:41 INFO  : Processor reset is completed for ps7_cortexa9_0
+11:45:44 ERROR : Unexpected error while launching program.
+java.lang.RuntimeException: Failed to download ELF file
+
+
+    Could not stop the processor after reset
+
+
+	at com.xilinx.sdk.targetmanager.internal.TM.downloadELF(TM.java:752)
+	at com.xilinx.sdk.debug.core.internal.AppRunner.run(AppRunner.java:129)
+	at com.xilinx.sdk.debug.core.XilinxAppLaunchConfigurationDelegate.runApplication(XilinxAppLaunchConfigurationDelegate.java:534)
+	at com.xilinx.sdk.debug.core.XilinxAppLaunchConfigurationDelegate.launch(XilinxAppLaunchConfigurationDelegate.java:252)
+	at com.xilinx.sdk.debug.ui.XilinxAppLaunchDelegateWrapper.launch(XilinxAppLaunchDelegateWrapper.java:31)
+	at org.eclipse.debug.internal.core.LaunchConfiguration.launch(LaunchConfiguration.java:855)
+	at org.eclipse.debug.internal.core.LaunchConfiguration.launch(LaunchConfiguration.java:704)
+	at org.eclipse.debug.internal.ui.DebugUIPlugin.buildAndLaunch(DebugUIPlugin.java:1047)
+	at org.eclipse.debug.internal.ui.DebugUIPlugin$8.run(DebugUIPlugin.java:1251)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:54)
+11:46:03 ERROR : Unexpected error while parsing XMD response ?: com.google.gson.JsonSyntaxException: com.google.gson.stream.MalformedJsonException: invalid number or unquoted string near 
+11:46:31 INFO  : Processing command line option -hwspec D:/GIT/Zybo/VGA/source/vivado/hw/zybo_bsd/zybo_bsd.sdk/system_wrapper.hdf.
+11:46:31 INFO  : Checking for hwspec changes in the project system_wrapper_hw_platform_0.
+11:47:00 ERROR : Unexpected error while launching program.
+java.lang.RuntimeException: Error in Resetting Target
+
+    Could not stop the processor after reset
+
+
+	at com.xilinx.sdk.targetmanager.internal.TM.doProcessorReset(TM.java:1153)
+	at com.xilinx.sdk.debug.core.XilinxAppLaunchConfigurationDelegate.runTargetSetup(XilinxAppLaunchConfigurationDelegate.java:431)
+	at com.xilinx.sdk.debug.core.XilinxAppLaunchConfigurationDelegate.runApplication(XilinxAppLaunchConfigurationDelegate.java:513)
+	at com.xilinx.sdk.debug.core.XilinxAppLaunchConfigurationDelegate.launch(XilinxAppLaunchConfigurationDelegate.java:252)
+	at com.xilinx.sdk.debug.ui.XilinxAppLaunchDelegateWrapper.launch(XilinxAppLaunchDelegateWrapper.java:31)
+	at org.eclipse.debug.internal.core.LaunchConfiguration.launch(LaunchConfiguration.java:855)
+	at org.eclipse.debug.internal.core.LaunchConfiguration.launch(LaunchConfiguration.java:704)
+	at org.eclipse.debug.internal.ui.DebugUIPlugin.buildAndLaunch(DebugUIPlugin.java:1047)
+	at org.eclipse.debug.internal.ui.DebugUIPlugin$8.run(DebugUIPlugin.java:1251)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:54)
+11:47:06 ERROR : Unexpected error while parsing XMD response ?: com.google.gson.JsonSyntaxException: com.google.gson.stream.MalformedJsonException: invalid number or unquoted string near 
+11:47:20 INFO  : Processing command line option -hwspec D:/GIT/Zybo/VGA/source/vivado/hw/zybo_bsd/zybo_bsd.sdk/system_wrapper.hdf.
+11:47:21 INFO  : Checking for hwspec changes in the project system_wrapper_hw_platform_0.
+11:47:40 INFO  : FPGA configured successfully with bitstream "D:/GIT/Zybo/VGA/source/vivado/hw/zybo_bsd/zybo_bsd.sdk/system_wrapper_hw_platform_0/system_wrapper.bit"
+11:48:20 INFO  : ps7_init is completed.
+11:48:20 INFO  : ps7_post_config is completed.
+11:48:21 INFO  : Processor reset is completed for ps7_cortexa9_0
+11:49:07 INFO  : FPGA configured successfully with bitstream "D:/GIT/Zybo/VGA/source/vivado/hw/zybo_bsd/zybo_bsd.sdk/system_wrapper_hw_platform_0/system_wrapper.bit"
+11:51:11 INFO  : ps7_init is completed.
+11:51:11 INFO  : ps7_post_config is completed.
+11:51:11 INFO  : Processor reset is completed for ps7_cortexa9_0
+11:51:52 INFO  : FPGA configured successfully with bitstream "D:/GIT/Zybo/VGA/source/vivado/hw/zybo_bsd/zybo_bsd.sdk/system_wrapper_hw_platform_0/system_wrapper.bit"
+11:55:35 INFO  : Processor reset is completed for ps7_cortexa9_0
+11:55:35 ERROR : Unexpected error while launching program.
+java.lang.RuntimeException: Unknown Error Occured
+    Target '64' Does NOT exist in the Current System
+
+
+	at com.xilinx.sdk.targetmanager.internal.TM.downloadELF(TM.java:752)
+	at com.xilinx.sdk.debug.core.internal.AppRunner.run(AppRunner.java:129)
+	at com.xilinx.sdk.debug.core.XilinxAppLaunchConfigurationDelegate.runApplication(XilinxAppLaunchConfigurationDelegate.java:534)
+	at com.xilinx.sdk.debug.core.XilinxAppLaunchConfigurationDelegate.launch(XilinxAppLaunchConfigurationDelegate.java:252)
+	at com.xilinx.sdk.debug.ui.XilinxAppLaunchDelegateWrapper.launch(XilinxAppLaunchDelegateWrapper.java:31)
+	at org.eclipse.debug.internal.core.LaunchConfiguration.launch(LaunchConfiguration.java:855)
+	at org.eclipse.debug.internal.core.LaunchConfiguration.launch(LaunchConfiguration.java:704)
+	at org.eclipse.debug.internal.ui.DebugUIPlugin.buildAndLaunch(DebugUIPlugin.java:1047)
+	at org.eclipse.debug.internal.ui.DebugUIPlugin$8.run(DebugUIPlugin.java:1251)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:54)
+11:55:45 ERROR : Unexpected error while parsing XMD response ?: com.google.gson.JsonSyntaxException: com.google.gson.stream.MalformedJsonException: invalid number or unquoted string near 
+11:56:00 INFO  : Processing command line option -hwspec D:/GIT/Zybo/VGA/source/vivado/hw/zybo_bsd/zybo_bsd.sdk/system_wrapper.hdf.
+11:56:01 INFO  : Checking for hwspec changes in the project system_wrapper_hw_platform_0.
+11:57:15 INFO  : FPGA configured successfully with bitstream "D:/GIT/Zybo/VGA/source/vivado/hw/zybo_bsd/zybo_bsd.sdk/system_wrapper_hw_platform_0/system_wrapper.bit"
+11:57:29 ERROR : Unexpected error while launching program.
+java.lang.RuntimeException: Error while running ps7_init method.
+Cannot write to target
+
+
+    AP transaction timeout: ACK = 0x01, expected=0x02)
+    Error Address = 0xf8000008
+
+
+	at com.xilinx.sdk.targetmanager.internal.TM.run_ps7_init(TM.java:1230)
+	at com.xilinx.sdk.debug.core.XilinxAppLaunchConfigurationDelegate.runTargetSetup(XilinxAppLaunchConfigurationDelegate.java:411)
+	at com.xilinx.sdk.debug.core.XilinxAppLaunchConfigurationDelegate.runApplication(XilinxAppLaunchConfigurationDelegate.java:513)
+	at com.xilinx.sdk.debug.core.XilinxAppLaunchConfigurationDelegate.launch(XilinxAppLaunchConfigurationDelegate.java:252)
+	at com.xilinx.sdk.debug.ui.XilinxAppLaunchDelegateWrapper.launch(XilinxAppLaunchDelegateWrapper.java:31)
+	at org.eclipse.debug.internal.core.LaunchConfiguration.launch(LaunchConfiguration.java:855)
+	at org.eclipse.debug.internal.core.LaunchConfiguration.launch(LaunchConfiguration.java:704)
+	at org.eclipse.debug.internal.ui.DebugUIPlugin.buildAndLaunch(DebugUIPlugin.java:1047)
+	at org.eclipse.debug.internal.ui.DebugUIPlugin$8.run(DebugUIPlugin.java:1251)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:54)
+11:57:56 INFO  : FPGA configured successfully with bitstream "D:/GIT/Zybo/VGA/source/vivado/hw/zybo_bsd/zybo_bsd.sdk/system_wrapper_hw_platform_0/system_wrapper.bit"
+11:58:45 INFO  : ps7_init is completed.
+11:58:45 INFO  : ps7_post_config is completed.
+11:58:45 INFO  : Processor reset is completed for ps7_cortexa9_0
+12:00:29 INFO  : FPGA configured successfully with bitstream "D:/GIT/Zybo/VGA/source/vivado/hw/zybo_bsd/zybo_bsd.sdk/system_wrapper_hw_platform_0/system_wrapper.bit"
+12:00:52 INFO  : ps7_init is completed.
+12:00:52 INFO  : ps7_post_config is completed.
+12:00:52 INFO  : Processor reset is completed for ps7_cortexa9_0
+12:02:28 INFO  : FPGA configured successfully with bitstream "D:/GIT/Zybo/VGA/source/vivado/hw/zybo_bsd/zybo_bsd.sdk/system_wrapper_hw_platform_0/system_wrapper.bit"
+12:02:38 INFO  : ps7_init is completed.
+12:02:38 INFO  : ps7_post_config is completed.
+12:02:38 INFO  : Processor reset is completed for ps7_cortexa9_0
+12:05:59 INFO  : FPGA configured successfully with bitstream "D:/GIT/Zybo/VGA/source/vivado/hw/zybo_bsd/zybo_bsd.sdk/system_wrapper_hw_platform_0/system_wrapper.bit"
+12:06:18 INFO  : ps7_init is completed.
+12:06:18 INFO  : ps7_post_config is completed.
+12:06:18 INFO  : Processor reset is completed for ps7_cortexa9_0
+12:12:42 INFO  : FPGA configured successfully with bitstream "D:/GIT/Zybo/VGA/source/vivado/hw/zybo_bsd/zybo_bsd.sdk/system_wrapper_hw_platform_0/system_wrapper.bit"
+12:12:59 INFO  : ps7_init is completed.
+12:12:59 INFO  : ps7_post_config is completed.
+12:12:59 INFO  : Processor reset is completed for ps7_cortexa9_0
+12:23:53 ERROR : Unexpected error while parsing XMD response ?: com.google.gson.JsonSyntaxException: com.google.gson.stream.MalformedJsonException: invalid number or unquoted string near 
+09:48:18 INFO  : Processing command line option -hwspec D:/GIT/Zybo/VGA/source/vivado/hw/zybo_bsd/zybo_bsd.sdk/system_wrapper.hdf.
+09:48:18 INFO  : Checking for hwspec changes in the project system_wrapper_hw_platform_0.

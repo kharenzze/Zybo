@@ -9889,3 +9889,15 @@ arm-xilinx-eabi-size pong.elf  |tee "pong.elf.size"
   86216	   2568	49801856	49890640	2f94550	pong.elf
 'Finished building: pong.elf.size'
 ' '
+11:27:42 **** Incremental Build of configuration Debug for project pong ****
+make all 
+make: No se hace nada para `all'.
+11:27:43 **** Incremental Build of configuration Debug for project base_demo ****
+make all 
+make: No se hace nada para `all'.
+11:28:22 **** Incremental Build of configuration Debug for project pong ****
+make all 
+make: No se hace nada para `all'.
+11:28:24 **** Incremental Build of configuration Debug for project base_demo ****
+make all 
+make: No se hace nada para `all'.

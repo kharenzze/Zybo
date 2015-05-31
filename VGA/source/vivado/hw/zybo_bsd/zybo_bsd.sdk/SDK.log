@@ -921,3 +921,15 @@ java.lang.NullPointerException
 18:23:00 INFO  : Processor reset is completed for ps7_cortexa9_0
 18:31:17 INFO  : Processor reset is completed for ps7_cortexa9_0
 18:47:13 ERROR : Unexpected error while parsing XMD response ?: com.google.gson.JsonSyntaxException: com.google.gson.stream.MalformedJsonException: invalid number or unquoted string near 
+11:26:00 INFO  : Processing command line option -hwspec C:/DATOS/GIT/VGA/source/vivado/hw/zybo_bsd/zybo_bsd.sdk/system_wrapper.hdf.
+11:26:01 INFO  : Checking for hwspec changes in the project system_wrapper_hw_platform_1.
+11:26:46 WARN  :  [Hsm 55-1607] Software Repository Paths d:/GIT/Zybo/zybo_base_system/source/vivado/hw/lib/Digilent/axi_dispctrl_1.0 and C:/DATOS/GIT/VGA/source/vivado/hw/zybo_bsd/zybo_bsd.sdk/system_wrapper_hw_platform_0/../../../../../../lib/Digilent/axi_dispctrl_1.0 do not exist or not accessible
+ [Hsm 55-1607] Software Repository Paths d:/GIT/Zybo/zybo_base_system/source/vivado/hw/lib/ADI/axi_i2s_adi_1.0 and C:/DATOS/GIT/VGA/source/vivado/hw/zybo_bsd/zybo_bsd.sdk/system_wrapper_hw_platform_0/../../../../../../lib/ADI/axi_i2s_adi_1.0 do not exist or not accessible
+11:26:47 WARN  :  [Hsm 55-1607] Software Repository Paths d:/GIT/Zybo/zybo_base_system/source/vivado/hw/lib/Digilent/axi_dispctrl_1.0 and C:/DATOS/GIT/VGA/source/vivado/hw/zybo_bsd/zybo_bsd.sdk/system_wrapper_hw_platform_0/../../../../../../lib/Digilent/axi_dispctrl_1.0 do not exist or not accessible
+ [Hsm 55-1607] Software Repository Paths d:/GIT/Zybo/zybo_base_system/source/vivado/hw/lib/ADI/axi_i2s_adi_1.0 and C:/DATOS/GIT/VGA/source/vivado/hw/zybo_bsd/zybo_bsd.sdk/system_wrapper_hw_platform_0/../../../../../../lib/ADI/axi_i2s_adi_1.0 do not exist or not accessible
+11:26:56 INFO  : FPGA configured successfully with bitstream "C:/DATOS/GIT/VGA/source/vivado/hw/zybo_bsd/zybo_bsd.sdk/system_wrapper_hw_platform_0/system_wrapper.bit"
+11:27:52 INFO  : ps7_init is completed.
+11:27:52 INFO  : ps7_post_config is completed.
+11:27:52 INFO  : Processor reset is completed for ps7_cortexa9_0
+11:28:27 INFO  : Processor reset is completed for ps7_cortexa9_0
+11:34:24 ERROR : Unexpected error while parsing XMD response ?: com.google.gson.JsonSyntaxException: com.google.gson.stream.MalformedJsonException: invalid number or unquoted string near 

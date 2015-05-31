@@ -1,21 +1,6 @@
-18:41:24 **** Auto Build of configuration Debug for project pong ****
+11:28:22 **** Incremental Build of configuration Debug for project pong ****
 make all 
-'Building file: ../src/pong.c'
-'Invoking: ARM gcc compiler'
-arm-xilinx-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -I../../pong_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/pong.d" -MT"src/pong.d" -o "src/pong.o" "../src/pong.c"
-'Finished building: ../src/pong.c'
-' '
-'Building target: pong.elf'
-'Invoking: ARM gcc linker'
-arm-xilinx-eabi-gcc -Wl,-T -Wl,../src/lscript.ld -L../../pong_bsp/ps7_cortexa9_0/lib -o "pong.elf"  ./src/display_ctrl.o ./src/main.o ./src/pong.o ./src/timer_ps.o   -Wl,--start-group,-lxil,-lgcc,-lc,--end-group
-'Finished building target: pong.elf'
-' '
-'Invoking: ARM Print Size'
-arm-xilinx-eabi-size pong.elf  |tee "pong.elf.size"
-   text	   data	    bss	    dec	    hex	filename
-  86216	   2568	49801856	49890640	2f94550	pong.elf
-'Finished building: pong.elf.size'
-' '
+make: No se hace nada para `all'.
 
-18:41:25 Build Finished (took 1s.373ms)
+11:28:23 Build Finished (took 235ms)
 
