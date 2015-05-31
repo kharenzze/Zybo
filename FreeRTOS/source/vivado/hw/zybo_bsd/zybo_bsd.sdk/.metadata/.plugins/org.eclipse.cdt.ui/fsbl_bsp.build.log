@@ -1,4 +1,4 @@
-11:02:51 **** Build of project fsbl_bsp ****
+17:47:47 **** Build of project fsbl_bsp ****
 make -k all 
 "Running Make include in ps7_cortexa9_0/libsrc/axi_dispctrl_v1_00_a/src"
 make -C ps7_cortexa9_0/libsrc/axi_dispctrl_v1_00_a/src -s include  "SHELL=CMD" "COMPILER=arm-xilinx-eabi-gcc" "ARCHIVER=arm-xilinx-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-g"
@@ -61,7 +61,6 @@ In file included from axi_dispctrl.h:7:0,
 ../../../include/xbasic_types.h:125:2: warning: #warning Please refer the Standalone BSP UG647 for further details [-Wcpp]
  #warning  Please refer the Standalone BSP UG647 for further details
   ^
-arm-xilinx-eabi-ar: creating ../../../lib/libxil.a
 "Running Make libs in ps7_cortexa9_0/libsrc/axi_i2s_adi_v1_00_a/src"
 make -C ps7_cortexa9_0/libsrc/axi_i2s_adi_v1_00_a/src -s libs  "SHELL=CMD" "COMPILER=arm-xilinx-eabi-gcc" "ARCHIVER=arm-xilinx-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-g"
 "Compiling axi_i2s_adi..."
@@ -140,5 +139,5 @@ make -C ps7_cortexa9_0/libsrc/xilffs_v2_1/src -s libs  "SHELL=CMD" "COMPILER=arm
 make -C ps7_cortexa9_0/libsrc/xilrsa_v1_1/src -s libs  "SHELL=CMD" "COMPILER=arm-xilinx-eabi-gcc" "ARCHIVER=arm-xilinx-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-g"
 'Finished building libraries'
 
-11:03:07 Build Finished (took 16s.218ms)
+17:48:23 Build Finished (took 36s.565ms)
 

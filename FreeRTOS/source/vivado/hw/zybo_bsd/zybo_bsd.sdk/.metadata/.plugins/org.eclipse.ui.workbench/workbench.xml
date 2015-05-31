@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<workbench progressCount="30" version="2.0">
+<workbench progressCount="29" version="2.0">
 <workbenchAdvisor/>
 <window height="724" maximized="true" width="1024" x="113" y="2">
 <fastViewData fastViewLocation="1024"/>
@@ -8,20 +8,21 @@
 </perspectiveBar>
 <coolbarLayout>
 <coolItem id="group.file" itemType="typeGroupMarker"/>
-<coolItem id="org.eclipse.ui.workbench.file" itemType="typeToolBarContribution" x="228" y="22"/>
+<coolItem id="org.eclipse.ui.workbench.file" itemType="typeToolBarContribution" x="229" y="22"/>
 <coolItem id="additions" itemType="typeGroupMarker"/>
-<coolItem id="org.eclipse.cdt.ui.CElementCreationActionSet" itemType="typeToolBarContribution" x="161" y="22"/>
+<coolItem id="org.eclipse.cdt.ui.CElementCreationActionSet" itemType="typeToolBarContribution" x="167" y="22"/>
 <coolItem id="org.eclipse.debug.ui.launch.toolbar" itemType="typeToolBarContribution" x="-1" y="-1"/>
-<coolItem id="org.eclipse.debug.ui.launchActionSet" itemType="typeToolBarContribution" x="124" y="22"/>
-<coolItem id="org.eclipse.debug.ui.main.toolbar" itemType="typeToolBarContribution" x="37" y="22"/>
-<coolItem id="com.xilinx.sdk.xbash.toolbar1" itemType="typeToolBarContribution" x="37" y="22"/>
-<coolItem id="com.xilinx.sdk.targetmanager.ui.toolbar1" itemType="typeToolBarContribution" x="85" y="22"/>
-<coolItem id="com.xilinx.sdk.sw.toolbar1" itemType="typeToolBarContribution" x="37" y="22"/>
-<coolItem id="org.eclipse.search.searchActionSet" itemType="typeToolBarContribution" x="74" y="22"/>
-<coolItem id="org.eclipse.ui.edit.text.actionSet.presentation" itemType="typeToolBarContribution" x="85" y="22"/>
+<coolItem id="org.eclipse.debug.ui.launchActionSet" itemType="typeToolBarContribution" x="129" y="22"/>
+<coolItem id="org.eclipse.debug.ui.main.toolbar" itemType="typeToolBarContribution" x="38" y="22"/>
+<coolItem id="com.xilinx.sdk.xbash.toolbar1" itemType="typeToolBarContribution" x="38" y="22"/>
+<coolItem id="com.xilinx.sdk.targetmanager.ui.toolbar1" itemType="typeToolBarContribution" x="84" y="22"/>
+<coolItem id="com.xilinx.sdk.sw.toolbar1" itemType="typeToolBarContribution" x="38" y="22"/>
+<coolItem id="org.eclipse.search.searchActionSet" itemType="typeToolBarContribution" x="76" y="22"/>
+<coolItem id="org.eclipse.ui.edit.text.actionSet.presentation" itemType="typeToolBarContribution" x="84" y="22"/>
 <coolItem id="group.nav" itemType="typeGroupMarker"/>
-<coolItem id="org.eclipse.ui.workbench.navigate" itemType="typeToolBarContribution" x="185" y="22"/>
+<coolItem id="org.eclipse.ui.workbench.navigate" itemType="typeToolBarContribution" x="190" y="22"/>
 <coolItem id="group.editor" itemType="typeGroupMarker"/>
+<coolItem id="org.eclipse.ui.DefaultTextEditor" itemType="typePlaceholder" x="-1" y="-1"/>
 <coolItem id="org.eclipse.cdt.ui.editor.CEditor" itemType="typeToolBarContribution" x="-1" y="-1"/>
 <coolItem id="group.help" itemType="typeGroupMarker"/>
 <coolItem id="org.eclipse.ui.workbench.help" itemType="typeToolBarContribution" x="-1" y="-1"/>
@@ -43,30 +44,31 @@
 </folder>
 </info>
 </editorArea>
-<editor id="com.xilinx.sdk.sw.MSSEditor" name="system.mss" partName="system.mss" path="D:/GIT/Zybo/VGA/source/vivado/hw/zybo_bsd/zybo_bsd.sdk/base_demo_bsp/system.mss" title="system.mss" tooltip="base_demo_bsp/system.mss" workbook="DefaultEditorWorkbook">
-<input factoryID="org.eclipse.ui.part.FileEditorInputFactory" path="/base_demo_bsp/system.mss"/>
+<editor id="com.xilinx.sdk.lscript.editor" name="lscript.ld" partName="lscript.ld" path="C:/DATOS/GIT/FreeRTOS/source/vivado/hw/zybo_bsd/zybo_bsd.sdk/FreeRTOS/src/lscript.ld" title="lscript.ld" tooltip="FreeRTOS/src/lscript.ld" workbook="DefaultEditorWorkbook">
+<input factoryID="org.eclipse.ui.part.FileEditorInputFactory" path="/FreeRTOS/src/lscript.ld"/>
 </editor>
-<editor id="org.eclipse.cdt.ui.editor.CEditor" name="main.c" partName="main.c" path="D:/GIT/Zybo/VGA/source/vivado/hw/zybo_bsd/zybo_bsd.sdk/base_demo/src/main.c" title="main.c" tooltip="base_demo/src/main.c" workbook="DefaultEditorWorkbook">
-<input factoryID="org.eclipse.ui.part.FileEditorInputFactory" path="/base_demo/src/main.c"/>
-<editorState selectionHorizontalPixel="0" selectionLength="33" selectionOffset="1949" selectionTopPixel="795"/>
+<editor activePart="true" focus="true" id="org.eclipse.cdt.ui.editor.CEditor" name="main.c" partName="main.c" path="C:/DATOS/GIT/FreeRTOS/source/vivado/hw/zybo_bsd/zybo_bsd.sdk/FreeRTOS/src/main.c" title="main.c" tooltip="FreeRTOS/src/main.c" workbook="DefaultEditorWorkbook">
+<input factoryID="org.eclipse.ui.part.FileEditorInputFactory" path="/FreeRTOS/src/main.c"/>
+<editorState selectionHorizontalPixel="0" selectionLength="0" selectionOffset="8489" selectionTopPixel="2599"/>
 </editor>
-<editor id="com.xilinx.sdk.sw.MSSEditor" name="system.mss" partName="system.mss" path="D:/GIT/Zybo/VGA/source/vivado/hw/zybo_bsd/zybo_bsd.sdk/fsbl_bsp/system.mss" title="system.mss" tooltip="fsbl_bsp/system.mss" workbook="DefaultEditorWorkbook">
-<input factoryID="org.eclipse.ui.part.FileEditorInputFactory" path="/fsbl_bsp/system.mss"/>
-</editor>
-<editor id="org.eclipse.cdt.ui.editor.CEditor" name="audio_demo.c" partName="audio_demo.c" path="D:/GIT/Zybo/VGA/source/vivado/hw/zybo_bsd/zybo_bsd.sdk/base_demo/src/audio_demo.c" title="audio_demo.c" tooltip="base_demo/src/audio_demo.c" workbook="DefaultEditorWorkbook">
-<input factoryID="org.eclipse.ui.part.FileEditorInputFactory" path="/base_demo/src/audio_demo.c"/>
-<editorState selectionHorizontalPixel="0" selectionLength="0" selectionOffset="5078" selectionTopPixel="1851"/>
-</editor>
-<editor id="com.xilinx.sdk.hw.ui.HwSpecXMLEditor" name="system.hdf" partName="system.hdf" path="D:/GIT/Zybo/VGA/source/vivado/hw/zybo_bsd/zybo_bsd.sdk/system_wrapper_hw_platform_0/system.hdf" title="system.hdf" tooltip="system_wrapper_hw_platform_0/system.hdf" workbook="DefaultEditorWorkbook">
+<editor id="com.xilinx.sdk.hw.ui.HwSpecXMLEditor" name="system.hdf" partName="system.hdf" path="C:/DATOS/GIT/FreeRTOS/source/vivado/hw/zybo_bsd/zybo_bsd.sdk/system_wrapper_hw_platform_0/system.hdf" title="system.hdf" tooltip="system_wrapper_hw_platform_0/system.hdf" workbook="DefaultEditorWorkbook">
 <input factoryID="org.eclipse.ui.part.FileEditorInputFactory" path="/system_wrapper_hw_platform_0/system.hdf"/>
 </editor>
-<editor id="org.eclipse.cdt.ui.editor.CEditor" name="xparameters.h" partName="xparameters.h" path="D:/GIT/Zybo/VGA/source/vivado/hw/zybo_bsd/zybo_bsd.sdk/base_demo_bsp/ps7_cortexa9_0/include/xparameters.h" title="xparameters.h" tooltip="base_demo_bsp/ps7_cortexa9_0/include/xparameters.h" workbook="DefaultEditorWorkbook">
-<input factoryID="org.eclipse.ui.part.FileEditorInputFactory" path="/base_demo_bsp/ps7_cortexa9_0/include/xparameters.h"/>
-<editorState selectionHorizontalPixel="0" selectionLength="8" selectionOffset="1392" selectionTopPixel="570"/>
+<editor id="org.eclipse.cdt.ui.editor.CEditor" name="xparameters.h" partName="xparameters.h" path="C:/DATOS/GIT/FreeRTOS/source/vivado/hw/zybo_bsd/zybo_bsd.sdk/FreeRTOS_bsp/ps7_cortexa9_0/include/xparameters.h" title="xparameters.h" tooltip="FreeRTOS_bsp/ps7_cortexa9_0/include/xparameters.h" workbook="DefaultEditorWorkbook">
+<input factoryID="org.eclipse.ui.part.FileEditorInputFactory" path="/FreeRTOS_bsp/ps7_cortexa9_0/include/xparameters.h"/>
+<editorState selectionHorizontalPixel="0" selectionLength="24" selectionOffset="14606" selectionTopPixel="5805"/>
 </editor>
-<editor activePart="true" focus="true" id="org.eclipse.cdt.ui.editor.CEditor" name="xil_io.c" partName="xil_io.c" path="D:/GIT/Zybo/VGA/source/vivado/hw/zybo_bsd/zybo_bsd.sdk/base_demo_bsp/ps7_cortexa9_0/libsrc/standalone_v4_1/src/xil_io.c" title="xil_io.c" tooltip="base_demo_bsp/ps7_cortexa9_0/libsrc/standalone_v4_1/src/xil_io.c" workbook="DefaultEditorWorkbook">
-<input factoryID="org.eclipse.ui.part.FileEditorInputFactory" path="/base_demo_bsp/ps7_cortexa9_0/libsrc/standalone_v4_1/src/xil_io.c"/>
-<editorState selectionHorizontalPixel="0" selectionLength="0" selectionOffset="6866" selectionTopPixel="2070"/>
+<editor id="org.eclipse.cdt.ui.editor.CEditor" name="task.h" partName="task.h" path="C:/DATOS/GIT/FreeRTOS/source/vivado/hw/zybo_bsd/zybo_bsd.sdk/FreeRTOS/src/task.h" title="task.h" tooltip="FreeRTOS/src/task.h" workbook="DefaultEditorWorkbook">
+<input factoryID="org.eclipse.ui.part.FileEditorInputFactory" path="/FreeRTOS/src/task.h"/>
+<editorState selectionHorizontalPixel="0" selectionLength="9" selectionOffset="6001" selectionTopPixel="690"/>
+</editor>
+<editor id="org.eclipse.cdt.ui.editor.CEditor" name="xgpio.c" partName="xgpio.c" path="C:/DATOS/GIT/FreeRTOS/source/vivado/hw/zybo_bsd/zybo_bsd.sdk/FreeRTOS_bsp/ps7_cortexa9_0/libsrc/gpio_v4_0/src/xgpio.c" title="xgpio.c" tooltip="FreeRTOS_bsp/ps7_cortexa9_0/libsrc/gpio_v4_0/src/xgpio.c" workbook="DefaultEditorWorkbook">
+<input factoryID="org.eclipse.ui.part.FileEditorInputFactory" path="/FreeRTOS_bsp/ps7_cortexa9_0/libsrc/gpio_v4_0/src/xgpio.c"/>
+<editorState selectionHorizontalPixel="0" selectionLength="18" selectionOffset="9001" selectionTopPixel="2700"/>
+</editor>
+<editor id="org.eclipse.cdt.ui.editor.CEditor" name="FreeRTOSConfig.h" partName="FreeRTOSConfig.h" path="C:/DATOS/GIT/FreeRTOS/source/vivado/hw/zybo_bsd/zybo_bsd.sdk/FreeRTOS/src/FreeRTOSConfig.h" title="FreeRTOSConfig.h" tooltip="FreeRTOS/src/FreeRTOSConfig.h" workbook="DefaultEditorWorkbook">
+<input factoryID="org.eclipse.ui.part.FileEditorInputFactory" path="/FreeRTOS/src/FreeRTOSConfig.h"/>
+<editorState selectionHorizontalPixel="0" selectionLength="0" selectionOffset="5669" selectionTopPixel="585"/>
 </editor>
 </editors>
 <views>
@@ -74,15 +76,27 @@
 <viewState/>
 </view>
 <view id="org.eclipse.tm.terminal.view.TerminalView" partName="Terminal">
-<viewState ConnectionType="org.eclipse.tm.internal.terminal.serial.SerialConnector" Title="Terminal" _keys_="ConnectionType,Title,connectionManageractive,connectionManagerconnection0ConnectionType,connectionManagerconnection0Encoding,connectionManagerconnection0HasCommandInputField,connectionManagerconnection0PartName,connectionManagerconnection0Summary,connectionManagerconnection0org.eclipse.tm.internal.terminal.serial.SerialConnector.BaudRate,connectionManagerconnection0org.eclipse.tm.internal.terminal.serial.SerialConnector.DataBits,connectionManagerconnection0org.eclipse.tm.internal.terminal.serial.SerialConnector.FlowControl,connectionManagerconnection0org.eclipse.tm.internal.terminal.serial.SerialConnector.Parity,connectionManagerconnection0org.eclipse.tm.internal.terminal.serial.SerialConnector.SerialPort,connectionManagerconnection0org.eclipse.tm.internal.terminal.serial.SerialConnector.StopBits,connectionManagersize,org.eclipse.tm.internal.terminal.serial.SerialConnector.BaudRate,org.eclipse.tm.internal.terminal.serial.SerialConnector.DataBits,org.eclipse.tm.internal.terminal.serial.SerialConnector.FlowControl,org.eclipse.tm.internal.terminal.serial.SerialConnector.Parity,org.eclipse.tm.internal.terminal.serial.SerialConnector.SerialPort,org.eclipse.tm.internal.terminal.serial.SerialConnector.StopBits" connectionManageractive="connection0" connectionManagerconnection0ConnectionType="org.eclipse.tm.internal.terminal.serial.SerialConnector" connectionManagerconnection0Encoding="ISO-8859-1" connectionManagerconnection0HasCommandInputField="false" connectionManagerconnection0PartName="Terminal" connectionManagerconnection0Summary="COM9, 115200, 8, 1, None, None" connectionManagersize="1">
-<connectionManagerconnection0org>&#x0A;<eclipse>&#x0A;<tm>&#x0A;<internal>&#x0A;<terminal>&#x0A;<serial>&#x0A;<SerialConnector BaudRate="115200" DataBits="8" FlowControl="None" Parity="None" SerialPort="COM9" StopBits="1"/>
+<viewState ConnectionType="org.eclipse.tm.internal.terminal.serial.SerialConnector" Title="Terminal" _keys_="ConnectionType,Title,connectionManageractive,connectionManagerconnection0ConnectionType,connectionManagerconnection0Encoding,connectionManagerconnection0HasCommandInputField,connectionManagerconnection0PartName,connectionManagerconnection0Summary,connectionManagerconnection0org.eclipse.tm.internal.terminal.serial.SerialConnector.BaudRate,connectionManagerconnection0org.eclipse.tm.internal.terminal.serial.SerialConnector.DataBits,connectionManagerconnection0org.eclipse.tm.internal.terminal.serial.SerialConnector.FlowControl,connectionManagerconnection0org.eclipse.tm.internal.terminal.serial.SerialConnector.Parity,connectionManagerconnection0org.eclipse.tm.internal.terminal.serial.SerialConnector.SerialPort,connectionManagerconnection0org.eclipse.tm.internal.terminal.serial.SerialConnector.StopBits,connectionManagersize,org.eclipse.tm.internal.terminal.serial.SerialConnector.BaudRate,org.eclipse.tm.internal.terminal.serial.SerialConnector.DataBits,org.eclipse.tm.internal.terminal.serial.SerialConnector.FlowControl,org.eclipse.tm.internal.terminal.serial.SerialConnector.Parity,org.eclipse.tm.internal.terminal.serial.SerialConnector.SerialPort,org.eclipse.tm.internal.terminal.serial.SerialConnector.StopBits" connectionManageractive="connection0" connectionManagerconnection0ConnectionType="org.eclipse.tm.internal.terminal.serial.SerialConnector" connectionManagerconnection0Encoding="ISO-8859-1" connectionManagerconnection0HasCommandInputField="false" connectionManagerconnection0PartName="Terminal" connectionManagerconnection0Summary="COM7, 115200, 8, 1, None, None" connectionManagersize="1">
+<connectionManagerconnection0org>
+<eclipse>
+<tm>
+<internal>
+<terminal>
+<serial>
+<SerialConnector BaudRate="115200" DataBits="8" FlowControl="None" Parity="None" SerialPort="COM7" StopBits="1"/>
 </serial>
 </terminal>
 </internal>
 </tm>
 </eclipse>
 </connectionManagerconnection0org>
-<org>&#x0A;<eclipse>&#x0A;<tm>&#x0A;<internal>&#x0A;<terminal>&#x0A;<serial>&#x0A;<SerialConnector BaudRate="115200" DataBits="8" FlowControl="None" Parity="None" SerialPort="COM9" StopBits="1"/>
+<org>
+<eclipse>
+<tm>
+<internal>
+<terminal>
+<serial>
+<SerialConnector BaudRate="115200" DataBits="8" FlowControl="None" Parity="None" SerialPort="COM7" StopBits="1"/>
 </serial>
 </terminal>
 </internal>
@@ -128,6 +142,10 @@
 <view id="org.eclipse.cdt.make.ui.views.MakeView" partName="Make Target"/>
 <view id="org.eclipse.ui.views.ProblemView" partName="Problems">
 <viewState PRIMARY_SORT_FIELD="org.eclipse.ui.ide.severityAndDescriptionField" categoryGroup="org.eclipse.ui.ide.severity" markerContentGenerator="org.eclipse.ui.ide.problemsGenerator" partName="Problems">
+<expanded>
+<category IMemento.internal.id="Warnings (10 items)"/>
+<category IMemento.internal.id="Errors"/>
+</expanded>
 <columnWidths org.eclipse.ui.ide.locationField="75" org.eclipse.ui.ide.markerType="75" org.eclipse.ui.ide.pathField="100" org.eclipse.ui.ide.resourceField="113" org.eclipse.ui.ide.severityAndDescriptionField="454"/>
 <visible IMemento.internal.id="org.eclipse.ui.ide.severityAndDescriptionField"/>
 <visible IMemento.internal.id="org.eclipse.ui.ide.resourceField"/>
@@ -221,9 +239,9 @@
 <presentation id="org.eclipse.ui.presentations.WorkbenchPresentationFactory"/>
 </folder>
 </info>
-<info part="org.eclipse.ui.editorss" ratio="0.13948339" ratioLeft="189" ratioRight="1166" relationship="2" relative="topLeft"/>
+<info part="org.eclipse.ui.editorss" ratio="0.17121771" ratioLeft="232" ratioRight="1123" relationship="2" relative="topLeft"/>
 <info folder="true" part="bottom" ratio="0.6" ratioLeft="372" ratioRight="248" relationship="4" relative="org.eclipse.ui.editorss">
-<folder activePageID="org.eclipse.ui.console.ConsoleView" appearance="2" expanded="2">
+<folder activePageID="org.eclipse.tm.terminal.view.TerminalView" appearance="2" expanded="2">
 <page content="org.eclipse.ui.views.ProblemView" label="Problems"/>
 <page content="org.eclipse.ui.views.TaskList" label="Tasks"/>
 <page content="org.eclipse.ui.console.ConsoleView" label="Console"/>
@@ -397,18 +415,7 @@
 <workingSets/>
 <navigationHistory>
 <editors>
-<editor factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="com.xilinx.sdk.hw.ui.HwSpecXMLEditor" path="/system_wrapper_hw_platform_0/system.hdf"/>
-<editor factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.cdt.ui.editor.CEditor" path="/system_wrapper_hw_platform_0/ps7_init.c"/>
-<editor factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.cdt.ui.editor.CEditor" path="/system_wrapper_hw_platform_0/ps7_init.h"/>
-<editor factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="com.xilinx.sdk.sw.MSSEditor" path="/base_demo_bsp/system.mss"/>
-<editor factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.cdt.ui.editor.CEditor" path="/base_demo/src/main.c"/>
-<editor factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.cdt.ui.editor.CEditor" path="/base_demo/src/helloworld.c"/>
-<editor factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="com.xilinx.sdk.sw.MSSEditor" path="/fsbl_bsp/system.mss"/>
-<editor factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.cdt.ui.editor.CEditor" path="/base_demo/src/main.c"/>
 <editor factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.cdt.ui.editor.CEditor" path="/base_demo/src/audio_demo.c"/>
-<editor factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.cdt.ui.editor.CEditor" path="/base_demo/src/audio_demo.c"/>
-<editor factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="com.xilinx.sdk.sw.MSSEditor" path="/base_demo_bsp/system.mss"/>
-<editor factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="com.xilinx.sdk.sw.MSSEditor" path="/base_demo_bsp/system.mss"/>
 <editor factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.cdt.ui.editor.CEditor" path="/base_demo/src/main.c"/>
 <editor factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="com.xilinx.sdk.hw.ui.HwSpecXMLEditor" path="/system_wrapper_hw_platform_0/system.hdf"/>
 <editor factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.cdt.ui.editor.CEditor" path="/base_demo_bsp/ps7_cortexa9_0/include/xparameters.h"/>
@@ -416,133 +423,140 @@
 <editor factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.cdt.ui.editor.CEditor" path="/base_demo/src/audio_demo.h"/>
 <editor factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.cdt.ui.editor.CEditor" path="/base_demo/src/main.c"/>
 <editor factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.cdt.ui.editor.CEditor" path="/base_demo_bsp/ps7_cortexa9_0/libsrc/standalone_v4_1/src/xil_io.c"/>
+<editor factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="com.xilinx.sdk.hw.ui.HwSpecXMLEditor" path="/system_wrapper_hw_platform_1/system.hdf"/>
+<editor factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="com.xilinx.sdk.sw.MSSEditor" path="/FreeRTOS_bsp/system.mss"/>
+<editor factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.ui.DefaultTextEditor" path="/FreeRTOS/src/README.txt"/>
+<editor factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="com.xilinx.sdk.lscript.editor" path="/FreeRTOS/src/lscript.ld"/>
+<editor factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.cdt.ui.editor.CEditor" path="/FreeRTOS/src/main.c"/>
+<editor factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="com.xilinx.sdk.hw.ui.HwSpecXMLEditor" path="/system_wrapper_hw_platform_0/system.hdf"/>
+<editor factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.cdt.ui.editor.CEditor" path="/FreeRTOS_bsp/ps7_cortexa9_0/include/xparameters.h"/>
+<editor factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.cdt.ui.editor.CEditor" path="/FreeRTOS/src/task.h"/>
+<editor factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.cdt.ui.editor.CEditor" path="/FreeRTOS_bsp/ps7_cortexa9_0/libsrc/gpio_v4_0/src/xgpio.c"/>
+<editor factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.cdt.ui.editor.CEditor" path="/FreeRTOS/src/FreeRTOSConfig.h"/>
 </editors>
-<item historyLabel="system.hdf" index="0"/>
-<item historyLabel="system.hdf" index="0"/>
-<item historyLabel="ps7_init.c" index="1">
-<position info="not_deleted" x="0" y="0"/>
-</item>
-<item historyLabel="system.hdf" index="0"/>
-<item historyLabel="ps7_init.h" index="2">
-<position info="not_deleted" x="0" y="0"/>
-</item>
-<item historyLabel="system.hdf" index="0"/>
-<item historyLabel="system.mss" index="3"/>
-<item historyLabel="main.c" index="4">
-<position info="not_deleted" x="100" y="0"/>
-</item>
-<item historyLabel="helloworld.c" index="5">
-<position info="not_deleted" x="3" y="0"/>
-</item>
-<item historyLabel="main.c" index="4">
-<position info="not_deleted" x="100" y="0"/>
-</item>
-<item historyLabel="system.mss" index="6"/>
-<item historyLabel="main.c" index="7">
-<position info="not_deleted" x="100" y="0"/>
-</item>
-<item historyLabel="audio_demo.c" index="8">
-<position info="not_deleted" x="2966" y="15"/>
-</item>
-<item historyLabel="main.c" index="7">
-<position info="not_deleted" x="2914" y="0"/>
-</item>
-<item historyLabel="audio_demo.c" index="8">
-<position info="not_deleted" x="3085" y="0"/>
-</item>
-<item historyLabel="main.c" index="7">
-<position info="not_deleted" x="2914" y="0"/>
-</item>
-<item historyLabel="audio_demo.c" index="8">
-<position info="not_deleted" x="3085" y="0"/>
-</item>
-<item historyLabel="main.c" index="7">
-<position info="not_deleted" x="2914" y="0"/>
-</item>
-<item historyLabel="audio_demo.c" index="9">
-<position info="not_deleted" x="3745" y="0"/>
-</item>
-<item historyLabel="main.c" index="7">
-<position info="not_deleted" x="2603" y="0"/>
-</item>
-<item historyLabel="audio_demo.c" index="9">
-<position info="not_deleted" x="3745" y="0"/>
-</item>
-<item historyLabel="main.c" index="7">
-<position info="not_deleted" x="2474" y="0"/>
-</item>
-<item historyLabel="audio_demo.c" index="9">
-<position info="not_deleted" x="3745" y="0"/>
-</item>
-<item historyLabel="main.c" index="7">
-<position info="not_deleted" x="2474" y="0"/>
-</item>
-<item historyLabel="audio_demo.c" index="9">
-<position info="not_deleted" x="3317" y="0"/>
-</item>
-<item historyLabel="system.mss" index="10"/>
-<item historyLabel="main.c" index="7">
-<position info="not_deleted" x="2815" y="21"/>
-</item>
-<item historyLabel="audio_demo.c" index="9">
-<position info="not_deleted" x="3317" y="0"/>
-</item>
-<item historyLabel="system.mss" index="11"/>
-<item historyLabel="main.c" index="12">
-<position info="not_deleted" x="2815" y="21"/>
-</item>
-<item historyLabel="audio_demo.c" index="9">
-<position info="not_deleted" x="5072" y="0"/>
-</item>
-<item historyLabel="audio_demo.c" index="9">
+<item historyLabel="audio_demo.c" index="0">
 <position info="not_deleted" x="5046" y="0"/>
 </item>
-<item historyLabel="audio_demo.c" index="9">
+<item historyLabel="audio_demo.c" index="0">
 <position info="not_deleted" x="3011" y="7"/>
 </item>
-<item historyLabel="main.c" index="12">
+<item historyLabel="main.c" index="1">
 <position info="not_deleted" x="2815" y="21"/>
 </item>
-<item historyLabel="main.c" index="12">
+<item historyLabel="main.c" index="1">
 <position info="not_deleted" x="3066" y="19"/>
 </item>
-<item historyLabel="main.c" index="12">
+<item historyLabel="main.c" index="1">
 <position info="not_deleted" x="1949" y="33"/>
 </item>
-<item historyLabel="system.hdf" index="13"/>
-<item historyLabel="xparameters.h" index="14">
+<item historyLabel="system.hdf" index="2"/>
+<item historyLabel="xparameters.h" index="3">
 <position info="not_deleted" x="0" y="0"/>
 </item>
-<item historyLabel="system.mss" index="15"/>
-<item historyLabel="main.c" index="12">
+<item historyLabel="system.mss" index="4"/>
+<item historyLabel="main.c" index="1">
 <position info="not_deleted" x="1949" y="33"/>
 </item>
-<item historyLabel="xparameters.h" index="14">
+<item historyLabel="xparameters.h" index="3">
 <position info="not_deleted" x="1392" y="8"/>
 </item>
-<item historyLabel="audio_demo.c" index="9">
+<item historyLabel="audio_demo.c" index="0">
 <position info="not_deleted" x="5092" y="16"/>
 </item>
-<item historyLabel="audio_demo.h" index="16">
+<item historyLabel="audio_demo.h" index="5">
 <position info="not_deleted" x="1866" y="16"/>
 </item>
-<item historyLabel="audio_demo.c" index="9">
+<item historyLabel="audio_demo.c" index="0">
 <position info="not_deleted" x="5092" y="16"/>
 </item>
-<item historyLabel="audio_demo.c" index="9">
+<item historyLabel="audio_demo.c" index="0">
 <position/>
 </item>
-<item historyLabel="audio_demo.c" index="9">
+<item historyLabel="audio_demo.c" index="0">
 <position/>
 </item>
-<item historyLabel="main.c" index="17">
+<item historyLabel="main.c" index="6">
 <position info="not_deleted" x="1949" y="33"/>
 </item>
-<item historyLabel="audio_demo.c" index="9">
+<item historyLabel="audio_demo.c" index="0">
 <position/>
 </item>
-<item active="true" historyLabel="xil_io.c" index="18">
-<position info="not_deleted" x="6828" y="9"/>
+<item historyLabel="xil_io.c" index="7">
+<position info="not_deleted" x="0" y="0"/>
+</item>
+<item historyLabel="system.hdf" index="8"/>
+<item historyLabel="xil_io.c" index="7">
+<position info="not_deleted" x="0" y="0"/>
+</item>
+<item historyLabel="system.mss" index="9"/>
+<item historyLabel="README.txt" index="10">
+<position info="not_deleted" x="0" y="0"/>
+</item>
+<item historyLabel="lscript.ld" index="11"/>
+<item historyLabel="main.c" index="12">
+<position info="not_deleted" x="7982" y="41"/>
+</item>
+<item historyLabel="lscript.ld" index="11"/>
+<item historyLabel="system.hdf" index="13"/>
+<item historyLabel="lscript.ld" index="11"/>
+<item historyLabel="system.hdf" index="13"/>
+<item historyLabel="main.c" index="12">
+<position info="not_deleted" x="7982" y="41"/>
+</item>
+<item historyLabel="system.hdf" index="13"/>
+<item historyLabel="main.c" index="12">
+<position info="not_deleted" x="5554" y="0"/>
+</item>
+<item historyLabel="xparameters.h" index="14">
+<position info="not_deleted" x="14583" y="3"/>
+</item>
+<item historyLabel="main.c" index="12">
+<position info="not_deleted" x="5554" y="0"/>
+</item>
+<item historyLabel="xparameters.h" index="14">
+<position info="not_deleted" x="14606" y="24"/>
+</item>
+<item historyLabel="main.c" index="12">
+<position info="not_deleted" x="8054" y="0"/>
+</item>
+<item historyLabel="lscript.ld" index="11"/>
+<item historyLabel="system.hdf" index="13"/>
+<item historyLabel="main.c" index="12">
+<position info="not_deleted" x="7607" y="0"/>
+</item>
+<item historyLabel="lscript.ld" index="11"/>
+<item historyLabel="main.c" index="12">
+<position info="not_deleted" x="7607" y="0"/>
+</item>
+<item historyLabel="main.c" index="12">
+<position info="not_deleted" x="8242" y="0"/>
+</item>
+<item historyLabel="main.c" index="12">
+<position/>
+</item>
+<item historyLabel="task.h" index="15">
+<position info="not_deleted" x="6001" y="9"/>
+</item>
+<item historyLabel="xparameters.h" index="14">
+<position info="not_deleted" x="14606" y="24"/>
+</item>
+<item historyLabel="main.c" index="12">
+<position info="not_deleted" x="8306" y="0"/>
+</item>
+<item historyLabel="xgpio.c" index="16">
+<position info="not_deleted" x="9001" y="18"/>
+</item>
+<item historyLabel="main.c" index="12">
+<position info="not_deleted" x="8595" y="0"/>
+</item>
+<item historyLabel="FreeRTOSConfig.h" index="17">
+<position info="not_deleted" x="5669" y="0"/>
+</item>
+<item historyLabel="xparameters.h" index="14">
+<position info="not_deleted" x="14606" y="24"/>
+</item>
+<item active="true" historyLabel="main.c" index="12">
+<position info="not_deleted" x="8595" y="0"/>
 </item>
 </navigationHistory>
 <input factoryID="org.eclipse.ui.internal.model.ResourceFactory" path="/" type="8"/>
@@ -561,6 +575,36 @@
 </trimLayout>
 </window>
 <mruList>
+<file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.cdt.ui.editor.CEditor" name="FreeRTOSConfig.h" tooltip="FreeRTOS/src/FreeRTOSConfig.h">
+<persistable path="/FreeRTOS/src/FreeRTOSConfig.h"/>
+</file>
+<file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.cdt.ui.editor.CEditor" name="xgpio.c" tooltip="FreeRTOS_bsp/ps7_cortexa9_0/libsrc/gpio_v4_0/src/xgpio.c">
+<persistable path="/FreeRTOS_bsp/ps7_cortexa9_0/libsrc/gpio_v4_0/src/xgpio.c"/>
+</file>
+<file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.cdt.ui.editor.CEditor" name="task.h" tooltip="FreeRTOS/src/task.h">
+<persistable path="/FreeRTOS/src/task.h"/>
+</file>
+<file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.cdt.ui.editor.CEditor" name="xparameters.h" tooltip="FreeRTOS_bsp/ps7_cortexa9_0/include/xparameters.h">
+<persistable path="/FreeRTOS_bsp/ps7_cortexa9_0/include/xparameters.h"/>
+</file>
+<file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="com.xilinx.sdk.hw.ui.HwSpecXMLEditor" name="system.hdf" tooltip="system_wrapper_hw_platform_0/system.hdf">
+<persistable path="/system_wrapper_hw_platform_0/system.hdf"/>
+</file>
+<file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.cdt.ui.editor.CEditor" name="main.c" tooltip="FreeRTOS/src/main.c">
+<persistable path="/FreeRTOS/src/main.c"/>
+</file>
+<file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="com.xilinx.sdk.lscript.editor" name="lscript.ld" tooltip="FreeRTOS/src/lscript.ld">
+<persistable path="/FreeRTOS/src/lscript.ld"/>
+</file>
+<file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.ui.DefaultTextEditor" name="README.txt" tooltip="FreeRTOS/src/README.txt">
+<persistable path="/FreeRTOS/src/README.txt"/>
+</file>
+<file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="com.xilinx.sdk.sw.MSSEditor" name="system.mss" tooltip="FreeRTOS_bsp/system.mss">
+<persistable path="/FreeRTOS_bsp/system.mss"/>
+</file>
+<file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="com.xilinx.sdk.hw.ui.HwSpecXMLEditor" name="system.hdf" tooltip="system_wrapper_hw_platform_1/system.hdf">
+<persistable path="/system_wrapper_hw_platform_1/system.hdf"/>
+</file>
 <file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.cdt.ui.editor.CEditor" name="xil_io.c" tooltip="base_demo_bsp/ps7_cortexa9_0/libsrc/standalone_v4_1/src/xil_io.c">
 <persistable path="/base_demo_bsp/ps7_cortexa9_0/libsrc/standalone_v4_1/src/xil_io.c"/>
 </file>
@@ -570,32 +614,11 @@
 <file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.cdt.ui.editor.CEditor" name="xparameters.h" tooltip="base_demo_bsp/ps7_cortexa9_0/include/xparameters.h">
 <persistable path="/base_demo_bsp/ps7_cortexa9_0/include/xparameters.h"/>
 </file>
-<file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="com.xilinx.sdk.hw.ui.HwSpecXMLEditor" name="system.hdf" tooltip="system_wrapper_hw_platform_0/system.hdf">
-<persistable path="/system_wrapper_hw_platform_0/system.hdf"/>
-</file>
 <file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.cdt.ui.editor.CEditor" name="audio_demo.c" tooltip="base_demo/src/audio_demo.c">
 <persistable path="/base_demo/src/audio_demo.c"/>
 </file>
 <file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="com.xilinx.sdk.sw.MSSEditor" name="system.mss" tooltip="fsbl_bsp/system.mss">
 <persistable path="/fsbl_bsp/system.mss"/>
-</file>
-<file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.cdt.ui.editor.CEditor" name="helloworld.c" tooltip="base_demo/src/helloworld.c">
-<persistable path="/base_demo/src/helloworld.c"/>
-</file>
-<file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.cdt.ui.editor.CEditor" name="main.c" tooltip="base_demo/src/main.c">
-<persistable path="/base_demo/src/main.c"/>
-</file>
-<file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="com.xilinx.sdk.sw.MSSEditor" name="system.mss" tooltip="base_demo_bsp/system.mss">
-<persistable path="/base_demo_bsp/system.mss"/>
-</file>
-<file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.cdt.ui.editor.CEditor" name="ps7_init.h" tooltip="system_wrapper_hw_platform_0/ps7_init.h">
-<persistable path="/system_wrapper_hw_platform_0/ps7_init.h"/>
-</file>
-<file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.cdt.ui.editor.CEditor" name="ps7_init.c" tooltip="system_wrapper_hw_platform_0/ps7_init.c">
-<persistable path="/system_wrapper_hw_platform_0/ps7_init.c"/>
-</file>
-<file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.ui.systemExternalEditor" name="ps7_init.tcl" tooltip="system_wrapper_hw_platform_0/ps7_init.tcl">
-<persistable path="/system_wrapper_hw_platform_0/ps7_init.tcl"/>
 </file>
 </mruList>
 </workbench>

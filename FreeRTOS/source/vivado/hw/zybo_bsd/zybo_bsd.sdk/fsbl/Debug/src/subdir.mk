@@ -60,21 +60,21 @@ S_UPPER_DEPS += \
 src/%.o: ../src/%.c
 	@echo 'Building file: $<'
 	@echo 'Invoking: ARM gcc compiler'
-	arm-xilinx-eabi-gcc -Wall -O0 -g3 -I"D:\GIT\Zybo\VGA\source\vivado\hw\zybo_bsd\zybo_bsd.sdk\system_wrapper_hw_platform_0" -c -fmessage-length=0 -I../../fsbl_bsp/ps7_cortexa9_0/include -MMD -MP -MF"$(@:%.o=%.d)" -MT"$(@:%.o=%.d)" -o "$@" "$<"
+	arm-xilinx-eabi-gcc -Wall -O0 -g3 -I"C:\DATOS\GIT\FreeRTOS\source\vivado\hw\zybo_bsd\zybo_bsd.sdk\system_wrapper_hw_platform_0" -c -fmessage-length=0 -I../../fsbl_bsp/ps7_cortexa9_0/include -MMD -MP -MF"$(@:%.o=%.d)" -MT"$(@:%.o=%.d)" -o "$@" "$<"
 	@echo 'Finished building: $<'
 	@echo ' '
 
 src/%.o: ../src/%.S
 	@echo 'Building file: $<'
 	@echo 'Invoking: ARM gcc compiler'
-	arm-xilinx-eabi-gcc -Wall -O0 -g3 -I"D:\GIT\Zybo\VGA\source\vivado\hw\zybo_bsd\zybo_bsd.sdk\system_wrapper_hw_platform_0" -c -fmessage-length=0 -I../../fsbl_bsp/ps7_cortexa9_0/include -MMD -MP -MF"$(@:%.o=%.d)" -MT"$(@:%.o=%.d)" -o "$@" "$<"
+	arm-xilinx-eabi-gcc -Wall -O0 -g3 -I"C:\DATOS\GIT\FreeRTOS\source\vivado\hw\zybo_bsd\zybo_bsd.sdk\system_wrapper_hw_platform_0" -c -fmessage-length=0 -I../../fsbl_bsp/ps7_cortexa9_0/include -MMD -MP -MF"$(@:%.o=%.d)" -MT"$(@:%.o=%.d)" -o "$@" "$<"
 	@echo 'Finished building: $<'
 	@echo ' '
 
 src/ps7_init.o: D:/GIT/Zybo/VGA/source/vivado/hw/zybo_bsd/zybo_bsd.sdk/system_wrapper_hw_platform_0/ps7_init.c
 	@echo 'Building file: $<'
 	@echo 'Invoking: ARM gcc compiler'
-	arm-xilinx-eabi-gcc -Wall -O0 -g3 -I"D:\GIT\Zybo\VGA\source\vivado\hw\zybo_bsd\zybo_bsd.sdk\system_wrapper_hw_platform_0" -c -fmessage-length=0 -I../../fsbl_bsp/ps7_cortexa9_0/include -MMD -MP -MF"$(@:%.o=%.d)" -MT"$(@:%.o=%.d)" -o "$@" "$<"
+	arm-xilinx-eabi-gcc -Wall -O0 -g3 -I"C:\DATOS\GIT\FreeRTOS\source\vivado\hw\zybo_bsd\zybo_bsd.sdk\system_wrapper_hw_platform_0" -c -fmessage-length=0 -I../../fsbl_bsp/ps7_cortexa9_0/include -MMD -MP -MF"$(@:%.o=%.d)" -MT"$(@:%.o=%.d)" -o "$@" "$<"
 	@echo 'Finished building: $<'
 	@echo ' '
 

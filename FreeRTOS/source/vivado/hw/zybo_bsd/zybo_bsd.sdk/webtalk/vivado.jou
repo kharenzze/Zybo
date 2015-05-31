@@ -2,9 +2,9 @@
 # Vivado v2014.2 (64-bit)
 # SW Build 932637 on Wed Jun 11 13:33:10 MDT 2014
 # IP Build 924643 on Fri May 30 09:20:16 MDT 2014
-# Start of session at: Fri Jan 16 11:07:08 2015
-# Process ID: 4776
-# Log file: D:/GIT/Zybo/VGA/source/vivado/hw/zybo_bsd/zybo_bsd.sdk/webtalk/vivado.log
-# Journal file: D:/GIT/Zybo/VGA/source/vivado/hw/zybo_bsd/zybo_bsd.sdk/webtalk\vivado.jou
+# Start of session at: Sun May 31 19:59:44 2015
+# Process ID: 1548
+# Log file: C:/DATOS/GIT/FreeRTOS/source/vivado/hw/zybo_bsd/zybo_bsd.sdk/webtalk/vivado.log
+# Journal file: C:/DATOS/GIT/FreeRTOS/source/vivado/hw/zybo_bsd/zybo_bsd.sdk/webtalk\vivado.jou
 #-----------------------------------------------------------
 source sdk.tcl

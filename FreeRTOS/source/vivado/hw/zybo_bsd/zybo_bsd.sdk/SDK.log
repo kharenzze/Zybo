@@ -385,3 +385,37 @@ Cannot write to target
 12:23:53 ERROR : Unexpected error while parsing XMD response ?: com.google.gson.JsonSyntaxException: com.google.gson.stream.MalformedJsonException: invalid number or unquoted string near 
 09:48:18 INFO  : Processing command line option -hwspec D:/GIT/Zybo/VGA/source/vivado/hw/zybo_bsd/zybo_bsd.sdk/system_wrapper.hdf.
 09:48:18 INFO  : Checking for hwspec changes in the project system_wrapper_hw_platform_0.
+17:47:43 INFO  : Processing command line option -hwspec C:/DATOS/GIT/FreeRTOS/source/vivado/hw/zybo_bsd/zybo_bsd.sdk/system_wrapper.hdf.
+17:47:47 WARN  :  [Hsm 55-1607] Software Repository Paths d:/GIT/Zybo/zybo_base_system/source/vivado/hw/lib/Digilent/axi_dispctrl_1.0 and C:/DATOS/GIT/FreeRTOS/source/vivado/hw/zybo_bsd/zybo_bsd.sdk/system_wrapper_hw_platform_1/../../../../../../lib/Digilent/axi_dispctrl_1.0 do not exist or not accessible
+ [Hsm 55-1607] Software Repository Paths d:/GIT/Zybo/zybo_base_system/source/vivado/hw/lib/ADI/axi_i2s_adi_1.0 and C:/DATOS/GIT/FreeRTOS/source/vivado/hw/zybo_bsd/zybo_bsd.sdk/system_wrapper_hw_platform_1/../../../../../../lib/ADI/axi_i2s_adi_1.0 do not exist or not accessible
+17:47:47 WARN  :  [Hsm 55-1607] Software Repository Paths d:/GIT/Zybo/zybo_base_system/source/vivado/hw/lib/Digilent/axi_dispctrl_1.0 and C:/DATOS/GIT/FreeRTOS/source/vivado/hw/zybo_bsd/zybo_bsd.sdk/system_wrapper_hw_platform_1/../../../../../../lib/Digilent/axi_dispctrl_1.0 do not exist or not accessible
+ [Hsm 55-1607] Software Repository Paths d:/GIT/Zybo/zybo_base_system/source/vivado/hw/lib/ADI/axi_i2s_adi_1.0 and C:/DATOS/GIT/FreeRTOS/source/vivado/hw/zybo_bsd/zybo_bsd.sdk/system_wrapper_hw_platform_1/../../../../../../lib/ADI/axi_i2s_adi_1.0 do not exist or not accessible
+17:48:25 WARN  :  [Hsm 55-1607] Software Repository Paths d:/GIT/Zybo/zybo_base_system/source/vivado/hw/lib/Digilent/axi_dispctrl_1.0 and C:/DATOS/GIT/FreeRTOS/source/vivado/hw/zybo_bsd/zybo_bsd.sdk/system_wrapper_hw_platform_1/../../../../../../lib/Digilent/axi_dispctrl_1.0 do not exist or not accessible
+ [Hsm 55-1607] Software Repository Paths d:/GIT/Zybo/zybo_base_system/source/vivado/hw/lib/ADI/axi_i2s_adi_1.0 and C:/DATOS/GIT/FreeRTOS/source/vivado/hw/zybo_bsd/zybo_bsd.sdk/system_wrapper_hw_platform_1/../../../../../../lib/ADI/axi_i2s_adi_1.0 do not exist or not accessible
+17:48:25 WARN  :  [Hsm 55-1607] Software Repository Paths d:/GIT/Zybo/zybo_base_system/source/vivado/hw/lib/Digilent/axi_dispctrl_1.0 and C:/DATOS/GIT/FreeRTOS/source/vivado/hw/zybo_bsd/zybo_bsd.sdk/system_wrapper_hw_platform_1/../../../../../../lib/Digilent/axi_dispctrl_1.0 do not exist or not accessible
+ [Hsm 55-1607] Software Repository Paths d:/GIT/Zybo/zybo_base_system/source/vivado/hw/lib/ADI/axi_i2s_adi_1.0 and C:/DATOS/GIT/FreeRTOS/source/vivado/hw/zybo_bsd/zybo_bsd.sdk/system_wrapper_hw_platform_1/../../../../../../lib/ADI/axi_i2s_adi_1.0 do not exist or not accessible
+17:49:42 ERROR :  [Hsm 55-1594] Core axi_dispctrl of version 1.00.a not found in repositories
+ [Hsm 55-1594] Core axi_dispctrl of version 1.00.a not found in repositories
+ [Hsm 55-1594] Core axi_i2s_adi of version 1.00.a not found in repositories
+17:49:42 ERROR :  [Hsm 55-1594] Core axi_dispctrl of version 1.00.a not found in repositories
+ [Hsm 55-1594] Core axi_dispctrl of version 1.00.a not found in repositories
+ [Hsm 55-1594] Core axi_i2s_adi of version 1.00.a not found in repositories
+ [Hsm 55-1594] Core axi_dispctrl of version 1.00.a not found in repositories
+ [Hsm 55-1594] Core axi_dispctrl of version 1.00.a not found in repositories
+ [Hsm 55-1594] Core axi_i2s_adi of version 1.00.a not found in repositories
+18:26:05 INFO  : FPGA configured successfully with bitstream "C:/DATOS/GIT/FreeRTOS/source/vivado/hw/zybo_bsd/zybo_bsd.sdk/system_wrapper_hw_platform_0/system_wrapper.bit"
+18:27:52 INFO  : ps7_init is completed.
+18:27:53 INFO  : ps7_post_config is completed.
+18:27:53 INFO  : Processor reset is completed for ps7_cortexa9_0
+19:14:16 INFO  : ps7_cortexa9_0 Processor is in use. Please stop existing Run or Debug sessions before launching.
+19:14:20 INFO  : Processor reset is completed for ps7_cortexa9_0
+19:24:11 INFO  : ps7_cortexa9_0 Processor is in use. Please stop existing Run or Debug sessions before launching.
+19:24:12 INFO  : Processor reset is completed for ps7_cortexa9_0
+19:25:08 INFO  : ps7_cortexa9_0 Processor is in use. Please stop existing Run or Debug sessions before launching.
+19:25:10 INFO  : Processor reset is completed for ps7_cortexa9_0
+19:26:40 INFO  : Processor reset is completed for ps7_cortexa9_0
+19:27:12 INFO  : ps7_cortexa9_0 Processor is in use. Please stop existing Run or Debug sessions before launching.
+19:27:14 INFO  : Processor reset is completed for ps7_cortexa9_0
+19:30:04 INFO  : ps7_cortexa9_0 Processor is in use. Please stop existing Run or Debug sessions before launching.
+19:30:06 INFO  : Processor reset is completed for ps7_cortexa9_0
+19:59:48 ERROR : Unexpected error while parsing XMD response ?: com.google.gson.JsonSyntaxException: com.google.gson.stream.MalformedJsonException: invalid number or unquoted string near 
