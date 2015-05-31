@@ -45,6 +45,14 @@ SECTIONS
 
 Una vez hecho esto, basta con editar el archivo main.c con lo que se desee realizar
 
+##El proyecto
+El proyecto que se aloja en esta página sigue los pasos anteriores, y además tiene un main editado que crea 2 tareas que se ejecutan simultaneamente:
+
+1. Enciende y apaga los leds 2 y 3, utilizando funciones basicas de Xilinx.
+2. Lee el estado de los botones y switches. En caso de que SW0 esté activo, escribe por UART el estado de botones y switches (int). En caso contrario, muestra 'SW0 apagado'. Esto lo hace cada 0.5 segundos, utilizando funciones de FreeRTOS
+
+Por supuesto, es FreeRTOS, el que se encarga de gestionar la ejecución de las tareas. Para ello, se utilizan las funciones que ofrece su a través de su [API](http://www.freertos.org/a00106.html).
+
 ##Autores
 Este proyecto a sido realizado por:
 
