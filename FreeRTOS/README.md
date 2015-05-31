@@ -46,9 +46,10 @@ SECTIONS
 7. Una vez hecho esto, basta con editar el archivo main.c con lo que se desee realizar
 
 ##Autores
-Este proyecto a sido realizado por 
-	Pablo Raez @kharenzze
-	Adrian Ripoll @Adrirc8
+Este proyecto a sido realizado por:
+
+	Pablo Raez [@kharenzze](https://github.com/kharenzze)
+	Adrian Ripoll [@Adrirc8](https://github.com/Adrirc8)
 
 Para la asignatura 'Programación de Sistemas Empotrados y de Tiempo Real', durante el curso 2014-2015, en la Universidad de Granada. 
 
