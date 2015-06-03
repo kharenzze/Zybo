@@ -186,16 +186,19 @@ static void AXILedBlink(void *parameters)
 {
 	int i = 0;
 	int j = 0;
-	const TickType_t Period = 250;
 
 	while(1) {
 		Xil_Out32(XPAR_LEDS_4BITS_BASEADDR, 0x4);
 
-		vTaskDelay(Period);
+		for(i = 0; i < 5000; i++) {
+			for(j = 0; j < 5000; j++);
+		}
 
 		Xil_Out32(XPAR_LEDS_4BITS_BASEADDR, 0x8);
 
-		vTaskDelay(Period);
+		for(i = 0; i < 5000; i++) {
+			for(j = 0; j < 5000; j++);
+		}
 
 
 	}

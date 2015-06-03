@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<workbench progressCount="29" version="2.0">
+<workbench progressCount="32" version="2.0">
 <workbenchAdvisor/>
 <window height="724" maximized="true" width="1024" x="113" y="2">
 <fastViewData fastViewLocation="1024"/>
@@ -49,7 +49,7 @@
 </editor>
 <editor activePart="true" focus="true" id="org.eclipse.cdt.ui.editor.CEditor" name="main.c" partName="main.c" path="C:/DATOS/GIT/FreeRTOS/source/vivado/hw/zybo_bsd/zybo_bsd.sdk/FreeRTOS/src/main.c" title="main.c" tooltip="FreeRTOS/src/main.c" workbook="DefaultEditorWorkbook">
 <input factoryID="org.eclipse.ui.part.FileEditorInputFactory" path="/FreeRTOS/src/main.c"/>
-<editorState selectionHorizontalPixel="0" selectionLength="0" selectionOffset="8489" selectionTopPixel="2599"/>
+<editorState selectionHorizontalPixel="0" selectionLength="0" selectionOffset="8919" selectionTopPixel="2227"/>
 </editor>
 <editor id="com.xilinx.sdk.hw.ui.HwSpecXMLEditor" name="system.hdf" partName="system.hdf" path="C:/DATOS/GIT/FreeRTOS/source/vivado/hw/zybo_bsd/zybo_bsd.sdk/system_wrapper_hw_platform_0/system.hdf" title="system.hdf" tooltip="system_wrapper_hw_platform_0/system.hdf" workbook="DefaultEditorWorkbook">
 <input factoryID="org.eclipse.ui.part.FileEditorInputFactory" path="/system_wrapper_hw_platform_0/system.hdf"/>
@@ -143,8 +143,7 @@
 <view id="org.eclipse.ui.views.ProblemView" partName="Problems">
 <viewState PRIMARY_SORT_FIELD="org.eclipse.ui.ide.severityAndDescriptionField" categoryGroup="org.eclipse.ui.ide.severity" markerContentGenerator="org.eclipse.ui.ide.problemsGenerator" partName="Problems">
 <expanded>
-<category IMemento.internal.id="Warnings (10 items)"/>
-<category IMemento.internal.id="Errors"/>
+<category IMemento.internal.id="Infos (1 item)"/>
 </expanded>
 <columnWidths org.eclipse.ui.ide.locationField="75" org.eclipse.ui.ide.markerType="75" org.eclipse.ui.ide.pathField="100" org.eclipse.ui.ide.resourceField="113" org.eclipse.ui.ide.severityAndDescriptionField="454"/>
 <visible IMemento.internal.id="org.eclipse.ui.ide.severityAndDescriptionField"/>
@@ -435,9 +434,6 @@
 <editor factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.cdt.ui.editor.CEditor" path="/FreeRTOS/src/FreeRTOSConfig.h"/>
 </editors>
 <item historyLabel="audio_demo.c" index="0">
-<position info="not_deleted" x="5046" y="0"/>
-</item>
-<item historyLabel="audio_demo.c" index="0">
 <position info="not_deleted" x="3011" y="7"/>
 </item>
 <item historyLabel="main.c" index="1">
@@ -555,8 +551,11 @@
 <item historyLabel="xparameters.h" index="14">
 <position info="not_deleted" x="14606" y="24"/>
 </item>
-<item active="true" historyLabel="main.c" index="12">
+<item historyLabel="main.c" index="12">
 <position info="not_deleted" x="8595" y="0"/>
+</item>
+<item active="true" historyLabel="main.c" index="12">
+<position info="not_deleted" x="8146" y="0"/>
 </item>
 </navigationHistory>
 <input factoryID="org.eclipse.ui.internal.model.ResourceFactory" path="/" type="8"/>

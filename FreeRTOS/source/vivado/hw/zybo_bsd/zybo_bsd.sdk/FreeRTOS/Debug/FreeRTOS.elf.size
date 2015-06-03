@@ -1,2 +1,2 @@
    text	   data	    bss	    dec	    hex	filename
-  67880	   1952	 112260	 182092	  2c74c	FreeRTOS.elf
+  67752	   1952	 112260	 181964	  2c6cc	FreeRTOS.elf
