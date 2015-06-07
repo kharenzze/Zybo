@@ -184,6 +184,8 @@ XScuGic xInterruptController;
 
 static void AXILedBlink(void *parameters)
 {
+	int i = 0;
+	int j = 0;
 	const TickType_t Period = 250;
 
 	while(1) {

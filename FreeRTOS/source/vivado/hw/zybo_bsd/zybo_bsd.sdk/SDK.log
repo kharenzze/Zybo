@@ -460,3 +460,9 @@ java.lang.NullPointerException
 	at org.eclipse.equinox.launcher.Main.basicRun(Main.java:584)
 	at org.eclipse.equinox.launcher.Main.run(Main.java:1438)
 12:31:33 ERROR : Unexpected error while parsing XMD response ?: com.google.gson.JsonSyntaxException: com.google.gson.stream.MalformedJsonException: invalid number or unquoted string near 
+01:25:04 INFO  : Processing command line option -hwspec C:/DATOS/GIT/FreeRTOS/source/vivado/hw/zybo_bsd/zybo_bsd.sdk/system_wrapper.hdf.
+01:25:05 INFO  : Checking for hwspec changes in the project system_wrapper_hw_platform_1.
+01:25:22 WARN  :  [Hsm 55-1607] Software Repository Paths d:/GIT/Zybo/zybo_base_system/source/vivado/hw/lib/Digilent/axi_dispctrl_1.0 and C:/DATOS/GIT/FreeRTOS/source/vivado/hw/zybo_bsd/zybo_bsd.sdk/system_wrapper_hw_platform_0/../../../../../../lib/Digilent/axi_dispctrl_1.0 do not exist or not accessible
+ [Hsm 55-1607] Software Repository Paths d:/GIT/Zybo/zybo_base_system/source/vivado/hw/lib/ADI/axi_i2s_adi_1.0 and C:/DATOS/GIT/FreeRTOS/source/vivado/hw/zybo_bsd/zybo_bsd.sdk/system_wrapper_hw_platform_0/../../../../../../lib/ADI/axi_i2s_adi_1.0 do not exist or not accessible
+01:25:22 WARN  :  [Hsm 55-1607] Software Repository Paths d:/GIT/Zybo/zybo_base_system/source/vivado/hw/lib/Digilent/axi_dispctrl_1.0 and C:/DATOS/GIT/FreeRTOS/source/vivado/hw/zybo_bsd/zybo_bsd.sdk/system_wrapper_hw_platform_0/../../../../../../lib/Digilent/axi_dispctrl_1.0 do not exist or not accessible
+ [Hsm 55-1607] Software Repository Paths d:/GIT/Zybo/zybo_base_system/source/vivado/hw/lib/ADI/axi_i2s_adi_1.0 and C:/DATOS/GIT/FreeRTOS/source/vivado/hw/zybo_bsd/zybo_bsd.sdk/system_wrapper_hw_platform_0/../../../../../../lib/ADI/axi_i2s_adi_1.0 do not exist or not accessible
